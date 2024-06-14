@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" type="template" client="site">
+    <name>baialupo</name>
+    <creationDate>11/06/13</creationDate>
+    <author>Ignazio Ingenito</author>
+    <authorEmail>ignazio@baialupo.com</authorEmail>
+    <authorUrl>http://www.baialupo.com</authorUrl>
+    <copyright>Copyright (C) 2013 Ignazio Ingenito</copyright>
+    <license>GPL</license>
+    <version>1.0.0</version>
+    <description>Baia template for Joomla 2.5</description>
+    <files>
+        <filename>index.php</filename>
+        <filename>templateDetails.xml</filename>
+        <filename>params.ini</filename>
+        <folder>images</folder>
+        <folder>css</folder>
+        <folder>js</folder>
+    </files>
+    <positions>
+        <position>breadcrumbs</position>
+        <position>left</position>
+        <position>right</position>
+        <position>top</position>				<position>search</position>        <position>slider</position>
+        <position>footer</position>
+        <position>debug</position>
+    </positions>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="logoType" type="list" default="image" label="Logo Type" description="Use Site Logo">
+                    <option  value="image">Image</option>
+                    <option  value="text">Text</option>
+                </field>
+                <field name="logoText" type="text" default="LBSaud Demo Template" size="50" label="Logo text" description="Logo Text" />
+                <field name="sloganText" type="text" default="A Better Joomla Template" size="50" label="Slogan" description="Slogan of the site" />
+            </fieldset>
+        </fields>
+    </config>
+</extension>

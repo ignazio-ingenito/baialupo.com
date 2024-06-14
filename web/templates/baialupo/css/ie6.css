@@ -1,0 +1,13 @@
+﻿div#maincolumn_full {
+	float: left;
+	width: 678px;
+}
+
+#search .search input.button {
+	padding: 1px 0 0;
+}
+
+td.sectiontableentry2 input, td.sectiontableentry1 input {
+	background: none;
+	border: none;
+}

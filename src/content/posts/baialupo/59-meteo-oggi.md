@@ -5,7 +5,7 @@ alias: meteo-oggi
 category: baialupo
 featured: 0
 created: 2009-10-23T09:22:06
-modified: 2013-06-12T08:35:41
+updated: 2013-06-12T08:35:41
 created_by: ignazio
 ---
 <table border="0" cellpadding="5">

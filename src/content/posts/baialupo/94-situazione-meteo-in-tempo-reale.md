@@ -5,7 +5,7 @@ alias: situazione-meteo-in-tempo-reale
 category: baialupo
 featured: 1
 created: 2010-11-13T19:54:57
-modified: 2013-06-14T14:36:49
+updated: 2013-06-14T14:36:49
 created_by: Mariko
 ---
 <p>

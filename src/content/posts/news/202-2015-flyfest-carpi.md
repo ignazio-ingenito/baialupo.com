@@ -5,7 +5,7 @@ alias: 2015-flyfest-carpi
 category: news
 featured: 0
 created: 2015-09-14T07:15:21
-modified: 2015-09-15T09:20:37
+updated: 2015-09-15T09:20:37
 created_by: Ignazio
 ---
 <p>

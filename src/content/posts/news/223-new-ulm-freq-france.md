@@ -5,7 +5,7 @@ alias: new-ulm-freq-france
 category: news
 featured: 1
 created: 2023-08-22T17:01:42
-modified: 2023-08-22T17:09:24
+updated: 2023-08-22T17:09:24
 created_by: ignazio
 ---
 <div>

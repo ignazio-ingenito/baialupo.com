@@ -5,7 +5,7 @@ alias: 2013-astore-aero
 category: news
 featured: 0
 created: 2013-04-25T08:41:40
-modified: 2013-06-14T12:48:51
+updated: 2013-06-14T12:48:51
 created_by: ignazio
 ---
 <p>

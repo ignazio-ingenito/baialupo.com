@@ -5,7 +5,7 @@ alias: campovolo-isonzo
 category: news
 featured: 0
 created: 2009-12-14T12:05:57
-modified: 2013-06-12T08:35:41
+updated: 2013-06-12T08:35:41
 created_by: ignazio
 ---
 <p>

@@ -5,7 +5,7 @@ alias: 39d-raduno-club-aviazione-popolare10
 category: news
 featured: 0
 created: 2011-09-01T15:55:00
-modified: 2013-06-14T13:29:15
+updated: 2013-06-14T13:29:15
 created_by: ignazio
 ---
 <table border="0">

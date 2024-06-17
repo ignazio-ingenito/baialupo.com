@@ -1,11 +1,11 @@
 ---
 id: 180
-title: Aviosuperficie &#x27;Il Picchio&#x27; - Chiusura al traffico non di base
+title: Aviosuperficie 'Il Picchio' - Chiusura al traffico non di base
 alias: 2014-il-picchio-chiusura
 category: news
 featured: 1
 created: 2014-08-08T08:09:25
-modified: 2015-05-13T13:00:41
+updated: 2015-05-13T13:00:41
 created_by: Super User
 ---
 <p>

@@ -5,7 +5,7 @@ alias: 2013-parma-airshow
 category: news
 featured: 0
 created: 2013-05-25T08:26:17
-modified: 2013-06-14T11:07:37
+updated: 2013-06-14T11:07:37
 created_by: AeC Parma
 ---
 <table border="0">

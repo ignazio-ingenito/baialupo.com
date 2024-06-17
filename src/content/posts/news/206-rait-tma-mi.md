@@ -5,7 +5,7 @@ alias: rait-tma-mi
 category: news
 featured: 0
 created: 2016-02-10T16:17:56
-modified: 2016-02-10T16:22:02
+updated: 2016-02-10T16:22:02
 created_by: Ignazio
 ---
 <p>

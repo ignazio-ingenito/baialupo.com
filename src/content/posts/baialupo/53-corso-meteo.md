@@ -5,7 +5,7 @@ alias: corso-meteo
 category: baialupo
 featured: 0
 created: 2009-10-12T09:08:47
-modified: 2013-06-14T14:48:59
+updated: 2013-06-14T14:48:59
 created_by: ignazio
 ---
 <table border="0">

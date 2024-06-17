@@ -5,7 +5,7 @@ alias: 2024-modifiche-fic
 category: news
 featured: 1
 created: 2024-06-08T09:29:10
-modified: 2024-06-09T09:25:00
+updated: 2024-06-09T09:25:00
 created_by: ignazio
 ---
 <p>

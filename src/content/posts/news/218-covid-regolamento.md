@@ -1,11 +1,11 @@
 ---
 id: 218
-title: Emergenza Covid-19: Regolamento aviosuperficie
+title: "Emergenza Covid-19: Regolamento aviosuperficie"
 alias: covid-regolamento
 category: news
 featured: 0
 created: 2020-05-04T09:44:33
-modified: 2023-05-07T15:21:05
+updated: 2023-05-07T15:21:05
 created_by: ignazio
 ---
 <p>

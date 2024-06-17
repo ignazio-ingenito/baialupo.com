@@ -5,7 +5,7 @@ alias: new-tecnam-astore
 category: news
 featured: 0
 created: 2013-03-21T18:57:14
-modified: 2013-06-14T12:54:46
+updated: 2013-06-14T12:54:46
 created_by: ignazio
 ---
 <table border="0">

@@ -5,7 +5,7 @@ alias: convegno-su-dpr-133-presso-aeroporto-militare-piacenza
 category: sicurezza
 featured: 0
 created: 2010-09-09T08:22:47
-modified: 2013-06-14T15:39:55
+updated: 2013-06-14T15:39:55
 created_by: ignazio
 ---
 <table border="0">

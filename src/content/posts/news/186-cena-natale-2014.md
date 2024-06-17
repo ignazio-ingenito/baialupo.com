@@ -5,7 +5,7 @@ alias: cena-natale-2014
 category: news
 featured: 0
 created: 2014-11-09T23:00:00
-modified: 2015-11-10T08:11:34
+updated: 2015-11-10T08:11:34
 created_by: Rossella
 ---
 <table>

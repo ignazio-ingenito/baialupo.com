@@ -5,7 +5,7 @@ alias: nuova-fmc-milano-est
 category: news
 featured: 1
 created: 2021-07-08T12:37:55
-modified: 2023-01-10T09:16:01
+updated: 2023-01-10T09:16:01
 created_by: ignazio
 ---
 <p>

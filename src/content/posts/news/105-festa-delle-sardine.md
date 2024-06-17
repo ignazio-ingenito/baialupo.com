@@ -5,7 +5,7 @@ alias: festa-delle-sardine
 category: news
 featured: 0
 created: 2011-06-01T09:37:21
-modified: 2013-06-14T13:32:41
+updated: 2013-06-14T13:32:41
 created_by: ignazio
 ---
 <table border="0">

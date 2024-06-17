@@ -5,7 +5,7 @@ alias: 2015-memorial-stoppani
 category: news
 featured: 0
 created: 2015-08-11T08:36:08
-modified: 2015-08-31T10:20:48
+updated: 2015-08-31T10:20:48
 created_by: Ignazio
 ---
 <table>

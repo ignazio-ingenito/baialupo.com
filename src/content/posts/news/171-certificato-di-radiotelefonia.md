@@ -5,7 +5,7 @@ alias: certificato-di-radiotelefonia
 category: news
 featured: 1
 created: 2014-01-04T07:55:38
-modified: NaT
+updated: 2014-01-04T07:55:38
 created_by: Mariko
 ---
 <p>

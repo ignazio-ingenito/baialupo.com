@@ -5,7 +5,7 @@ alias: oggi-cena-sociale
 category: baialupo
 featured: 0
 created: 2009-11-27T11:57:31
-modified: 2013-06-14T14:46:18
+updated: 2013-06-14T14:46:18
 created_by: ignazio
 ---
 <table border="0">

@@ -5,7 +5,7 @@ alias: festa-campo-volo-le-merline
 category: news
 featured: 0
 created: 2012-06-21T06:55:00
-modified: 2013-06-12T08:35:41
+updated: 2013-06-12T08:35:41
 created_by: ignazio
 ---
 <p style="text-align: left;">

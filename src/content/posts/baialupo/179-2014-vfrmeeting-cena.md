@@ -5,7 +5,7 @@ alias: 2014-vfrmeeting-cena
 category: baialupo
 featured: 0
 created: 2014-06-26T07:46:48
-modified: 2015-05-04T07:12:19
+updated: 2015-05-04T07:12:19
 created_by: Ignazio
 ---
 <table>

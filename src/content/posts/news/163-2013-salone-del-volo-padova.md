@@ -5,7 +5,7 @@ alias: 2013-salone-del-volo-padova
 category: news
 featured: 0
 created: 2013-09-05T07:45:30
-modified: 2013-09-05T07:53:32
+updated: 2013-09-05T07:53:32
 created_by: Ignazio
 ---
 <table border="0">

@@ -5,7 +5,7 @@ alias: 2012-05-ali-di-classe
 category: news
 featured: 0
 created: 2013-04-24T23:00:00
-modified: 2013-06-14T12:52:31
+updated: 2013-06-14T12:52:31
 created_by: ignazio
 ---
 <table border="0">

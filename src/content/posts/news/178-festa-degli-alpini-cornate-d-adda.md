@@ -1,11 +1,11 @@
 ---
 id: 178
-title: Festa degli Alpini - Cornate d&#x27;Adda
+title: Festa degli Alpini - Cornate d'Adda
 alias: festa-degli-alpini-cornate-d-adda
 category: news
 featured: 1
 created: 2014-06-05T10:46:03
-modified: 2014-06-05T10:51:46
+updated: 2014-06-05T10:51:46
 created_by: Super User
 ---
 <p>

@@ -5,7 +5,7 @@ alias: 2014-09-aperitivo-baia
 category: baialupo
 featured: 0
 created: 2014-09-15T14:58:00
-modified: 2014-09-30T07:03:48
+updated: 2014-09-30T07:03:48
 created_by: Rossella Colombo
 ---
 <p>

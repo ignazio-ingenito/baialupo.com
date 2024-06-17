@@ -5,7 +5,7 @@ alias: novita-tecnam-a-friedrichshafen
 category: news
 featured: 0
 created: 2011-04-07T11:12:36
-modified: 2013-06-14T13:35:45
+updated: 2013-06-14T13:35:45
 created_by: ignazio
 ---
 <table border="0">

@@ -5,7 +5,7 @@ alias: nuovo-rotaz-915is
 category: news
 featured: 1
 created: 2015-07-22T12:45:12
-modified: 2015-07-30T06:52:53
+updated: 2015-07-30T06:52:53
 created_by: Ignazio
 ---
 <p>

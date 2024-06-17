@@ -5,7 +5,7 @@ alias: ansv-raccomandazioni-vfr
 category: sicurezza
 featured: 0
 created: 2006-06-26T23:00:00
-modified: 2013-06-14T11:46:15
+updated: 2013-06-14T11:46:15
 created_by: ignazio
 ---
 <p style="color: #039; font-size: 14px; font-weight: bolder;">

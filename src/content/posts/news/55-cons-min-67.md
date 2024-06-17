@@ -5,7 +5,7 @@ alias: cons-min-67
 category: news
 featured: 0
 created: 2009-10-22T14:11:08
-modified: 2013-06-12T08:35:41
+updated: 2013-06-12T08:35:41
 created_by: ignazio
 ---
 <p style="TEXT-ALIGN: left">

@@ -5,7 +5,7 @@ alias: 2014-pranzo-baia
 category: news
 featured: 1
 created: 2014-11-03T08:01:00
-modified: 2015-01-28T14:36:20
+updated: 2015-01-28T14:36:20
 created_by: Ignazio
 ---
 <p>

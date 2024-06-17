@@ -1,11 +1,11 @@
 ---
 id: 193
-title: EXPO2015: No Fly Zone - Prorogata fino ad Agosto
+title: "EXPO2015: No Fly Zone - Prorogata fino ad Agosto"
 alias: expo2015-no-fly-zone-aug
 category: sicurezza
 featured: 0
 created: 2015-06-03T14:14:17
-modified: 2016-02-10T16:23:32
+updated: 2016-02-10T16:23:32
 created_by: Alberto
 ---
 <p>
@@ -22,7 +22,7 @@ created_by: Alberto
  <br/>
  {mosmap kml='http://www.baialupo.com/web/kml/notam-expo2015-W083315.kml'|width='680'}
  <br/>
- <!--
+ <!--
 <a href="https://www.google.com/maps/d/edit?mid=zeaiapETAEy4.kUqdr1GkVcAY" target="_blank"><img src="dmdocuments/W083315.jpg" border="0" width="680" height="400" /></a>-->
 </p>
 <p>

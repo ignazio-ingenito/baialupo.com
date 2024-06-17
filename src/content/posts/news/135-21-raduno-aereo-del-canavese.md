@@ -5,7 +5,7 @@ alias: 21-raduno-aereo-del-canavese
 category: news
 featured: 0
 created: 2012-09-11T14:11:36
-modified: 2013-06-12T08:35:41
+updated: 2013-06-12T08:35:41
 created_by: ignazio
 ---
 <p>

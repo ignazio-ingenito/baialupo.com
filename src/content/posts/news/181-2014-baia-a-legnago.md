@@ -5,7 +5,7 @@ alias: 2014-baia-a-legnago
 category: news
 featured: 1
 created: 2014-09-15T12:37:38
-modified: 2014-09-16T10:46:22
+updated: 2014-09-16T10:46:22
 created_by: Super User
 ---
 <p>

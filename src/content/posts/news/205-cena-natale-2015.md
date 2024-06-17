@@ -5,7 +5,7 @@ alias: cena-natale-2015
 category: news
 featured: 0
 created: 2015-11-09T23:00:00
-modified: 2015-11-10T09:32:21
+updated: 2015-11-10T09:32:21
 created_by: Rossella
 ---
 <div style="height: 300px; float: left; padding-right: 1em;">
@@ -112,26 +112,26 @@ created_by: Rossella
  </p>
 </div>
 <script type="text/javascript">
- // <![CDATA[
-$('#menulnk').click(function() {
-   $('#dlgmenu').dialog({  
-      width: 400,
-      modal: true,
-      buttons: {
-         Ok: function() {
-                $(this).dialog("close");
-         }
-      },
-      autoopen: false,
-      show: {
-         effect: "bounce",
-         duration: 1000
-      },
-      hide: {
-         effect: "explode",
-         duration: 1000
-      }
-   });
-});
+ // <![CDATA[
+$('#menulnk').click(function() {
+   $('#dlgmenu').dialog({  
+      width: 400,
+      modal: true,
+      buttons: {
+         Ok: function() {
+                $(this).dialog("close");
+         }
+      },
+      autoopen: false,
+      show: {
+         effect: "bounce",
+         duration: 1000
+      },
+      hide: {
+         effect: "explode",
+         duration: 1000
+      }
+   });
+});
 // ]]>
 </script>

@@ -5,7 +5,7 @@ alias: 2014-aperitivo-baia
 category: news
 featured: 1
 created: 2014-09-30T07:01:40
-modified: 2015-07-30T06:59:57
+updated: 2015-07-30T06:59:57
 created_by: Ignazio
 ---
 <p>

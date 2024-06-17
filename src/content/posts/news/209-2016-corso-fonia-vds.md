@@ -5,7 +5,7 @@ alias: 2016-corso-fonia-vds
 category: news
 featured: 1
 created: 2016-04-06T06:00:00
-modified: 2016-04-06T08:24:49
+updated: 2016-04-06T08:24:49
 created_by: ignazio
 ---
 <div style="float: left;">
@@ -86,14 +86,14 @@ created_by: ignazio
  </p>
 </div>
 <script type="text/javascript">
- // <![CDATA[
-var today    = new Date(); 
-   var thursday = new Date( today.getFullYear()
-                          , today.getMonth()
-                          , today.getDay() <=4 ? today.getDate()+(4-today.getDay()) : today.getDate()+(7+4-today.getDay()));
-
-   $('#tab209 td').filter( function(index) {
-      return $(this).text() == thursday.getDate()
-   }).css('background-color', '#d5e6ff;');
+ // <![CDATA[
+var today    = new Date(); 
+   var thursday = new Date( today.getFullYear()
+                          , today.getMonth()
+                          , today.getDay() <=4 ? today.getDate()+(4-today.getDay()) : today.getDate()+(7+4-today.getDay()));
+
+   $('#tab209 td').filter( function(index) {
+      return $(this).text() == thursday.getDate()
+   }).css('background-color', '#d5e6ff;');
 // ]]>
 </script>

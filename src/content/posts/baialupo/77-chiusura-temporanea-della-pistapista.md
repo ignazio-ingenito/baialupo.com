@@ -5,7 +5,7 @@ alias: chiusura-temporanea-della-pistapista
 category: baialupo
 featured: 1
 created: 2010-05-05T10:41:05
-modified: 2013-06-12T08:35:41
+updated: 2013-06-12T08:35:41
 created_by: Mariko
 ---
 <p>

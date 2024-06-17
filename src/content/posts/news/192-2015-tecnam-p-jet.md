@@ -5,7 +5,7 @@ alias: 2015-tecnam-p-jet
 category: news
 featured: 1
 created: 2015-05-13T12:08:38
-modified: 2015-05-13T12:46:14
+updated: 2015-05-13T12:46:14
 created_by: Ignazio
 ---
 <p>

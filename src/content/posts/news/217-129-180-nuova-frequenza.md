@@ -5,7 +5,7 @@ alias: 129-180-nuova-frequenza
 category: news
 featured: 1
 created: 2019-01-01T11:12:01
-modified: 2019-01-01T11:45:15
+updated: 2019-01-01T11:45:15
 created_by: Mariko
 ---
 <p>

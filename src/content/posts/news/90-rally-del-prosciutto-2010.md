@@ -5,7 +5,7 @@ alias: rally-del-prosciutto-2010
 category: news
 featured: 0
 created: 2010-09-27T15:20:47
-modified: 2013-06-14T13:54:23
+updated: 2013-06-14T13:54:23
 created_by: ignazio
 ---
 <table border="0">

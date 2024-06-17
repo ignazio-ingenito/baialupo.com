@@ -1,11 +1,11 @@
 ---
 id: 191
-title: EXPO2015: No Fly Zone 
+title: "EXPO2015: No Fly Zone "
 alias: expo2015-no-fly-zone
 category: news
 featured: 0
 created: 2015-05-04T06:12:20
-modified: 2015-06-03T14:33:06
+updated: 2015-06-03T14:33:06
 created_by: Mariko
 ---
 <p>

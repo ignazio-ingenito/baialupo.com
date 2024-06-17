@@ -5,7 +5,7 @@ alias: cookie-policy
 category: privacy
 featured: 0
 created: 2015-07-28T08:12:07
-modified: 2015-07-28T09:11:34
+updated: 2015-07-28T09:11:34
 created_by: Super User
 ---
 <h3>
@@ -225,15 +225,15 @@ created_by: Super User
  </tbody>
 </table>
 <script type="text/javascript">
- // <![CDATA[
-$(function () {
-        $('.cookies th').css('text-align', 'left');
-        $('.cookies th').css('font-size', '11px');
-        $('.cookies th').css('font-weight', 'bold');
-        $('.cookies th').css('color', '#fe8300');
-        $('.cookies td:first').css('white-space', 'nowrap');
-        $('.cookies td').css('padding', '0.25em');
-    });
+ // <![CDATA[
+$(function () {
+        $('.cookies th').css('text-align', 'left');
+        $('.cookies th').css('font-size', '11px');
+        $('.cookies th').css('font-weight', 'bold');
+        $('.cookies th').css('color', '#fe8300');
+        $('.cookies td:first').css('white-space', 'nowrap');
+        $('.cookies td').css('padding', '0.25em');
+    });
 // ]]>
 </script>
 <p>

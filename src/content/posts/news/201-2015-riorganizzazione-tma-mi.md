@@ -5,7 +5,7 @@ alias: 2015-riorganizzazione-tma-mi
 category: news
 featured: 1
 created: 2015-09-01T07:44:55
-modified: 2015-09-01T07:48:31
+updated: 2015-09-01T07:48:31
 created_by: Ignazio
 ---
 <p>

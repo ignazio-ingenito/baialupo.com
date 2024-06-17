@@ -5,7 +5,7 @@ alias: meeting-aopa-campoformido
 category: news
 featured: 0
 created: 2009-10-19T22:04:47
-modified: 2013-06-14T14:02:44
+updated: 2013-06-14T14:02:44
 created_by: ignazio
 ---
 <table border="0">

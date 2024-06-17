@@ -5,7 +5,7 @@ alias: 2015-aeroparty
 category: news
 featured: 0
 created: 2015-07-30T06:49:32
-modified: 2015-07-30T06:59:06
+updated: 2015-07-30T06:59:06
 created_by: Ignazio
 ---
 <p>

@@ -5,7 +5,7 @@ alias: 2015-raduno-fcap
 category: news
 featured: 0
 created: 2015-08-31T10:23:33
-modified: 2015-08-31T10:28:59
+updated: 2015-08-31T10:28:59
 created_by: Ignazio
 ---
 <p>

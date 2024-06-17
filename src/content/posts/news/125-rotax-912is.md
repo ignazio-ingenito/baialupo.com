@@ -5,7 +5,7 @@ alias: rotax-912is
 category: news
 featured: 0
 created: 2012-03-20T09:24:51
-modified: 2013-06-12T08:35:41
+updated: 2013-06-12T08:35:41
 created_by: ignazio
 ---
 <div style="height: 250px;">

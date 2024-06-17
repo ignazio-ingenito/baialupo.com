@@ -5,7 +5,7 @@ alias: aopa-pro-avio
 category: news
 featured: 1
 created: 2023-01-10T07:56:10
-modified: 2023-01-10T09:18:36
+updated: 2023-01-10T09:18:36
 created_by: ignazio
 ---
 <div>

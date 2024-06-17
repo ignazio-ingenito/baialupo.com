@@ -5,7 +5,7 @@ alias: fpl-abbreviato
 category: news
 featured: 1
 created: 2015-04-07T09:54:37
-modified: 2015-07-30T06:59:38
+updated: 2015-07-30T06:59:38
 created_by: Ignazio
 ---
 <table>

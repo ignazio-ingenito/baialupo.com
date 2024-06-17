@@ -5,7 +5,7 @@ alias: come-eravamo-2011
 category: news
 featured: 0
 created: 2011-09-01T14:55:00
-modified: 2013-06-14T13:28:22
+updated: 2013-06-14T13:28:22
 created_by: ignazio
 ---
 <table border="0">

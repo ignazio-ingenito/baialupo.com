@@ -5,7 +5,7 @@ alias: vfrmeeting-2011
 category: news
 featured: 0
 created: 2011-06-10T11:01:38
-modified: 2013-06-14T13:30:46
+updated: 2013-06-14T13:30:46
 created_by: Mariko
 ---
 <table border="0">

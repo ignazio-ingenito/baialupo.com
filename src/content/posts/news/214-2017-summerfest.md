@@ -5,7 +5,7 @@ alias: 2017-summerfest
 category: news
 featured: 1
 created: 2017-06-04T08:08:29
-modified: 2023-01-10T09:17:20
+updated: 2023-01-10T09:17:20
 created_by: ignazio
 ---
 <p>

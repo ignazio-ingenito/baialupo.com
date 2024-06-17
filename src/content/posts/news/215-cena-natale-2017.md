@@ -5,7 +5,7 @@ alias: cena-natale-2017
 category: news
 featured: 1
 created: 2017-11-19T23:00:00
-modified: 2017-11-20T11:40:22
+updated: 2017-11-20T11:40:22
 created_by: Rossella
 ---
 <div style="height: 300px; float: left; padding-right: 1em;">
@@ -104,26 +104,26 @@ created_by: Rossella
  </p>
 </div>
 <script type="text/javascript">
- // <![CDATA[
-$('#menulnk').click(function() {
-   $('#dlgmenu').dialog({  
-      width: 400,
-      modal: true,
-      buttons: {
-         Ok: function() {
-                $(this).dialog("close");
-         }
-      },
-      autoopen: false,
-      show: {
-         effect: "bounce",
-         duration: 1000
-      },
-      hide: {
-         effect: "explode",
-         duration: 1000
-      }
-   });
-});
+ // <![CDATA[
+$('#menulnk').click(function() {
+   $('#dlgmenu').dialog({  
+      width: 400,
+      modal: true,
+      buttons: {
+         Ok: function() {
+                $(this).dialog("close");
+         }
+      },
+      autoopen: false,
+      show: {
+         effect: "bounce",
+         duration: 1000
+      },
+      hide: {
+         effect: "explode",
+         duration: 1000
+      }
+   });
+});
 // ]]>
 </script>

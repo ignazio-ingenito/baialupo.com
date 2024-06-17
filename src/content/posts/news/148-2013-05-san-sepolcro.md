@@ -5,7 +5,7 @@ alias: 2013-05-san-sepolcro
 category: news
 featured: 0
 created: 2013-04-25T23:00:00
-modified: 2013-06-14T12:36:40
+updated: 2013-06-14T12:36:40
 created_by: ignazio
 ---
 <table border="0">

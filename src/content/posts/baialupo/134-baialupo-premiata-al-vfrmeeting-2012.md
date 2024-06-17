@@ -5,7 +5,7 @@ alias: baialupo-premiata-al-vfrmeeting-2012
 category: baialupo
 featured: 1
 created: 2012-07-10T10:03:12
-modified: 2013-06-12T08:35:41
+updated: 2013-06-12T08:35:41
 created_by: ignazio
 ---
 <p>

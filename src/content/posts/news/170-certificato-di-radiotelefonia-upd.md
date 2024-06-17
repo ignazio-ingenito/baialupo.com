@@ -5,7 +5,7 @@ alias: certificato-di-radiotelefonia-upd
 category: news
 featured: 0
 created: 2014-01-04T07:52:45
-modified: 2014-05-09T12:06:20
+updated: 2014-05-09T12:06:20
 created_by: Mariko
 ---
 <p>

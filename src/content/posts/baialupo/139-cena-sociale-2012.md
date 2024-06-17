@@ -5,7 +5,7 @@ alias: cena-sociale-2012
 category: baialupo
 featured: 0
 created: 2012-11-06T15:06:56
-modified: 2014-11-10T09:30:42
+updated: 2014-11-10T09:30:42
 created_by: Filippo
 ---
 <p style="text-align: left;">

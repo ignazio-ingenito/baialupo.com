@@ -1,24 +1,20 @@
-import { defineCollection, z } from 'astro:content';
+import { z, defineCollection } from 'astro:content'
 
-const blog = defineCollection({
+const posts = defineCollection({
 	type: 'content',
 	// Type-check frontmatter using a schema
 	schema: z.object({
-		description: z.string(),
-		// Transform string to Date object
-		pubDate: z.coerce.date(),
-		updatedDate: z.coerce.date().optional(),
-		heroImage: z.string().optional(),
 		// baialupo posts
-		id: z.number().optional(),
-		title: z.string().optional(),
-		alias: z.string().optional(),
-		category: z.string().optional(),
-		featured: z.boolean().optional(),
-		created: z.coerce.date().optional(),
-		modified: z.coerce.date().optional(),
-		created_by: z.string().optional(),
+		id: z.number(),
+		title: z.string(),
+		alias: z.string(),
+		category: z.string(),
+		featured: z.number().optional().default(0),
+		image: z.string().optional(),
+		created: z.coerce.date(),
+		updated: z.coerce.date(),
+		created_by: z.string().optional().default("Ignazio"),
 	}),
-});
+})
 
-export const collections = { blog };
+export const collections = { posts }

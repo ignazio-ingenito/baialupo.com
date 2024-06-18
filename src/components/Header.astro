@@ -1,6 +1,6 @@
 ---
 import { Image } from "astro:assets"
-import { SITE_TITLE } from "../consts"
+import { MENU_ITEMS, SITE_TITLE } from "../consts"
 
 import logo from "../assets/propeller.svg"
 import cloud1 from "../assets/clouds/cloud1.png"
@@ -80,17 +80,35 @@ import cloud5 from "../assets/clouds/cloud5.png"
     </label>
     <a class="title" href="/">
       <Image src={logo} alt="logo" height="28" />
-      <span>
+      <span class="font-[Montserrat]">
         {SITE_TITLE}
       </span>
     </a>
   </div>
   <div class="navbar-center">
-    <ul tabindex="0" class="menu">
-      <li><a href="/">Aviosuperficie</a></li>
-      <li><a href="/">News</a></li>
-      <li><a href="/">Gallery</a></li>
-      <li><a href="/">Meteo</a></li>
+    <ul class="menu">
+      {
+        MENU_ITEMS.map((item) =>
+          item.childs ? (
+            <li>
+              <details>
+                <summary>{item.label}</summary>
+                <ul class="text-primary">
+                  {item.childs.map((child) => (
+                    <li>
+                      <a href={child.path}>{child.label}</a>
+                    </li>
+                  ))}
+                </ul>
+              </details>
+            </li>
+          ) : (
+            <li>
+              <a href={item.path}>{item.label}</a>
+            </li>
+          )
+        )
+      }
     </ul>
   </div>
   <div class="navbar-right">

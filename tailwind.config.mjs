@@ -15,9 +15,9 @@ export default {
 			"2xl": "1536px",
 		},
 		fontFamily: {
-			"sans": ['"Atkinson Hyperlegible"', "system-ui", "sans-serif"],
-			"serif": ['"Atkinson Hyperlegible"', "system-ui", "sans-serif"],
-			"mono": ['Incosolata'],
+			"sans": ["Prompt", "system-ui", "ui-sans-serif", "sans-serif"],
+			"serif": ["Kanit", "ui-serif", "serif"],
+			"mono": ["Incosolata", "ui-monospace", "monospace"],
 		},
 		extend: {},
 	},
@@ -81,7 +81,7 @@ export default {
 
 					'neutral': '#3b424e',
 					'neutral-focus': '#2a2e37',
-					'neutral-content': '#ffffff',
+					'neutral-content': '#cfcfcf',
 
 					'base-100': '#ffffff',
 					'base-200': '#f9fafb',

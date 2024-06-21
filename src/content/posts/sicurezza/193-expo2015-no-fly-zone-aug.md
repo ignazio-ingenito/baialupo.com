@@ -1,7 +1,6 @@
 ---
 id: 193
 title: "EXPO2015: No Fly Zone - Prorogata fino ad Agosto"
-alias: expo2015-no-fly-zone-aug
 category: sicurezza
 featured: 0
 created: 2015-06-03T14:14:17

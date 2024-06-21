@@ -1,7 +1,6 @@
 ---
 id: 78
 title: Nuova frequenza radio
-alias: nuova-frequenza-radio
 category: baialupo
 featured: 0
 created: 2010-05-15T07:25:08

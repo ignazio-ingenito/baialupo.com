@@ -1,7 +1,6 @@
 ---
 id: 157
 title: Aerofantasy 2013
-alias: 2013-aerofantasy-sassuolo
 category: news
 featured: 0
 created: 2013-05-27T09:03:00

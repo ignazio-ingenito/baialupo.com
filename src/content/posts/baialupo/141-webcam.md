@@ -1,7 +1,6 @@
 ---
 id: 141
 title: Webcam
-alias: webcam
 category: baialupo
 featured: 0
 created: 2012-11-17T23:00:00

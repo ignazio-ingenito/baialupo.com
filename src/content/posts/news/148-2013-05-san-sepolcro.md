@@ -1,7 +1,6 @@
 ---
 id: 148
 title: Aeroparty San Sepolcro
-alias: 2013-05-san-sepolcro
 category: news
 featured: 0
 created: 2013-04-25T23:00:00

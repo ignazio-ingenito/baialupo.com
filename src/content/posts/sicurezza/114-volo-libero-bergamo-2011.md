@@ -1,7 +1,6 @@
 ---
 id: 114
 title: Avviso sicurezza - Raduno di deltaplano e parapendio a Palazzago (BG)
-alias: volo-libero-bergamo-2011
 category: sicurezza
 featured: 0
 created: 2011-09-21T07:25:07

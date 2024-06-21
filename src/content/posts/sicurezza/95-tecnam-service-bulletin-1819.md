@@ -1,7 +1,6 @@
 ---
 id: 95
 title: Tecnam Service Bullettin 18-UL/19-UL
-alias: tecnam-service-bulletin-1819
 category: sicurezza
 featured: 0
 created: 2010-11-13T20:27:30

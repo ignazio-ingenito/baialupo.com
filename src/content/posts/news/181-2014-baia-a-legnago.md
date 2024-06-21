@@ -1,13 +1,13 @@
 ---
 id: 181
 title: Legnago 2014
-alias: 2014-baia-a-legnago
 category: news
 featured: 1
 created: 2014-09-15T12:37:38
 updated: 2014-09-16T10:46:22
-created_by: Super User
+created_by: Ignazio
 ---
+
 <p>
  <a href="https://plus.google.com/u/0/photos/109798823018847889357/albums/6059580547071077809?sqi=118025357480029570245&amp;sqsi=ce7c0909-7e51-45ed-bb14-0f4f9f0e046e" target="_blank">
   <img border="0" src="images/phocagallery/2014-09-legnago/thumbs/phoca_thumb_l_legnago-2014-09-07-11-16-03.jpg" style="float: left; padding-right: 1em;" width="300"/>

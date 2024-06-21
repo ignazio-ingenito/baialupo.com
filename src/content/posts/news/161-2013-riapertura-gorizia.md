@@ -1,13 +1,13 @@
 ---
 id: 161
 title: Riapre l'aeroporto di Gorizia
-alias: 2013-riapertura-gorizia
 category: news
 featured: 0
 created: 2013-09-05T06:56:33
 updated: 2013-09-05T07:03:29
-created_by: Super User
+created_by: Ignazio
 ---
+
 <table border="0">
  <tbody>
   <tr>

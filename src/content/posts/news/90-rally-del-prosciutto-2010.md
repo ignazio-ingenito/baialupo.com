@@ -1,7 +1,6 @@
 ---
 id: 90
 title: Rally del Prosciutto 2010
-alias: rally-del-prosciutto-2010
 category: news
 featured: 0
 created: 2010-09-27T15:20:47

@@ -1,7 +1,6 @@
 ---
 id: 86
 title: Volo da Diporto Sicuro
-alias: volo-da-diporto-sicuro5
 category: sicurezza
 featured: 0
 created: 2010-09-10T19:41:21

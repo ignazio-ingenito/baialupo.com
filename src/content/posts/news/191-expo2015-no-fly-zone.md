@@ -1,7 +1,6 @@
 ---
 id: 191
 title: "EXPO2015: No Fly Zone "
-alias: expo2015-no-fly-zone
 category: news
 featured: 0
 created: 2015-05-04T06:12:20

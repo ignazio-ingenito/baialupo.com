@@ -1,7 +1,6 @@
 ---
 id: 203
 title: Esami VDS - 2015
-alias: 2015-esami-vds
 category: news
 featured: 1
 created: 2015-09-15T09:52:28

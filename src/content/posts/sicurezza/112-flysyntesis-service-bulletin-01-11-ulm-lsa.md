@@ -1,7 +1,6 @@
 ---
 id: 112
 title: Fly Syntesis Service Bulletin N° 01/11-ULM-LSA
-alias: flysyntesis-service-bulletin-01-11-ulm-lsa
 category: sicurezza
 featured: 0
 created: 2011-09-13T12:21:14

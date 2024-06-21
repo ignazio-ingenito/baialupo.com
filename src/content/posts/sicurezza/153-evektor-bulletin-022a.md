@@ -1,7 +1,6 @@
 ---
 id: 153
 title: Nuovo Bollettino Evektor
-alias: evektor-bulletin-022a
 category: sicurezza
 featured: 0
 created: 2013-05-07T06:56:20

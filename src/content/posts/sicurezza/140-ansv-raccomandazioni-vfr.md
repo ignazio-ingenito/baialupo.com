@@ -1,7 +1,6 @@
 ---
 id: 140
 title: ANSV - Sei nuove raccomandazioni per il VFR
-alias: ansv-raccomandazioni-vfr
 category: sicurezza
 featured: 0
 created: 2006-06-26T23:00:00

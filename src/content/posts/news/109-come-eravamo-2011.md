@@ -1,7 +1,6 @@
 ---
 id: 109
 title: Come eravamo...
-alias: come-eravamo-2011
 category: news
 featured: 0
 created: 2011-09-01T14:55:00

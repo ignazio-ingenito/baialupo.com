@@ -1,7 +1,6 @@
 ---
 id: 87
 title: VDS - Volo Diporto Sicuro - 1a puntata
-alias: vds-volo-diporto-sicuro6
 category: sicurezza
 featured: 0
 created: 2009-11-06T23:00:00

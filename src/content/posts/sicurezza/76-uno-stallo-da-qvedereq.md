@@ -1,7 +1,6 @@
 ---
 id: 76
 title: Uno stallo da "vedere"
-alias: uno-stallo-da-qvedereq
 category: sicurezza
 featured: 0
 created: 2010-05-20T07:20:17

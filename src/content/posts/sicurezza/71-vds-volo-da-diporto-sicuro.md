@@ -1,7 +1,6 @@
 ---
 id: 71
 title: Volo da Diporto Sicuro - Pillola n. 5
-alias: vds-volo-da-diporto-sicuro
 category: sicurezza
 featured: 1
 created: 2010-01-24T14:15:35

@@ -1,3 +1,4 @@
+import os
 import asyncio
 import pandas as pd
 from bs4 import BeautifulSoup
@@ -62,6 +63,7 @@ def transform(df: pd.DataFrame) -> pd.DataFrame:
     df.loc[df.category == "dpr 133", "category"] = "news"
     df.loc[df.category == "novita'", "category"] = "news"
     df.loc[df.category == "notizie", "category"] = "news"
+    df.loc[df.category == "avionica e strumenti", "category"] = "avionica"
 
     df.loc[df["updated"].isnull(), "updated"] = df.loc[df["updated"].isnull()][
         "created"
@@ -80,6 +82,14 @@ async def load(rows: pd.DataFrame) -> None:
     tasks: list = [write_content(row) for row in rows.itertuples()]
     await asyncio.gather(*tasks)
 
+    # specific page handlig
+    source = Path("src/content/posts/privacy/195-cookie-policy.md")
+    target = Path("src/pages/privacy.astro")
+    target.unlink(missing_ok=True)
+    source.rename(target)
+    os.system(f'rmdir "{source.parent.as_posix()}"')
+    source.parent.unlink(missing_ok=True)
+
 
 async def write_content(data: NamedTuple) -> None:
     html = BeautifulSoup(data.text, "html.parser")
@@ -89,7 +99,6 @@ async def write_content(data: NamedTuple) -> None:
         "---\n"
         + f"id: {data.id}\n"
         + f"title: {data.title}\n"
-        + f"alias: {data.alias}\n"
         + f"category: {data.category}\n"
         + f"featured: {data.featured}\n"
         + f"created: {data.created.isoformat()}\n"

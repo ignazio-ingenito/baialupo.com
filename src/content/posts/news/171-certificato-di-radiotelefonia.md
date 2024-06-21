@@ -1,7 +1,6 @@
 ---
 id: 171
 title: Certificato di radiotelefonia
-alias: certificato-di-radiotelefonia
 category: news
 featured: 1
 created: 2014-01-04T07:55:38

@@ -1,7 +1,6 @@
 ---
 id: 51
 title: Info Aviosuperficie
-alias: info-aviosuperficie
 category: baialupo
 featured: 0
 created: 2009-09-29T14:33:24

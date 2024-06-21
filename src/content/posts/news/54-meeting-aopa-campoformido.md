@@ -1,7 +1,6 @@
 ---
 id: 54
 title: Meeting AOPA - Campoformido
-alias: meeting-aopa-campoformido
 category: news
 featured: 0
 created: 2009-10-19T22:04:47

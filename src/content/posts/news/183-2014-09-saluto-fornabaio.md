@@ -1,7 +1,6 @@
 ---
 id: 183
 title: Saluto a Fornabaio
-alias: 2014-09-saluto-fornabaio
 category: news
 featured: 1
 created: 2014-09-20T22:00:00

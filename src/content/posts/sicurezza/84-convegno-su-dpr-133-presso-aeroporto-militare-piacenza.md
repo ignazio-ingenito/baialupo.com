@@ -1,7 +1,6 @@
 ---
 id: 84
 title: Convegno su DPR 133 presso Aeroporto Militare Piacenza
-alias: convegno-su-dpr-133-presso-aeroporto-militare-piacenza
 category: sicurezza
 featured: 0
 created: 2010-09-09T08:22:47

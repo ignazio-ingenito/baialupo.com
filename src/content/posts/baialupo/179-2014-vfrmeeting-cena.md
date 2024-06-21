@@ -1,7 +1,6 @@
 ---
 id: 179
 title: VFRMeeting 2014
-alias: 2014-vfrmeeting-cena
 category: baialupo
 featured: 0
 created: 2014-06-26T07:46:48

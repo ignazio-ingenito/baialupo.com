@@ -1,7 +1,6 @@
 ---
 id: 99
 title: Primo volo del bimotore MCR TwinR
-alias: mcrtwinr-1stfly
 category: news
 featured: 0
 created: 2011-03-08T10:11:21

@@ -1,7 +1,6 @@
 ---
 id: 214
 title: SummerFest 2017
-alias: 2017-summerfest
 category: news
 featured: 1
 created: 2017-06-04T08:08:29

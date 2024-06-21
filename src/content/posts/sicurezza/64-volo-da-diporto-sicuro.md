@@ -1,7 +1,6 @@
 ---
 id: 64
 title: Tutte le puntate di Volo da Diporto Sicuro
-alias: volo-da-diporto-sicuro
 category: sicurezza
 featured: 0
 created: 2010-06-01T00:00:00

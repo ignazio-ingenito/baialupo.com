@@ -1,7 +1,6 @@
 ---
 id: 162
 title: Primo meeting europeo per ultraleggeri "The walls seen from the sky"
-alias: 2013-lucca-primo-meeting-ulm
 category: news
 featured: 0
 created: 2013-09-05T07:11:59

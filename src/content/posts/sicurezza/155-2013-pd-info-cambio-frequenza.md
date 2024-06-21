@@ -1,7 +1,6 @@
 ---
 id: 155
 title: Cambio di frequenza per Padova Info
-alias: 2013-pd-info-cambio-frequenza
 category: sicurezza
 featured: 0
 created: 2013-05-23T07:22:53

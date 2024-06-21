@@ -1,7 +1,6 @@
 ---
 id: 127
 title: V
-alias: storch-for-sale
 category: mercatino
 featured: 0
 created: 2012-04-30T08:09:54

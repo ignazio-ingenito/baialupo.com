@@ -1,7 +1,6 @@
 ---
 id: 132
 title: Festa Campo Volo Le Merline
-alias: festa-campo-volo-le-merline
 category: news
 featured: 0
 created: 2012-06-21T06:55:00

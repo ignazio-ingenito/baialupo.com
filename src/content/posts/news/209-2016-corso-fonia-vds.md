@@ -1,7 +1,6 @@
 ---
 id: 209
 title: Corso fonia aeronautica
-alias: 2016-corso-fonia-vds
 category: news
 featured: 1
 created: 2016-04-06T06:00:00

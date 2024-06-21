@@ -1,7 +1,6 @@
 ---
 id: 211
 title: Cambio frequenza Mi Info
-alias: cambio-frequenza-mi-info
 category: sicurezza
 featured: 1
 created: 2016-05-18T17:12:58

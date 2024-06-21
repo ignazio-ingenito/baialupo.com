@@ -1,7 +1,6 @@
 ---
 id: 135
 title: 21 Raduno Aereo del Canavese
-alias: 21-raduno-aereo-del-canavese
 category: news
 featured: 0
 created: 2012-09-11T14:11:36

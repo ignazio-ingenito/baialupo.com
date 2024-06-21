@@ -1,7 +1,6 @@
 ---
 id: 102
 title: Tributo filmato
-alias: tributo-filmato
 category: baialupo
 featured: 1
 created: 2011-05-21T16:12:49

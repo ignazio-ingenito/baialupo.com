@@ -1,7 +1,6 @@
 ---
 id: 160
 title: 41° Raduno F-CAP 2013
-alias: 2013-raduno-fcap
 category: news
 featured: 0
 created: 2013-09-05T07:00:00

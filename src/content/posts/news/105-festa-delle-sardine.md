@@ -1,7 +1,6 @@
 ---
 id: 105
 title: Festa delle sardine
-alias: festa-delle-sardine
 category: news
 featured: 0
 created: 2011-06-01T09:37:21

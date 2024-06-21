@@ -1,7 +1,6 @@
 ---
 id: 201
 title: Riorganizzazione TMA Milano
-alias: 2015-riorganizzazione-tma-mi
 category: news
 featured: 1
 created: 2015-09-01T07:44:55

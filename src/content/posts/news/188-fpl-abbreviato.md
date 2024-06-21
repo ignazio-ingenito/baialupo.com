@@ -1,7 +1,6 @@
 ---
 id: 188
 title: Nuove regole per FPL
-alias: fpl-abbreviato
 category: news
 featured: 1
 created: 2015-04-07T09:54:37

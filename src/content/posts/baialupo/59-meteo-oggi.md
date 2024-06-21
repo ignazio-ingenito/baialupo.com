@@ -1,7 +1,6 @@
 ---
 id: 59
 title: Meteo
-alias: meteo-oggi
 category: baialupo
 featured: 0
 created: 2009-10-23T09:22:06

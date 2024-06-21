@@ -1,7 +1,6 @@
 ---
 id: 97
 title: Elenco aeroporti commerciali aperti al VDS Avanzato
-alias: elenco-aeroporti-commerciali-aperti-al-vds-avanzato
 category: news
 featured: 0
 created: 2011-02-03T10:42:50

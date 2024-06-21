@@ -1,7 +1,6 @@
 ---
 id: 66
 title: Cena sociale !
-alias: oggi-cena-sociale
 category: baialupo
 featured: 0
 created: 2009-11-27T11:57:31

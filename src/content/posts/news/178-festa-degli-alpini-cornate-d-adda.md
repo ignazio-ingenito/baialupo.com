@@ -1,13 +1,13 @@
 ---
 id: 178
 title: Festa degli Alpini - Cornate d'Adda
-alias: festa-degli-alpini-cornate-d-adda
 category: news
 featured: 1
 created: 2014-06-05T10:46:03
 updated: 2014-06-05T10:51:46
-created_by: Super User
+created_by: Ignazio
 ---
+
 <p>
  Grande successo per i festeggiamenti del 10° anniversario della fondazione del Gruppo Alpini di Cornate d'Adda,
  <br/>

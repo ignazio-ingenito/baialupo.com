@@ -1,7 +1,6 @@
 ---
 id: 73
 title: VDS - Volo Diporto Sicuro - 5a puntata
-alias: volo-da-diporto-sicuro1
 category: sicurezza
 featured: 0
 created: 2010-02-26T19:07:45

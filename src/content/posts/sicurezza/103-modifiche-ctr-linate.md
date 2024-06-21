@@ -1,7 +1,6 @@
 ---
 id: 103
 title: Modifiche al CTR di Linate
-alias: modifiche-ctr-linate
 category: sicurezza
 featured: 0
 created: 2011-06-06T19:18:12

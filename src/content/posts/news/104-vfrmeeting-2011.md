@@ -1,7 +1,6 @@
 ---
 id: 104
 title: VFRMeeting 2011
-alias: vfrmeeting-2011
 category: news
 featured: 0
 created: 2011-06-10T11:01:38

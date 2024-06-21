@@ -1,7 +1,6 @@
 ---
 id: 170
 title: Certificato di radiotelefonia
-alias: certificato-di-radiotelefonia-upd
 category: news
 featured: 0
 created: 2014-01-04T07:52:45

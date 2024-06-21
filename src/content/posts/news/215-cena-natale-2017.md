@@ -1,7 +1,6 @@
 ---
 id: 215
 title: Cena di natale 2017
-alias: cena-natale-2017
 category: news
 featured: 1
 created: 2017-11-19T23:00:00

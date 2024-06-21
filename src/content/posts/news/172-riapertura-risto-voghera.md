@@ -1,13 +1,13 @@
 ---
 id: 172
 title: Riapertura ristorante "La Piramide" - Voghera
-alias: riapertura-risto-voghera
 category: news
 featured: 1
 created: 2014-01-08T07:51:25
 updated: 2014-01-08T08:01:32
-created_by: Super User
+created_by: Ignazio
 ---
+
 <p>
  <a href="images/stories/2013-riapertura-risto-voghera.jpg" onclick="window.open('images/stories/2013-riapertura-risto-voghera.jpg','','width=458,height=816,left='+(screen.availWidth/2-229)+',top='+(screen.availHeight/2-408)+'');return false;">
   <img border="0" class="baiaimgleft" src="images/stories/2013-riapertura-risto-voghera-s.jpg"/>

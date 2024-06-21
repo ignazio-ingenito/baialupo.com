@@ -7,7 +7,6 @@ const posts = defineCollection({
 		// baialupo posts
 		id: z.number(),
 		title: z.string(),
-		alias: z.string(),
 		category: z.string(),
 		featured: z.number().optional().default(0),
 		image: z.string().optional(),

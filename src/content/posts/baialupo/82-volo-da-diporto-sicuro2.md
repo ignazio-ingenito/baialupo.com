@@ -1,7 +1,6 @@
 ---
 id: 82
 title: Volo da Diporto Sicuro
-alias: volo-da-diporto-sicuro2
 category: baialupo
 featured: 0
 created: 2010-08-28T18:35:53

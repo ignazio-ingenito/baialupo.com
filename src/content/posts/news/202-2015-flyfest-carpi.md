@@ -1,7 +1,6 @@
 ---
 id: 202
 title: FlyFest 2015 - Carpi
-alias: 2015-flyfest-carpi
 category: news
 featured: 0
 created: 2015-09-14T07:15:21

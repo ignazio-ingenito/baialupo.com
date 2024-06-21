@@ -1,7 +1,6 @@
 ---
 id: 108
 title: Tecnam Service Bullettin 22-UL
-alias: tacnam-service-bulletin-22ul
 category: sicurezza
 featured: 0
 created: 2011-08-17T06:45:16

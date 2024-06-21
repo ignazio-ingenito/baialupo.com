@@ -1,7 +1,6 @@
 ---
 id: 213
 title: Non prendete impegni per domenica 14 maggio 2017 !
-alias: non-prendete-impegni-per-domenica-14-maggio-2017
 category: news
 featured: 1
 created: 2017-05-08T19:56:19

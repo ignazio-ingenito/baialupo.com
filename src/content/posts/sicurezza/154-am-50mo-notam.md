@@ -1,7 +1,6 @@
 ---
 id: 154
 title: Comunicazione Urgente 
-alias: am-50mo-notam
 category: sicurezza
 featured: 0
 created: 2013-05-10T07:01:37

@@ -1,7 +1,6 @@
 ---
 id: 100
 title: Novità Tecnam a Friedrichshafen
-alias: novita-tecnam-a-friedrichshafen
 category: news
 featured: 0
 created: 2011-04-07T11:12:36

@@ -1,7 +1,6 @@
 ---
 id: 187
 title: Pranzo a Baia
-alias: 2014-pranzo-baia
 category: news
 featured: 1
 created: 2014-11-03T08:01:00

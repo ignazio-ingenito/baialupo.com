@@ -1,7 +1,6 @@
 ---
 id: 184
 title: Aperitivo a Baia
-alias: 2014-aperitivo-baia
 category: news
 featured: 1
 created: 2014-09-30T07:01:40

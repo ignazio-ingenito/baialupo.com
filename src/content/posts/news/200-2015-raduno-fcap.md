@@ -1,7 +1,6 @@
 ---
 id: 200
 title: 43° Raduno F-CAP 2015
-alias: 2015-raduno-fcap
 category: news
 featured: 0
 created: 2015-08-31T10:23:33

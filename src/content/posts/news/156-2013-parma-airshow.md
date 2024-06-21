@@ -1,7 +1,6 @@
 ---
 id: 156
 title: Aeroparma Airshow
-alias: 2013-parma-airshow
 category: news
 featured: 0
 created: 2013-05-25T08:26:17

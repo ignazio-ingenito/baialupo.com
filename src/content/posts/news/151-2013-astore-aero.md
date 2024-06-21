@@ -1,7 +1,6 @@
 ---
 id: 151
 title: Nuovo Tecnam Astore
-alias: 2013-astore-aero
 category: news
 featured: 0
 created: 2013-04-25T08:41:40

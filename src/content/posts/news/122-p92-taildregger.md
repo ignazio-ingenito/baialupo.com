@@ -1,7 +1,6 @@
 ---
 id: 122
 title: Nuovo P92 Biciclo
-alias: p92-taildregger
 category: news
 featured: 0
 created: 2012-01-05T10:12:33

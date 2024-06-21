@@ -1,7 +1,6 @@
 ---
 id: 89
 title: VDS - Volo Diporto Sicuro - 4a puntata
-alias: vds-volo-diporto-sicuro8
 category: sicurezza
 featured: 0
 created: 2010-02-01T23:00:00

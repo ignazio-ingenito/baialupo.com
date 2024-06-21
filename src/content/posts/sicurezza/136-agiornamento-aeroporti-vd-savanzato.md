@@ -1,7 +1,6 @@
 ---
 id: 136
 title: Aggiornamento elenco aeroporti aperti al VDS Avanzato
-alias: agiornamento-aeroporti-vd-savanzato
 category: sicurezza
 featured: 0
 created: 2012-10-04T10:17:13

@@ -1,7 +1,6 @@
 ---
 id: 167
 title: Revisione Spazi Aerei del Nord Est
-alias: revisione-sa-nordest
 category: news
 featured: 1
 created: 2013-11-29T08:15:04

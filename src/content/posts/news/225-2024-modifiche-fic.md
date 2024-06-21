@@ -1,7 +1,6 @@
 ---
 id: 225
 title: Nuove modifiche ai settori dei FIC
-alias: 2024-modifiche-fic
 category: news
 featured: 1
 created: 2024-06-08T09:29:10

@@ -1,7 +1,6 @@
 ---
 id: 175
 title: VFRMeeting 5-6 luglio 
-alias: 2014-vfrmeeting
 category: baialupo
 featured: 0
 created: 2014-04-01T15:17:37

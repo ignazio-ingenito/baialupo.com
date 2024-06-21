@@ -1,7 +1,6 @@
 ---
 id: 223
 title: Nuova frequenza per i campi ulm in Francia
-alias: new-ulm-freq-france
 category: news
 featured: 1
 created: 2023-08-22T17:01:42

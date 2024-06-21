@@ -1,7 +1,6 @@
 ---
 id: 72
 title: Volo da Diporto Sicuro - Pillola n. 4
-alias: volo-da-diporto-sicuro-pillola-n-4
 category: sicurezza
 featured: 1
 created: 2010-02-04T20:16:34

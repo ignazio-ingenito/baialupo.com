@@ -1,7 +1,6 @@
 ---
 id: 120
 title: Ambrogino d’oro a Sergio Dallan
-alias: ambrogino-doro-a-sergio-dallan
 category: news
 featured: 0
 created: 2011-12-06T23:00:00

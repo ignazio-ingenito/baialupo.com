@@ -1,7 +1,6 @@
 ---
 id: 220
 title: Nuova ATZ - LILC - Calcinate del Pesce
-alias: nuova-atz-lilc
 category: news
 featured: 0
 created: 2021-09-16T13:41:38

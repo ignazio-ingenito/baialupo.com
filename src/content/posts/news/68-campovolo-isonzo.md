@@ -1,7 +1,6 @@
 ---
 id: 68
 title: Nuovo campo di volo - Isonzo
-alias: campovolo-isonzo
 category: news
 featured: 0
 created: 2009-12-14T12:05:57

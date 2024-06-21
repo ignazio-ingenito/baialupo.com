@@ -2,12 +2,13 @@
 id: 62
 title: Transponder modo S - Come richiedere il codice a 24 bit per i mezzi VDS
 alias: xpdr-s-mode-vds
-category: avionica e strumenti
+category: guide
 featured: 0
 created: 2009-11-17T10:16:57
 updated: 2013-06-12T08:35:41
 created_by: ignazio
 ---
+
 <p>
  <img border="0" class="baiaimgleft" src="images/stories/custom/garmin-stak.jpg" width="250"/>
  <a href="http://www.enac-italia.it" target="_blank">

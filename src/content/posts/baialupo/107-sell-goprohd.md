@@ -1,7 +1,6 @@
 ---
 id: 107
 title: Nuovo rivenditore telecamere GoPro HD
-alias: sell-goprohd
 category: baialupo
 featured: 0
 created: 2011-08-08T18:21:29

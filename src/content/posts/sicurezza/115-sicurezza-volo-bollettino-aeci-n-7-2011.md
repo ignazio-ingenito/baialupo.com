@@ -1,7 +1,6 @@
 ---
 id: 115
 title: AeCI - Bollettino n. 7-2011
-alias: sicurezza-volo-bollettino-aeci-n-7-2011
 category: sicurezza
 featured: 0
 created: 2011-09-15T08:00:00

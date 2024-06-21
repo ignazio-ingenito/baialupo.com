@@ -1,7 +1,6 @@
 ---
 id: 124
 title: The German
-alias: the-german
 category: news
 featured: 0
 created: 2012-02-01T10:17:54

@@ -1,7 +1,6 @@
 ---
 id: 134
 title: Baialupo premiata al VFRMeeting 2012
-alias: baialupo-premiata-al-vfrmeeting-2012
 category: baialupo
 featured: 1
 created: 2012-07-10T10:03:12

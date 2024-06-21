@@ -1,7 +1,6 @@
 ---
 id: 55
 title: Convocazione Consiglio dei Ministri n.67
-alias: cons-min-67
 category: news
 featured: 0
 created: 2009-10-22T14:11:08

@@ -1,7 +1,6 @@
 ---
 id: 186
 title: Cena di natale 2014
-alias: cena-natale-2014
 category: news
 featured: 0
 created: 2014-11-09T23:00:00

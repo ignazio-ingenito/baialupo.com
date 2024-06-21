@@ -1,7 +1,6 @@
 ---
 id: 69
 title: Evektor - Bollettino obbligatorio per Eurostar
-alias: evektor-service-bullettin-13a
 category: sicurezza
 featured: 0
 created: 2009-12-15T09:12:26

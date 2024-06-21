@@ -1,7 +1,6 @@
 ---
 id: 111
 title: 39° Raduno Club Aviazione Popolare
-alias: 39d-raduno-club-aviazione-popolare10
 category: news
 featured: 0
 created: 2011-09-01T15:55:00

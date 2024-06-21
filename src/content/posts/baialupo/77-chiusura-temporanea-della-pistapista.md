@@ -1,7 +1,6 @@
 ---
 id: 77
 title: Chiusura temporanea della pista
-alias: chiusura-temporanea-della-pistapista
 category: baialupo
 featured: 1
 created: 2010-05-05T10:41:05

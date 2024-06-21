@@ -1,7 +1,6 @@
 ---
 id: 96
 title: Corso Meteo
-alias: corso-meteo9
 category: baialupo
 featured: 0
 created: 2009-10-12T09:08:47

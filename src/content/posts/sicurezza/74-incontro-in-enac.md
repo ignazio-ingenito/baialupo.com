@@ -1,7 +1,6 @@
 ---
 id: 74
 title: Incontro in ENAC
-alias: incontro-in-enac
 category: sicurezza
 featured: 0
 created: 2010-03-15T19:31:59

@@ -1,7 +1,6 @@
 ---
 id: 189
 title: "Circolare ENAC: il piano di volo abbreviato."
-alias: circolare-enac-il-piano-di-volo-abbreviato
 category: news
 featured: 1
 created: 2015-04-22T16:43:43

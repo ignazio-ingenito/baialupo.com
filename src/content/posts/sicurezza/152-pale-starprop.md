@@ -1,7 +1,6 @@
 ---
 id: 152
 title: Pale Starprop
-alias: pale-starprop
 category: sicurezza
 featured: 0
 created: 2013-05-04T09:59:53

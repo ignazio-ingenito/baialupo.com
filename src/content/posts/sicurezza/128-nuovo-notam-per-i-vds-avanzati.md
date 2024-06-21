@@ -1,7 +1,6 @@
 ---
 id: 128
 title: Nuovo notam per i VDS AVANZATI
-alias: nuovo-notam-per-i-vds-avanzati
 category: sicurezza
 featured: 0
 created: 2012-05-03T23:00:00

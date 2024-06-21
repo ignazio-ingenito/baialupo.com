@@ -1,7 +1,6 @@
 ---
 id: 194
 title: Nuovo Rotax 135HP
-alias: nuovo-rotaz-915is
 category: news
 featured: 1
 created: 2015-07-22T12:45:12

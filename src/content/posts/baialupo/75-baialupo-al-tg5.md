@@ -1,7 +1,6 @@
 ---
 id: 75
 title: Baialupo al TG5
-alias: baialupo-al-tg5
 category: baialupo
 featured: 0
 created: 2010-04-06T19:46:42

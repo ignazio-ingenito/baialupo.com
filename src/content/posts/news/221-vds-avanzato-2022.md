@@ -1,7 +1,6 @@
 ---
 id: 221
 title: Corso per Abilitazione VDS Avanzato
-alias: vds-avanzato-2022
 category: news
 featured: 1
 created: 2022-09-30T22:00:00

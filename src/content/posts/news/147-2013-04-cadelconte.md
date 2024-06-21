@@ -1,7 +1,6 @@
 ---
 id: 147
 title: Volata collettiva
-alias: 2013-04-cadelconte
 category: news
 featured: 0
 created: 2013-04-11T08:58:18

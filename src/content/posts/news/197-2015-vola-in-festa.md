@@ -1,13 +1,13 @@
 ---
 id: 197
 title: Vola in Festa 2015 - Aeroporto Aguscello
-alias: 2015-vola-in-festa
 category: news
 featured: 0
 created: 2015-08-04T14:36:29
 updated: 2016-02-10T16:23:07
-created_by: Super User
+created_by: Ignazio
 ---
+
 <p>
  <img border="0" src="images/stories/2015-vola-in-festa.png" width="100%"/>
  <br/>

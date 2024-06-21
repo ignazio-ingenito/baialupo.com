@@ -1,13 +1,13 @@
 ---
 id: 165
 title: SB Pompe Benzina
-alias: 2013-minari-pompe-benzina
 category: sicurezza
 featured: 0
 created: 2013-09-24T07:06:08
 updated: 2015-08-17T06:44:10
-created_by: Super User
+created_by: Ignazio
 ---
+
 <p>
  {youtube}3SGhKZjcGDA{/youtube}
 </p>

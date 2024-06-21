@@ -1,7 +1,6 @@
 ---
 id: 98
 title: Riapre l'aeroporto di Aquino
-alias: riapre-laeroporto-di-aquino
 category: news
 featured: 0
 created: 2011-03-07T11:01:56

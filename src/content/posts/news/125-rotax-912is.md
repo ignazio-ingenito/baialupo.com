@@ -1,7 +1,6 @@
 ---
 id: 125
 title: Nuovo Rotax 912 a iniezione
-alias: rotax-912is
 category: news
 featured: 0
 created: 2012-03-20T09:24:51

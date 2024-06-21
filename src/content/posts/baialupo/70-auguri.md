@@ -1,7 +1,6 @@
 ---
 id: 70
 title: Auguri !
-alias: auguri
 category: baialupo
 featured: 1
 created: 2022-12-21T23:00:00

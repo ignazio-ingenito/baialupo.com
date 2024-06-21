@@ -1,7 +1,6 @@
 ---
 id: 216
 title: VOLARE SICURI a Baialupo
-alias: volare-sicuri-a-baialupo
 category: news
 featured: 1
 created: 2018-05-27T12:09:24

@@ -1,7 +1,6 @@
 ---
 id: 199
 title: Ferragosto al Nicelli
-alias: ferragosto-al-nicelli
 category: news
 featured: 0
 created: 2015-08-13T06:56:13

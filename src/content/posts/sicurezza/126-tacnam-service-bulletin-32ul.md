@@ -1,7 +1,6 @@
 ---
 id: 126
 title: Tecnam Service Bullettin 32-UL
-alias: tacnam-service-bulletin-32ul
 category: sicurezza
 featured: 0
 created: 2012-04-05T23:00:00

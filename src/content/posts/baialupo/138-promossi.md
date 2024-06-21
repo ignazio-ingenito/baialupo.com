@@ -1,7 +1,6 @@
 ---
 id: 138
 title: Promossi!
-alias: promossi
 category: baialupo
 featured: 1
 created: 2012-10-13T11:29:18

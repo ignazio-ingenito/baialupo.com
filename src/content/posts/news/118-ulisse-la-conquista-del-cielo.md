@@ -1,7 +1,6 @@
 ---
 id: 118
 title: Ulisse - La conquista del cielo
-alias: ulisse-la-conquista-del-cielo
 category: news
 featured: 0
 created: 2011-11-10T07:28:56

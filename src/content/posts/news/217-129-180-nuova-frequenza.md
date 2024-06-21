@@ -1,7 +1,6 @@
 ---
 id: 217
 title: 129.180 Nuova Frequenza
-alias: 129-180-nuova-frequenza
 category: news
 featured: 1
 created: 2019-01-01T11:12:01

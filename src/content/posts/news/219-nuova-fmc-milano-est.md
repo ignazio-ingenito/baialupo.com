@@ -1,7 +1,6 @@
 ---
 id: 219
 title: Nuova FMC - Milano Est
-alias: nuova-fmc-milano-est
 category: news
 featured: 1
 created: 2021-07-08T12:37:55

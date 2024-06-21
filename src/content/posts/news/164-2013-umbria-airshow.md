@@ -1,13 +1,13 @@
 ---
 id: 164
 title: Umbria Air Show 2013
-alias: 2013-umbria-airshow
 category: news
 featured: 0
 created: 2013-09-10T06:08:08
 updated: 2013-09-10T10:38:33
-created_by: Super User
+created_by: Ignazio
 ---
+
 <table border="0">
  <tbody>
   <tr>
@@ -305,17 +305,27 @@ created_by: Super User
  <br/>
 </div>
 <script type="text/javascript">
- // <![CDATA[
-$(document).ready( function() { 
-		
-		$('.bPopupLink').bind('click', function(e) {			
-			e.preventDefault();
-			var name = $(this).attr('id');			
-			$( "#bPopup" + name ).bPopup({
-				follow: [true, false],
-				closeClass: 'bPopup-close'
-			});
-		});	
-	});
+ // <![CDATA[
+
+$(document).ready( function() {
+
+    	$('.bPopupLink').bind('click', function(e) {
+
+    		e.preventDefault();
+
+    		var name = $(this).attr('id');
+
+    		$( "#bPopup" + name ).bPopup({
+
+    			follow: [true, false],
+
+    			closeClass: 'bPopup-close'
+
+    		});
+
+    	});
+
+    });
+
 // ]]>
 </script>

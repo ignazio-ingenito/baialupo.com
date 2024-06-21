@@ -1,7 +1,6 @@
 ---
 id: 143
 title: Corso per Abilitazione VDS Avanzato
-alias: vds-avanzato
 category: baialupo
 featured: 0
 created: 2013-02-07T09:46:49

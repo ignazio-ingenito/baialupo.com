@@ -1,7 +1,6 @@
 ---
 id: 222
 title: Campagna AOPA pro Aviosuperfici
-alias: aopa-pro-avio
 category: news
 featured: 1
 created: 2023-01-10T07:56:10

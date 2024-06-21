@@ -1,7 +1,6 @@
 ---
 id: 149
 title: Ali in festa!
-alias: 2012-05-ali-di-classe
 category: news
 featured: 0
 created: 2013-04-24T23:00:00

@@ -1,7 +1,6 @@
 ---
 id: 80
 title: Presentazione P2008 a Baialupo!
-alias: venite-a-provare-il-nuovo-p2008
 category: baialupo
 featured: 1
 created: 2010-07-02T07:45:33

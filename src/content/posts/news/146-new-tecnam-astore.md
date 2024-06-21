@@ -1,7 +1,6 @@
 ---
 id: 146
 title: Nuovo Tecnam ad Ala bassa
-alias: new-tecnam-astore
 category: news
 featured: 0
 created: 2013-03-21T18:57:14

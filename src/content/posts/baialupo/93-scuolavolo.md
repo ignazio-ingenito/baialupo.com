@@ -1,7 +1,6 @@
 ---
 id: 93
 title: ScuolaVolo
-alias: scuolavolo
 category: baialupo
 featured: 0
 created: 2010-11-08T13:48:46

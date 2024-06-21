@@ -1,7 +1,6 @@
 ---
 id: 198
 title: 13mo Memorial Mario Stoppani
-alias: 2015-memorial-stoppani
 category: news
 featured: 0
 created: 2015-08-11T08:36:08

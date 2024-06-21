@@ -1,7 +1,6 @@
 ---
 id: 139
 title: Cena sociale 2012
-alias: cena-sociale-2012
 category: baialupo
 featured: 0
 created: 2012-11-06T15:06:56

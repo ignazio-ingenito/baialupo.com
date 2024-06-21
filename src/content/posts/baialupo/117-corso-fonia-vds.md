@@ -1,7 +1,6 @@
 ---
 id: 117
 title: Corso fonia aeronautica
-alias: corso-fonia-vds
 category: baialupo
 featured: 0
 created: 2011-10-24T09:28:43

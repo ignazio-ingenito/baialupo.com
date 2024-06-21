@@ -1,7 +1,6 @@
 ---
 id: 182
 title: Aperitivo a Baia
-alias: 2014-09-aperitivo-baia
 category: baialupo
 featured: 0
 created: 2014-09-15T14:58:00

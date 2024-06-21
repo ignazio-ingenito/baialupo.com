@@ -1,7 +1,6 @@
 ---
 id: 196
 title: Aeroparty a Caiolo
-alias: 2015-aeroparty
 category: news
 featured: 0
 created: 2015-07-30T06:49:32

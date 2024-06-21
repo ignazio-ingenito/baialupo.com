@@ -1,7 +1,6 @@
 ---
 id: 206
 title: Seminario 7 Febbraio
-alias: rait-tma-mi
 category: news
 featured: 0
 created: 2016-02-10T16:17:56

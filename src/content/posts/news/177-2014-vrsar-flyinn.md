@@ -1,7 +1,6 @@
 ---
 id: 177
 title: Orsera Fly-Inn
-alias: 2014-vrsar-flyinn
 category: news
 featured: 0
 created: 2014-05-09T09:57:07

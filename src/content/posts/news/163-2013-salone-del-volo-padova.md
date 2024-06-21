@@ -1,7 +1,6 @@
 ---
 id: 163
 title: 6­­° Salone del Volo
-alias: 2013-salone-del-volo-padova
 category: news
 featured: 0
 created: 2013-09-05T07:45:30

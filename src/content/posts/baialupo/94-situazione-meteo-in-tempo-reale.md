@@ -1,7 +1,6 @@
 ---
 id: 94
 title: Situazione meteo in tempo reale
-alias: situazione-meteo-in-tempo-reale
 category: baialupo
 featured: 1
 created: 2010-11-13T19:54:57

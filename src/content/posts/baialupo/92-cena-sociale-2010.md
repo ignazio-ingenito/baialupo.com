@@ -1,7 +1,6 @@
 ---
 id: 92
 title: Cena sociale 2010
-alias: cena-sociale-2010
 category: baialupo
 featured: 0
 created: 2010-11-07T15:12:00

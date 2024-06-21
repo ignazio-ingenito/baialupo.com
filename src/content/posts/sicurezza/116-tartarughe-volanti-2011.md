@@ -1,7 +1,6 @@
 ---
 id: 116
 title: Avviso sicurezza - Festa del volo in paramotore a Trezzo sull'Adda
-alias: tartarughe-volanti-2011
 category: sicurezza
 featured: 0
 created: 2011-09-28T12:30:15

@@ -1,7 +1,6 @@
 ---
 id: 192
 title: TECNAM ‘P JET’ - Programma di valutazione
-alias: 2015-tecnam-p-jet
 category: news
 featured: 1
 created: 2015-05-13T12:08:38

@@ -1,7 +1,6 @@
 ---
 id: 205
 title: Cena di natale 2015
-alias: cena-natale-2015
 category: news
 featured: 0
 created: 2015-11-09T23:00:00

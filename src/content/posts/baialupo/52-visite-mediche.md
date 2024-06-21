@@ -1,7 +1,6 @@
 ---
 id: 52
 title: Visite Mediche
-alias: visite-mediche
 category: baialupo
 featured: 0
 created: 2009-09-30T23:00:00

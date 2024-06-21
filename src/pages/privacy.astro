@@ -1,0 +1,16 @@
+---
+import { getEntry } from "astro:content"
+
+// Components
+import Layout from "../layouts/Layout.astro"
+
+// Contents
+const post = await getEntry("privacy", "cookie")
+const { Content } = await post.render()
+---
+
+<Layout>
+  <article>
+    <h1 class="pt-0 my-0">Privacy policy</h1>
+  </article>
+</Layout>

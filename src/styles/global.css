@@ -2,11 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
-/* width */
-::-webkit-scrollbar {
-    width: 2px !important;
+* { 
+    @apply font-sans
+     text-base
+     font-light
+}
+
+a {
+    @apply no-underline;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    @apply font-serif;
+    @apply font-serif font-semibold tracking-tight;
+    font-optical-sizing: auto;
+}
+
+h1 {
+    @apply text-3xl pt-5 pb-4;
+}
+h2 {
+    @apply text-2xl pt-4 pb-3;
+}
+h3 {
+    @apply text-xl pt-3 pb-2;
+}
+h4 {
+    @apply text-lg pt-2 pb-1;
+}
+h5 {
+    @apply text-base pt-[0.5rem] pb-[0.25rem];
+}
+h6 {
+    @apply text-sm pt-[0.25rem] pb-[0.125rem];
+}
+
+pre {
+    @apply bg-transparent
+     text-current;
+}
+
+code * {
+    @apply font-mono 
+     text-[.825rem];
 }

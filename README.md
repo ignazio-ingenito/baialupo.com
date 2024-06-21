@@ -66,3 +66,10 @@ Check out [our documentation](https://docs.astro.build) or jump into our [Discor
 ## Credit
 
 This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
+
+## Ideas
+
+- Get TAF from https://tgftp.nws.noaa.gov/data/forecasts/taf/stations/LIML.TXT
+- Get Short TAF from https://tgftp.nws.noaa.gov/data/forecasts/shorttaf/stations/LIML.TXT
+- Get Metar from https://tgftp.nws.noaa.gov/data/observations/metar/stations/LIML.TXT
+- Get Decoded Metar from https://tgftp.nws.noaa.gov/data/observations/metar/decoded/LIML.TXT

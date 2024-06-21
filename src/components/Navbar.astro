@@ -1,0 +1,122 @@
+---
+import baia from "../assets/baia.png"
+import cloud1 from "../assets/clouds/cloud1.png"
+import cloud2 from "../assets/clouds/cloud2.png"
+import cloud3 from "../assets/clouds/cloud3.png"
+import cloud4 from "../assets/clouds/cloud4.png"
+import cloud5 from "../assets/clouds/cloud5.png"
+import { MENU_ITEMS } from "../consts"
+---
+
+<style>
+  header {
+    @apply sticky
+     h-[80px]
+     w-full
+     text-white 
+     shadow sm:shadow-none
+     bg-gradient-to-r 
+    from-[#1983cf] 
+    to-[#0f436a];
+  }
+
+  .clouds {
+    @apply inline-block
+     absolute 
+     top-0
+     left-0
+     w-full
+     h-full
+     overflow-hidden;
+  }
+
+  .clouds img {
+    @apply absolute
+     -z-10
+     h-full
+     min-w-[340px];
+    animation: animate calc(20s * var(--i)) linear infinite;
+  }
+
+  .menu {
+    @apply hidden sm:flex
+     w-full
+     h-[80px]
+     top-0
+     m-0 mx-1
+     pt-1
+     justify-center
+     gap-x-3;
+  }
+
+  .menu li a {
+    @apply drop-shadow;
+  }
+
+  .menu-mobile {
+    @apply sm:hidden flex
+     absolute 
+     w-full
+     h-full
+     p-0 pl-4 m-0
+     justify-start
+     items-center
+     gap-x-4;
+  }
+
+  .menu-mobile div {
+    @apply cursor-pointer;
+  }
+
+  @keyframes animate {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+</style>
+
+<header>
+  <div class="clouds">
+    <img src={cloud1.src} alt="clouds" style="--i:1;" />
+    <img src={cloud2.src} alt="clouds" style="--i:2;" />
+    <img src={cloud3.src} alt="clouds" style="--i:3;" />
+    <img src={cloud4.src} alt="clouds" style="--i:4;" />
+    <img src={cloud5.src} alt="clouds" style="--i:5;" />
+  </div>
+
+  <div class="menu-mobile">
+    <a href="#" class="text-[#fd9906]">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="size-8"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+      </svg>
+    </a>
+    <a href="/">
+      <img src={baia.src} alt="baia" class="h-[55px] min-w-[281px]" />
+    </a>
+  </div>
+
+  <ul class="menu">
+    {
+      MENU_ITEMS.map((i) => (
+        <li>
+          <a href={i.path}>
+            <h4>{i.label}</h4>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</header>

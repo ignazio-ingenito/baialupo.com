@@ -1,0 +1,76 @@
+<style>
+  .banner {
+    @apply hidden sm:flex
+     relative
+     p-1
+     shadow
+     bg-gradient-to-b
+    from-[#fcebd0] to-white;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    @apply hidden
+     bg-neutral-800/20
+     text-neutral-800
+     rounded-full
+     h-8 w-8;
+  }
+
+  .banner:hover .swiper-button-prev,
+  .banner:hover .swiper-button-next {
+    @apply flex;
+  }
+
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    @apply text-[12px];
+  }
+</style>
+<div class="banner">
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      {
+        [...Array(41).keys()].map((k: number) => {
+          const index: string = (k + 1).toString().padStart(2, "0")
+          return (
+            <div class="swiper-slide">
+              <img
+                src={`/banner/headerimg.${index}.jpg`}
+                alt={`banner ${index}`}
+                class="swiper-lazy"
+              />
+            </div>
+          )
+        })
+      }
+    </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <script>
+    import "swiper/css"
+    import "swiper/css/navigation"
+    import "swiper/css/effect-fade"
+    import Swiper from "swiper"
+    import { Autoplay, EffectFade, Navigation } from "swiper/modules"
+
+    document.addEventListener("DOMContentLoaded", function () {
+      new Swiper(".swiper", {
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: true,
+        },
+        modules: [Autoplay, EffectFade, Navigation],
+        loop: true,
+        effect: "fade",
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      })
+    })
+  </script>
+</div>

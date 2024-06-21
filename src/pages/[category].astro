@@ -1,0 +1,29 @@
+---
+import { getCollection } from "astro:content"
+import { CATEGORIES } from "../consts"
+
+export async function getStaticPaths() {
+  const posts = (await getCollection("posts"))
+    .sort((a, b) => a.data.id - b.data.id)
+    .reverse()
+
+  return CATEGORIES.map((category) => {
+    return {
+      params: { category: category },
+      props: { posts: posts.filter((post) => post.data.category === category) },
+    }
+  })
+}
+
+const { posts } = Astro.props
+---
+
+{
+  posts.map((post) => (
+    <div style="display: flex; flex-direction: column; margin: 0 0 0.5rem 0;">
+      <a href={`/${post.slug}`}>
+        {post.data.id} - {post.data.title}
+      </a>
+    </div>
+  ))
+}

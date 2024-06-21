@@ -1,0 +1,58 @@
+---
+import Head from "../components/Head.astro"
+import Navbar from "../components/Navbar.astro"
+import Banner from "../components/Banner.astro"
+import Meteo from "../components/Meteo.astro"
+import Footer from "../components/Footer.astro"
+---
+
+<style>
+  body {
+    @apply h-screen w-screen 
+     overflow-hidden 
+     flex flex-col
+     bg-gradient-to-b
+     from-[80px] from-[#fcebd0]
+     to-40% to-white;
+  }
+
+  main {
+    @apply flex flex-col flex-1 gap-y-1
+     w-full sm:w-[95%]
+     pt-1 px-1 pb-1 sm:pt-0 sm:pb-9 
+     max-w-4xl
+     sm:mx-auto sm:-my-8
+     text-neutral-600;
+  }
+
+  .content {
+    @apply flex
+     flex-1 
+     flex-col-reverse 
+     sm:flex-row
+     gap-1 
+     m-0 p-0;
+  }
+
+  .content > div {
+    @apply flex-1
+     overflow-y-auto
+     bg-orange-500;
+  }
+</style>
+<html lang="it">
+  <Head />
+  <body>
+    <Navbar />
+    <main>
+      <Banner />
+      <div class="content">
+        <div>
+          <slot />
+        </div>
+        <Meteo />
+      </div>
+      <Footer />
+    </main>
+  </body>
+</html>

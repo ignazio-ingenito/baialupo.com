@@ -1,0 +1,18 @@
+---
+import { getCollection } from "astro:content"
+
+export async function getStaticPaths() {
+  const posts = (await getCollection("posts"))
+    .sort((a, b) => a.data.id - b.data.id)
+    .reverse()
+
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: { post },
+  }))
+}
+
+const { post } = Astro.props
+---
+
+{post.data.title}

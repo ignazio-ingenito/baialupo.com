@@ -1,11 +1,13 @@
 ---
+import Icon from "./Icon.astro"
+
+import { MENU_ITEMS } from "../consts"
 import baia from "../assets/baia.png"
 import cloud1 from "../assets/clouds/cloud1.png"
 import cloud2 from "../assets/clouds/cloud2.png"
 import cloud3 from "../assets/clouds/cloud3.png"
 import cloud4 from "../assets/clouds/cloud4.png"
 import cloud5 from "../assets/clouds/cloud5.png"
-import { MENU_ITEMS } from "../consts"
 ---
 
 <style>
@@ -40,13 +42,10 @@ import { MENU_ITEMS } from "../consts"
 
   .menu {
     @apply hidden sm:flex
-     w-full
-     h-[80px]
-     top-0
-     m-0 mx-1
-     pt-1
+     items-center
      justify-center
-     gap-x-3;
+     gap-x-3
+     text-neutral-50;
   }
 
   .menu li a {
@@ -89,19 +88,7 @@ import { MENU_ITEMS } from "../consts"
 
   <div class="menu-mobile">
     <a href="#" class="text-[#fd9906]">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke-width="1.5"
-        stroke="currentColor"
-        class="size-8"
-      >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
-      </svg>
+      <Icon name="propeller" height="50px" width="50px" />
     </a>
     <a href="/">
       <img src={baia.src} alt="baia" class="h-[55px] min-w-[281px]" />
@@ -109,6 +96,11 @@ import { MENU_ITEMS } from "../consts"
   </div>
 
   <ul class="menu">
+    <li>
+      <a href="/">
+        <Icon name="home" height="24px" width="24px" />
+      </a>
+    </li>
     {
       MENU_ITEMS.map((i) => (
         <li>

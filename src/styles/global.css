@@ -36,12 +36,12 @@ h6 {
     @apply text-sm pt-[0.25rem] pb-[0.125rem];
 }
 
-pre {
-    @apply bg-transparent
-     text-current;
+code * {
+    @apply font-mono;
 }
 
-code * {
-    @apply font-mono 
-     text-[.825rem];
+::-webkit-scrollbar, 
+::-webkit-scrollbar-thumb {
+    width: 1px !important;
+    height: 1px !important;
 }

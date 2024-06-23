@@ -12,11 +12,15 @@ In questa sezione viene descritto in che modo il sito baialupo.com, i propri par
 
 ## Definizioni
 
-I cookie sono stringhe di testo di piccole dimensioni che i siti visitati dall'utente inviano al suo terminale (solitamente al browser), dove vengono memorizzati per essere poi ritrasmessi agli stessi siti alla successiva visita del medesimo utente. Nel corso della navigazione su un sito, l'utente può ricevere sul suo terminale anche cookie che vengono inviati da siti o da web server diversi (c.d. "terze parti"), sui quali possono risiedere alcuni elementi presenti sul sito che lo stesso sta visitando.
+I cookie sono stringhe di testo di piccole dimensioni che i siti visitati dall'utente inviano al suo terminale (solitamente al browser), dove vengono memorizzati per essere poi ritrasmessi agli stessi siti alla successiva visita del medesimo utente.
+
+Nel corso della navigazione su un sito, l'utente può ricevere sul suo terminale anche cookie che vengono inviati da siti o da web server diversi (c.d. "terze parti"), sui quali possono risiedere alcuni elementi presenti sul sito che lo stesso sta visitando.
 
 ## Durata dei cookie
 
-Alcuni cookie (cookie di sessione) restano attivi solo fino alla chiusura del browser. Altri cookie "sopravvivono" alla chiusura del browser e sono disponibili anche in successive visite dell'utente. Questi cookie sono detti persistenti e la loro durata è fissata dal server al momento della loro creazione. In alcuni casi è fissata una scadenza, in altri casi la durata è illimitata.
+Alcuni cookie (cookie di sessione) restano attivi solo fino alla chiusura del browser. Altri cookie "sopravvivono" alla chiusura del browser e sono disponibili anche in successive visite dell'utente.
+
+Questi cookie sono detti persistenti e la loro durata è fissata dal server al momento della loro creazione. In alcuni casi è fissata una scadenza, in altri casi la durata è illimitata.
 
 ## Tipologie di cookie
 
@@ -31,9 +35,11 @@ Sono i cookie che servono ad effettuare la navigazione o a fornire un servizio r
 Senza il ricorso a tali cookie, alcune operazioni non potrebbero essere compiute o sarebbero più complesse e/o meno sicure, come ad esempio le attività di home banking (visualizzazione dell'estratto conto, bonifici, pagamento di bollette, ecc.), per le quali i cookie, che consentono di effettuare e mantenere l'identificazione dell'utente nell'ambito della sessione, risultano indispensabili.
 Appartengono a questa categoria:
 
-- **Cookie di navigazione o di sessione**, garantiscono la normale navigazione e fruizione del sito web (permettendo, ad esempio, di realizzare un acquisto o autenticarsi per accedere ad aree riservate). La disabilitazione di questi cookie influirà negativamente sulle prestazioni dei siti e potrebbe renderne indisponibili le funzionalità  e il servizio.
-- **Cookie analytics**, assimilati ai cookie tecnici laddove utilizzati direttamente dal gestore del sito per raccogliere informazioni, in forma aggregata, sul numero degli utenti e su come questi visitano il sito stesso.
-- **Cookie di funzionalità**, che permettono all'utente la navigazione in funzione di una serie di criteri selezionati (ad esempio, la lingua, i prodotti selezionati per l'acquisto) al fine di migliorare il servizio reso allo stesso.
+**Cookie di navigazione o di sessione**, garantiscono la normale navigazione e fruizione del sito web (permettendo, ad esempio, di realizzare un acquisto o autenticarsi per accedere ad aree riservate). La disabilitazione di questi cookie influirà negativamente sulle prestazioni dei siti e potrebbe renderne indisponibili le funzionalità  e il servizio.
+
+**Cookie analytics**, assimilati ai cookie tecnici laddove utilizzati direttamente dal gestore del sito per raccogliere informazioni, in forma aggregata, sul numero degli utenti e su come questi visitano il sito stesso.
+
+**Cookie di funzionalità**, che permettono all'utente la navigazione in funzione di una serie di criteri selezionati (ad esempio, la lingua, i prodotti selezionati per l'acquisto) al fine di migliorare il servizio reso allo stesso.
 
 Per l'installazione di tali cookie non è richiesto il preventivo consenso degli utenti, mentre resta fermo l'obbligo di dare l'informativa ai sensi dell'art. 13 del Codice della Privacy, che il gestore del sito, qualora utilizzi soltanto tali dispositivi, potrà fornire con le modalità  che ritiene più idonee.
 
@@ -61,33 +67,22 @@ Vengono invece installati cookie di terze parti per le seguenti finalità: inter
 
 Per questi, fermo restando la possibilità di disabilitarli attraverso le impostazioni del browser come indicato in seguito, viene fornito il link all'informativa estesa ed ai moduli di consenso delle terze parti che installano i cookie:
 
-| <br> Nome<br>                   | <br> Tipologia di Cookie<br>                   | <br> Finalità<br>                                                                 | <br> Terza parte che conserva le informazioni dell'utente<br> | <br> Link all'informativa della privacy della terza parte<br>           | <br> Link al modulo di consenso della terza parte<br>          |
-| ------------------------------- | ---------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------- | ----------------------------------------------------------------------- | -------------------------------------------------------------- |
-| <br> Google AJAX Search API<br> | <br> Terze Parti<br> <br> <br> Persistente<br> | <br> Funzionalità di ricerca, tracciamento anonimo<br>                            | <br> Google<br>                                               | <br> [Link](http://www.google.com/intl/en/policies/privacy)<br>         | <br> [Link](http://www.google.com/policies/privacy)<br>        |
-| <br> Google +<br>               | <br> Terze Parti<br> <br> <br> Persistente<br> | <br> Condivisione contenuti<br>                                                   | <br> Google<br>                                               | <br> [Link](http://www.google.com/intl/en/policies/privacy)<br> <br>    | <br> [Link](http://tools.google.com/dlpage/gaoptout")<br> <br> |
-| <br> Google Analytics<br>       | <br> Terze Parti<br> <br> <br> Persistente<br> | <br> Analisi statistiche e reporting<br>                                          | <br> Google<br>                                               | <br> [Link](https://www.google.it/policies/privacy/partners/")<br> <br> | <br> [Link](http://tools.google.com/dlpage/gaoptout")<br> <br> |
-| <br> Google Adwords<br>         | <br> Terze Parti<br> Persistente<br>           | <br> Tracciamento contenuti del sito e interazione utente, scopi pubblicitari<br> | <br> Google<br>                                               | <br> [Link](https://www.google.it/policies/privacy/partners")<br> <br>  | <br> [Link](http://www.google.com/settings/ads")<br> <br>      |
+|                                                      | Google AJAX Search API                                 | Google +                                               | Google Analytics                                          | Google Adwords                                                           |
+| ---------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------ | --------------------------------------------------------- | ------------------------------------------------------------------------ |
+| Tipologia Cookie                                     | Persistente                                            | Persistente                                            | Persistente                                               | Persistente                                                              |
+| Finalità                                             | Funzionalità di ricerca, tracciamento anonimo          | Condivisione contenuti                                 | Analisi statistiche e reporting                           | Tracciamento contenuti del sito e interazione utente, scopi pubblicitari |
+| Terza parte che conserva le informazioni dell'utente | Google                                                 | Google                                                 | Google                                                    | Google                                                                   |
+| Link all'informativa della privacy della terza parte | [Link](http://www.google.com/intl/en/policies/privacy) | [Link](http://www.google.com/intl/en/policies/privacy) | [Link](https://www.google.it/policies/privacy/partners/") | [Link](https://www.google.it/policies/privacy/partners")                 |
+| Link al modulo di consenso della terza parte         | [Link](http://www.google.com/policies/privacy)         | [Link](http://tools.google.com/dlpage/gaoptout")       | [Link](http://tools.google.com/dlpage/gaoptout")          | [Link](http://www.google.com/settings/ads")                              |
 
-```
-<script type="text/javascript">
-    // <![CDATA[
-        $(function () {
-            $('.cookies th').css('text-align', 'left');
-            $('.cookies th').css('font-size', '11px');
-            $('.cookies th').css('font-weight', 'bold');
-            $('.cookies th').css('color', '#fe8300');
-            $('.cookies td:first').css('white-space', 'nowrap');
-            $('.cookies td').css('padding', '0.25em');
-        });
-    // ]]>
-</script>
-```
-
+<sup>
 I link sopra indicati possono essere soggetti a variazioni del tempo non dovuti a baialupo.com. Le stesse informazioni sono, comunque, facilmente reperibili utilizzando un motore di ricerca
+</sup>
 
 ## Come disabilitare i cookie
 
 L'utente può decidere se accettare o meno i cookie. A questo scopo può utilizzare le impostazioni del browser Internet. La maggior parte dei browser consente di gestire (visualizzare, abilitare, disabilitare e cancellare) i cookie tramite le impostazioni.
+
 A titolo di esempio, in Firefox, attraverso il menu Strumenti &gt; Opzioni &gt; Privacy, è possibile accedere ad un pannello di controllo dove è possibile definire se accettare o meno i diversi tipi di cookie e procedere alla loro rimozione.
 I seguenti siti web contengono informazioni su come regolare le impostazioni dei cookie in alcuni browser più diffusi:
 
@@ -96,7 +91,7 @@ I seguenti siti web contengono informazioni su come regolare le impostazioni dei
 - [Microsoft Internet Explorer](href="http://www.microsoft.com/info/cookies.mspx")
 - [Mozilla Firefox](href="http://support.mozilla.org/en-US/kb/Cookies")
 
-I link sopra indicati possono essere soggetti a variazioni del tempo non dovuti a baialupo.com. Le stesse informazioni sono, comunque, facilmente reperibili utilizzando un motore di ricerca.
+<sup>I link sopra indicati possono essere soggetti a variazioni del tempo non dovuti a baialupo.com. Le stesse informazioni sono, comunque, facilmente reperibili utilizzando un motore di ricerca.</sup>
 
 Se il vostro browser non è presente, fate riferimento alle informazioni sui cookie fornite dal browser stesso. Se utilizzate un telefono cellulare, consultate il relativo manuale per reperire ulteriori informazioni.
 

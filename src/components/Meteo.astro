@@ -104,7 +104,7 @@ import { Image } from "astro:assets"
   </div>
   <div>
     <div id="ceiling" class="font-bold text-xl"></div>
-    <div class="font-thin text-base">ceiling</div>
+    <div id="ceiling-type" class="font-thin text-base">ceiling</div>
   </div>
   <div>
     <div id="qnh" class="font-bold text-xl"></div>
@@ -117,57 +117,90 @@ import { Image } from "astro:assets"
 </section>
 
 <script>
-  import { AIRPORT_AW_CODE } from "../consts"
   const AIRPORT_AW_URL: string = `https://server.airportweather.com/api/airports/${AIRPORT_AW_CODE}/weather`
 
-  const getLast = (obj: any) => obj.time_steps[0]
+  import { AIRPORT_AW_CODE } from "../consts"
+  import type {
+    IMeteo,
+    MetarCoverageDefinition,
+    Nowcast,
+    Weather,
+  } from "./Meteo"
 
   const response = await fetch(AIRPORT_AW_URL)
-  const { weather } = await response.json()
+  const all: IMeteo = await response.json()
+  const { next_sunrise, next_sunset, nowcast }: Weather = all.weather
+  const {
+    air_pressure_qnh,
+    air_temperature_2m_agl,
+    ceiling_agl,
+    cloud_cover,
+    dew_point_temperature_2m_agl,
+    surface_visibility,
+    wind_10m_agl,
+  }: Nowcast = nowcast
+
+  function percentageToMetar(value: number): MetarCoverageDefinition | null {
+    // SKC (Sky Clear)
+    // 1-25% - FEW (Few)
+    // 26-50% - SCT (Scattered)
+    // 51-87% - BKN (Broken)
+    // 88-100% - OVC (Overcast)
+    const MetarDefs: MetarCoverageDefinition[] = [
+      { min: 0, max: 0, code: "SKC", description: "Sky Clear" },
+      { min: 1, max: 25, code: "FEW", description: "Few" },
+      { min: 26, max: 50, code: "SCT", description: "Scattered" },
+      { min: 51, max: 87, code: "BKN", description: "Broken" },
+      { min: 88, max: 100, code: "OVC", description: "Overcast" },
+    ]
+
+    return MetarDefs.find((m) => value >= m.min && value <= m.max) || null
+  }
 
   // temperature
-  const temp = getLast(weather.nowcast.air_temperature_2m_agl).quantity
+  const temp = air_temperature_2m_agl.time_steps[0].quantity
   document.getElementById("temp")!.textContent = temp.value
     ? `${temp.value.toFixed(1)} °C`
-    : temp.meaning
+    : `${temp.meaning}`
   // dewpoint
-  const dewp = getLast(weather.nowcast.dew_point_temperature_2m_agl).quantity
+  const dewp = dew_point_temperature_2m_agl.time_steps[0].quantity
   document.getElementById("dewpoint")!.textContent = dewp.value
     ? `${dewp.value.toFixed(1)} °C`
-    : dewp.meaning
+    : `${dewp.meaning}`
   // visibility
-  const vis = getLast(weather.nowcast.surface_visibility).quantity
+  const vis = surface_visibility.time_steps[0].quantity
   document.getElementById("visibility")!.textContent = vis.value
     ? `${Math.round(vis.value / 1000)} km`
-    : vis.meaning
+    : `${vis.meaning}`
   // ceiling
-  const ceil = getLast(weather.nowcast.ceiling_agl).quantity
+  const ceil = ceiling_agl.time_steps[0].quantity
   document.getElementById("ceiling")!.textContent = ceil.value
     ? `${Math.round(ceil.value * 3.28084)} ft`
-    : ceil.meaning
+    : `${ceil.meaning}`
+  // ceiling type
+  const clouds = cloud_cover.time_steps[0].quantity
+  const ceilType =
+    percentageToMetar(clouds.value)?.description.toLowerCase() || ""
+  document.getElementById("ceiling-type")!.textContent = ceilType
   // wind
-  const wind = getLast(weather.nowcast.wind_10m_agl)
-  const windDir = wind.from_direction.value
-    ? wind.from_direction.value
-    : wind.from_direction.meaning
-  const windSpeed = wind.speed.value
-    ? Math.round(wind.speed.value * 1.94384)
-    : wind.speed.meaning
-  document.getElementById("wind")!.textContent =
-    `${Math.round(windDir)}° ${windSpeed}kt`
+  const { from_direction, speed } = wind_10m_agl.time_steps[0]
+  const windDir = from_direction.value
+    ? `${Math.round(from_direction.value)} °`
+    : from_direction.meaning
+  const windSpeed = Math.round(speed.value * 1.94384)
+  document.getElementById("wind")!.textContent = `${windDir} ${windSpeed}kt`
+
   // QNH
-  const qnh = getLast(weather.nowcast.air_pressure_qnh).quantity
+  const qnh = air_pressure_qnh.time_steps[0].quantity
   document.getElementById("qnh")!.textContent = vis.value
     ? `${Math.round(qnh.value / 100)} hPa`
-    : vis.meaning
-  console.log({ qnh })
-  console.log(weather.nowcast)
+    : `${vis.meaning}`
 
-  const sunrise: Date = new Date(weather.next_sunrise.replaceAll(/\[.*/g, ""))
+  const sunrise: Date = new Date(next_sunrise.replaceAll(/\[.*/g, ""))
   document.getElementById("sunrise")!.textContent =
     sunrise.toLocaleTimeString("it-IT")
 
-  const sunset: Date = new Date(weather.next_sunset.replaceAll(/\[.*/g, ""))
+  const sunset: Date = new Date(next_sunset.replaceAll(/\[.*/g, ""))
   document.getElementById("sunset")!.textContent =
     sunset.toLocaleTimeString("it-IT")
 </script>

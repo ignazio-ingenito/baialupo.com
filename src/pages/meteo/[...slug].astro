@@ -1,0 +1,122 @@
+---
+import { getEntry } from "astro:content"
+
+// Components
+import Layout from "../../layouts/Layout.astro"
+
+// Paths
+const keys = [
+  { slug: undefined, id: "0", label: "oggi" },
+  { slug: "tomorrow", id: "1", label: "domani" },
+  { slug: "day/2", id: "2", label: "" },
+  { slug: "day/3", id: "3", label: "" },
+  { slug: "day/4", id: "4", label: "" },
+  { slug: "day/5", id: "5", label: "" },
+  { slug: "day/6", id: "6", label: "" },
+  { slug: "week", id: "7", label: "settimana" },
+]
+
+export async function getStaticPaths() {
+  const keys = [
+    { slug: undefined, id: "0", label: "oggi" },
+    { slug: "tomorrow", id: "1", label: "domani" },
+    { slug: "day/2", id: "2", label: "" },
+    { slug: "day/3", id: "3", label: "" },
+    { slug: "day/4", id: "4", label: "" },
+    { slug: "day/5", id: "5", label: "" },
+    { slug: "day/6", id: "6", label: "" },
+    { slug: "week", id: "7", label: "settimana" },
+  ]
+
+  return keys.map(({ slug, id }) => ({
+    params: { slug },
+    props: { id },
+  }))
+}
+
+const { slug } = Astro.params
+const { id } = Astro.props
+
+// Contents
+const post = await getEntry("meteo", `${id}`)
+const { pics } = post!.data
+const { Content } = await post!.render()
+---
+
+<style>
+  .selector {
+    @apply w-full
+     flex
+     justify-end
+     items-start
+     gap-4
+     mb-4
+     pr-4
+     text-xs;
+  }
+
+  .selector > li > a {
+    @apply text-xs sm:text-sm
+     capitalize
+     select-none
+     cursor-pointer;
+  }
+
+  .selector > li.active > a {
+    @apply text-orange-500
+     font-bold;
+  }
+
+  .forecast {
+    @apply grid
+     grid-cols-1 sm:grid-cols-2
+     gap-2;
+  }
+</style>
+
+<Layout>
+  <div class="w-full flex flex-col">
+    <ul class="selector" data-active="today">
+      {
+        keys.map(({ slug: s, label }, i) => (
+          <li class={s === slug ? "active" : ""}>
+            <a href={`/meteo/${s || ""}`} data-offset-days={i}>
+              {label}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+    <Content />
+    <div class="forecast">
+      {
+        pics?.map((pic) => (
+          <div class="cell">
+            <img src={pic} class="w-full h-auto" />
+          </div>
+        ))
+      }
+    </div>
+  </div>
+
+  <script>
+    function setupMenu() {
+      const day = 60 * 60 * 24 * 1000
+      const now = new Date()
+      const intl = new Intl.DateTimeFormat("it-IT", {
+        weekday: "short",
+        day: "2-digit",
+      })
+
+      const _ = [...document.querySelectorAll(".selector > li > a")]
+        .slice(2, 7)
+        .map((e) => {
+          const offset = parseInt(e.getAttribute("data-offset-days") || "0")
+          const date = new Date(now.getTime() + offset * day)
+          e.innerHTML = intl.format(date)
+        })
+    }
+
+    document.addEventListener("DOMContentLoaded", setupMenu)
+  </script>
+</Layout>

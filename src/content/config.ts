@@ -2,9 +2,7 @@ import { z, defineCollection } from 'astro:content'
 
 const posts = defineCollection({
 	type: 'content',
-	// Type-check frontmatter using a schema
 	schema: z.object({
-		// baialupo posts
 		id: z.number(),
 		title: z.string(),
 		category: z.string(),
@@ -16,4 +14,15 @@ const posts = defineCollection({
 	}),
 })
 
-export const collections = { posts }
+const meteo = defineCollection({
+	type: 'content',
+	schema: z.object({
+		title: z.string().optional(),
+		pics: z.array(z.string()),
+	})
+})
+
+export const collections = {
+	posts,
+	meteo
+}

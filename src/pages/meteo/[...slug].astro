@@ -90,7 +90,7 @@ const { Content } = await post!.render()
     <Content />
     <div class="forecast">
       {
-        pics?.map((pic) => (
+        pics?.map((pic: string) => (
           <div class="cell">
             <img src={pic} class="w-full h-auto" />
           </div>

@@ -1,0 +1,65 @@
+---
+import { getEntry, getCollection } from "astro:content"
+import Layout from "../../layouts/Layout.astro"
+import { formatDate } from "../../utils"
+
+export async function getStaticPaths() {
+  const posts = (await getCollection("mercatino")).sort(
+    (a, b) => a.data.updated.valueOf() - b.data.updated.valueOf()
+  )
+
+  return posts.map(({ slug, data }) => ({
+    params: { slug },
+    props: { ...data },
+  }))
+}
+
+const { slug } = Astro.params
+const { title, image, updated, created_by } = Astro.props
+
+// Content
+const post = await getEntry("mercatino", slug)
+const { Content } = await post!.render()
+---
+
+<style>
+  h3 {
+    @apply text-orange-500;
+  }
+
+  section {
+    @apply flex justify-end;
+  }
+
+  article {
+    @apply w-fit 
+      grid grid-cols-2 gap-x-1 
+      mb-6 
+      text-xs;
+  }
+
+  article > div {
+    @apply text-xs;
+  }
+
+  article > div:nth-of-type(odd) {
+    @apply text-right;
+  }
+
+  article > div:nth-of-type(even) {
+    @apply font-semibold;
+  }
+</style>
+
+<Layout>
+  <h3>{title}</h3>
+  <section class="market">
+    <article>
+      <div>Aggiornato il</div>
+      <div>{formatDate(updated)}</div>
+      <div>Pubblicato da</div>
+      <div>{created_by}</div>
+    </article>
+  </section>
+  <Content />
+</Layout>

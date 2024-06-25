@@ -1,0 +1,69 @@
+---
+import { getCollection } from "astro:content"
+// Components
+import Layout from "../../layouts/Layout.astro"
+// Utils
+import { formatDate } from "../../utils"
+
+const posts = (await getCollection("market")).sort(
+  ({ data: { updated: a } }, { data: { updated: b } }) =>
+    b.valueOf() - a.valueOf()
+)
+---
+
+<style>
+  .card {
+    @apply flex 
+    p-1
+    gap-x-2
+    bg-neutral-50
+    shadow
+    min-h-36
+    rounded;
+  }
+
+  .card img {
+    @apply object-cover
+     aspect-auto
+     max-w-[18rem]
+     rounded-l;
+  }
+
+  .card .title {
+    @apply font-semibold
+    text-neutral-700
+    p-0 m-0;
+  }
+
+  .card .description {
+    @apply flex-1;
+  }
+
+  .card .footer {
+    @apply text-sm
+      pr-1 pb-1
+      text-right;
+  }
+</style>
+
+<Layout>
+  <div class="flex flex-col flex-1 h-full">
+    <h1 class="text-orange-500">Mercatino</h1>
+    <ul class="card-container">
+      {
+        posts.map(({ data: { image, title, description, updated }, slug }) => (
+          <a href={`/market/${slug}`}>
+            <div class="card">
+              <img src={image} />
+              <div class="flex-1 flex flex-col gap-y-4">
+                <h3 class="title">{title}</h3>
+                <p class="description">{description}</p>
+                <p class="footer">{formatDate(updated)}</p>
+              </div>
+            </div>
+          </a>
+        ))
+      }
+    </ul>
+  </div>
+</Layout>

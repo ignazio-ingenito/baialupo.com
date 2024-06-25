@@ -22,13 +22,14 @@ const meteo = defineCollection({
 	})
 })
 
-const mercatino = defineCollection({
+const market = defineCollection({
 	type: 'content',
 	schema: z.object({
 		id: z.number(),
 		title: z.string(),
-		featured: z.number().optional().default(0),
+		description: z.string(),
 		image: z.string().optional(),
+		featured: z.number().optional().default(0),
 		created: z.coerce.date(),
 		updated: z.coerce.date(),
 		created_by: z.string().optional().default("Ignazio"),
@@ -38,5 +39,5 @@ const mercatino = defineCollection({
 export const collections = {
 	posts,
 	meteo,
-	mercatino
+	market
 }

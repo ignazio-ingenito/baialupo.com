@@ -1,8 +1,9 @@
 ---
 id: 207
-title: Vendesi Eurofly FB5 - Tre Assi, 2 posti, del 2010, costruito dalla casa
+title: Vendesi Eurofly FB5
+description: Tre Assi, 2 posti, del 2010, costruito dalla casa
 featured: 0
-image: http://www.baialupo.com/images/stories/2016-03-07-mercatino.jpg)
+image: /img/market/207-fb5-for-sale-cover.png
 created: 2016-03-07T08:49:16
 updated: 2016-03-07T09:43:43
 created_by: Mariano
@@ -20,4 +21,4 @@ created_by: Mariano
 | Contatti           | Mariano cell. 0039 347-7011032                                                                                                                       |
 | Note               | Visibile al Campo volo di Torlino                                                                                                                    |
 
-![image info](/mercatino/2016-03-07-mercatino.jpg)
+- [![image](/img/market/207-fb5-for-sale.jpg)](/img/market/207-fb5-for-sale.jpg)

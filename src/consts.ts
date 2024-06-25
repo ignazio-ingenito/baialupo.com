@@ -14,8 +14,8 @@ interface MenuItem {
 export const MENU_ITEMS: MenuItem[] = [
     { label: 'Aviosuperficie', path: '/aviosuperficie' },
     { label: 'Novità', path: '/posts' },
-    { label: 'Gallery', path: '/gallery' },
-    { label: 'Mercatino', path: '/mercatino' },
+    { label: 'Galleria', path: '/gallery' },
+    { label: 'Mercatino', path: '/market' },
     { label: 'Meteo', path: '/meteo' },
     { label: 'ScuolaVolo', path: 'http://flying.baialupo.com' },
 ]

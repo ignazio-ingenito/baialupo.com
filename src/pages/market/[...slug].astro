@@ -1,11 +1,15 @@
 ---
 import { getEntry, getCollection } from "astro:content"
+
+// Components
 import Layout from "../../layouts/Layout.astro"
+
+// Utils
 import { formatDate } from "../../utils"
 
 export async function getStaticPaths() {
-  const posts = (await getCollection("mercatino")).sort(
-    (a, b) => a.data.updated.valueOf() - b.data.updated.valueOf()
+  const posts = (await getCollection("market")).sort(
+    (a: any, b: any) => a.data.updated.valueOf() - b.data.updated.valueOf()
   )
 
   return posts.map(({ slug, data }) => ({
@@ -15,10 +19,10 @@ export async function getStaticPaths() {
 }
 
 const { slug } = Astro.params
-const { title, image, updated, created_by } = Astro.props
+const { title, updated, created_by } = Astro.props
 
 // Content
-const post = await getEntry("mercatino", slug)
+const post = await getEntry("market", slug)
 const { Content } = await post!.render()
 ---
 
@@ -28,7 +32,8 @@ const { Content } = await post!.render()
   }
 
   section {
-    @apply flex justify-end;
+    @apply flex justify-end
+     p-1;
   }
 
   article {
@@ -51,9 +56,48 @@ const { Content } = await post!.render()
   }
 </style>
 
-<Layout>
+<style is:global>
+  .market table {
+    @apply mb-4;
+  }
+
+  .market table * {
+    @apply text-[0.825rem];
+  }
+
+  .market table tr {
+    @apply border-b
+     border-b-orange-300;
+  }
+
+  .market table td {
+    @apply p-1;
+  }
+
+  .market table td:nth-child(odd) {
+    @apply bg-orange-200;
+  }
+
+  .market ul:has(img) {
+    @apply grid
+    grid-cols-1
+    gap-1;
+  }
+  .market ul:has(img) li {
+    @apply p-1
+    bg-neutral-50
+    rounded
+    shadow-neutral-300
+    shadow;
+  }
+  .market ul:has(li:not(:only-child)) {
+    @apply grid-cols-2;
+  }
+</style>
+
+<Layout classname="market">
   <h3>{title}</h3>
-  <section class="market">
+  <section>
     <article>
       <div>Aggiornato il</div>
       <div>{formatDate(updated)}</div>

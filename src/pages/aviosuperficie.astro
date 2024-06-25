@@ -1,0 +1,98 @@
+---
+import { getEntry } from "astro:content"
+// Components
+import Layout from "../layouts/Layout.astro"
+// Utils
+import { formatDate } from "../utils"
+
+// Content
+
+const post = await getEntry("avio", "aviosuperficie")
+const { Content } = await post.render()
+const {
+  data: { title, updated, created_by },
+} = post
+---
+
+<style>
+  .title {
+    @apply px-4 pb-2
+    text-orange-500;
+  }
+  .info {
+    @apply flex
+     justify-end
+     p-1;
+  }
+  article {
+    @apply w-fit 
+      grid grid-cols-2 gap-x-1 
+      mb-6 
+      text-xs;
+  }
+
+  article > div {
+    @apply text-xs;
+  }
+
+  article > div:nth-of-type(odd) {
+    @apply text-right;
+  }
+
+  article > div:nth-of-type(even) {
+    @apply font-semibold;
+  }
+</style>
+
+<style is:global>
+  .avio ul {
+    @apply grid
+    grid-cols-1 sm:grid-cols-2;
+  }
+  .avio table {
+    @apply my-4;
+  }
+
+  .avio table tr {
+    @apply border-b
+    border-b-orange-300;
+  }
+
+  .avio table td {
+    @apply p-1;
+  }
+
+  .avio table td strong {
+    @apply text-orange-500;
+  }
+  .avio table td:nth-child(odd) {
+    @apply bg-orange-100;
+  }
+
+  .avio table ol {
+    @apply ml-5
+     list-none;
+  }
+  .avio table tr:last-of-type td:last-of-type pre {
+    @apply p-0 m-0
+    font-[50]
+    text-[0.75rem]
+    tracking-tighter
+    leading-[0.8rem];
+  }
+</style>
+
+<Layout classname="avio">
+  <div class="flex flex-col">
+    <h1 class="title">{title}</h1>
+    <section class="info">
+      <article>
+        <div>Aggiornato il</div>
+        <div>{formatDate(updated)}</div>
+        <div>Pubblicato da</div>
+        <div>{created_by}</div>
+      </article>
+    </section>
+    <Content />
+  </div>
+</Layout>

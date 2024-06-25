@@ -22,6 +22,61 @@ import cloud5 from "../assets/clouds/cloud5.png"
     to-[#0f436a];
   }
 
+  @media screen and (min-width: 640px) {
+    .menu {
+      @apply flex
+     items-center
+     justify-center
+     gap-x-3
+     text-neutral-50;
+    }
+
+    .menu li > a > h4 {
+      @apply drop-shadow;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    .menu {
+      @apply absolute
+      top-[81px]
+      w-0
+      pt-8
+      h-screen
+      flex
+      flex-col
+      gap-y-4
+      justify-start
+      items-center
+      bg-neutral-100
+      text-orange-500
+      overflow-hidden
+      duration-300
+      transition-all;
+    }
+
+    .menu.open {
+      @apply w-screen;
+    }
+  }
+
+  .mobile {
+    @apply sm:hidden flex
+     absolute 
+     w-full
+     h-full
+     p-0 px-4 m-0
+     justify-start
+     items-center
+     gap-x-4
+     cursor-pointer;
+  }
+
+  .drawer li > a > h4 {
+    @apply text-3xl
+    drop-shadow-none;
+  }
+
   .clouds {
     @apply inline-block
      absolute 
@@ -40,39 +95,22 @@ import cloud5 from "../assets/clouds/cloud5.png"
     animation: animate calc(20s * var(--i)) linear infinite;
   }
 
-  .menu {
-    @apply hidden sm:flex
-     items-center
-     justify-center
-     gap-x-3
-     text-neutral-50;
-  }
-
-  .menu li > a > h4 {
-    @apply drop-shadow;
-  }
-
-  .menu-mobile {
-    @apply sm:hidden flex
-     absolute 
-     w-full
-     h-full
-     p-0 pl-4 m-0
-     justify-start
-     items-center
-     gap-x-4;
-  }
-
-  .menu-mobile div {
-    @apply cursor-pointer;
-  }
-
   @keyframes animate {
     0% {
       transform: translateX(-100%);
     }
     100% {
       transform: translateX(100%);
+    }
+  }
+
+  @media screen and (max-width: 430px) {
+    .icon img {
+      @apply scale-90;
+    }
+
+    img.baia {
+      @apply scale-[85%];
     }
   }
 </style>
@@ -86,13 +124,18 @@ import cloud5 from "../assets/clouds/cloud5.png"
     <img src={cloud5.src} alt="clouds" style="--i:5;" />
   </div>
 
-  <div class="menu-mobile">
+  <div class="mobile">
     <a href="#" class="text-[#fd9906]">
       <Icon name="propeller" height="50px" width="50px" />
     </a>
-    <a href="/">
-      <img src={baia.src} alt="baia" class="h-[55px] min-w-[281px]" />
+
+    <a href="/" class="flex-1">
+      <img src={baia.src} alt="baia" class="baia" />
     </a>
+
+    <button class="drawer-toggle text-neutral-200">
+      <Icon name="menu" height="32px" width="32px" />
+    </button>
   </div>
 
   <ul class="menu">
@@ -112,3 +155,15 @@ import cloud5 from "../assets/clouds/cloud5.png"
     }
   </ul>
 </header>
+
+<script>
+  document
+    .querySelectorAll<HTMLButtonElement>("button.drawer-toggle")
+    .forEach((btn) => {
+      btn.addEventListener("click", () => {
+        document
+          .querySelector<HTMLUListElement>("ul.menu")
+          ?.classList.toggle("open")
+      })
+    })
+</script>

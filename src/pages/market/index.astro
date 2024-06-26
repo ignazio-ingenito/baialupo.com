@@ -14,6 +14,7 @@ const posts = (await getCollection("market")).sort(
 <style>
   .card {
     @apply flex 
+    flex-col sm:flex-row
     p-1
     gap-x-2
     bg-neutral-50
@@ -25,14 +26,14 @@ const posts = (await getCollection("market")).sort(
   .card img {
     @apply object-cover
      aspect-auto
-     max-w-[18rem]
+     sm:max-w-[50%]
      rounded-l;
   }
 
   .card .title {
     @apply font-semibold
     text-neutral-700
-    p-0 m-0;
+    mt-2 sm:p-0 sm:m-0;
   }
 
   .card .description {

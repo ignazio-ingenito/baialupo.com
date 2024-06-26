@@ -5,9 +5,18 @@ import { getCollection } from "astro:content"
 
 const posts = (await getCollection("posts", ({ data }) => data.featured == 1))
   .sort((a, b) => a.data.updated.valueOf() - b.data.updated.valueOf())
+  .slice(5)
   .reverse()
 ---
 
 <Layout>
-  <h1 class="pt-0 my-0">AVIOSUPERFICIE BAIALUPO</h1>
+  <section class="flex flex-col">
+    {
+      posts.map(({ slug, data }) => (
+        <a href={slug}>
+          <h3 class="inline-block pt-0 my-0">{data.title}</h3>
+        </a>
+      ))
+    }
+  </section>
 </Layout>

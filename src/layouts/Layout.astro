@@ -5,11 +5,7 @@ import Banner from "../components/Banner.astro"
 import Meteo from "../components/Meteo.astro"
 import Footer from "../components/Footer.astro"
 
-interface Props {
-  classname?: string
-}
-
-const { classname = "" } = Astro.props
+const { aside = true } = Astro.props
 ---
 
 <style>
@@ -32,7 +28,7 @@ const { classname = "" } = Astro.props
      text-neutral-600;
   }
 
-  .layout {
+  section {
     @apply flex
      flex-1 
      flex-col-reverse 
@@ -42,7 +38,7 @@ const { classname = "" } = Astro.props
      overflow-hidden;
   }
 
-  section.content {
+  article {
     @apply flex-1
      pr-3
      overflow-y-auto;
@@ -54,12 +50,12 @@ const { classname = "" } = Astro.props
     <Navbar />
     <main>
       <Banner />
-      <div class="layout">
-        <section class={`content ${classname}`}>
+      <section>
+        <article>
           <slot />
-        </section>
-        <Meteo />
-      </div>
+        </article>
+        {aside && <Meteo />}
+      </section>
       <Footer />
     </main>
   </body>

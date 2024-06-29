@@ -67,6 +67,10 @@ Check out [our documentation](https://docs.astro.build) or jump into our [Discor
 
 This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
 
+## Resources
+
+- Icons from https://icon-sets.iconify.design
+
 ## Ideas
 
 - Get TAF from https://tgftp.nws.noaa.gov/data/forecasts/taf/stations/LIML.TXT

@@ -1,5 +1,6 @@
 ---
-import Icon from "./Icon.astro"
+// Icons from https://icon-sets.iconify.design
+import { Icon } from "astro-icon/components"
 
 import { MENU_ITEMS } from "../consts"
 import baia from "../assets/baia.png"
@@ -24,11 +25,14 @@ import cloud5 from "../assets/clouds/cloud5.png"
 
   @media screen and (min-width: 640px) {
     .menu {
-      @apply flex
-     items-center
-     justify-center
-     gap-x-3
-     text-neutral-50;
+      @apply absolute
+      z-50
+      w-full
+      flex
+      items-center
+      justify-center
+      gap-x-3
+      text-neutral-50;
     }
 
     .menu li > a > h4 {
@@ -39,6 +43,7 @@ import cloud5 from "../assets/clouds/cloud5.png"
   @media screen and (max-width: 640px) {
     .menu {
       @apply absolute
+      z-50
       top-[81px]
       w-0
       pt-8
@@ -56,7 +61,8 @@ import cloud5 from "../assets/clouds/cloud5.png"
     }
 
     .menu.open {
-      @apply w-screen;
+      @apply w-screen
+      z-50;
     }
   }
 
@@ -125,8 +131,8 @@ import cloud5 from "../assets/clouds/cloud5.png"
   </div>
 
   <div class="mobile">
-    <a href="#" class="text-[#fd9906]">
-      <Icon name="propeller" height="50px" width="50px" />
+    <a href="#">
+      <Icon name="propeller" class="w-12 h-12 text-transparent" />
     </a>
 
     <a href="/" class="flex-1">
@@ -134,14 +140,14 @@ import cloud5 from "../assets/clouds/cloud5.png"
     </a>
 
     <button class="drawer-toggle text-neutral-200">
-      <Icon name="menu" height="32px" width="32px" />
+      <Icon name="menu" class="w-10 h-10" />
     </button>
   </div>
 
   <ul class="menu">
     <li>
       <a href="/">
-        <Icon name="home" height="24px" width="24px" />
+        <Icon name="home" class="w-6 h-6" />
       </a>
     </li>
     {

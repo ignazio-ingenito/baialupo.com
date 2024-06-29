@@ -1,0 +1,91 @@
+---
+import { Icon } from "astro-icon/components"
+import { Image } from "astro:assets"
+import { getCollection } from "astro:content"
+import { getAlbumImages } from "../../utils"
+
+import Layout from "../../layouts/Layout.astro"
+
+export async function getStaticPaths() {
+  const albums = await getCollection("gallery")
+
+  return albums.map(({ id, data: { title } }) => ({
+    params: { id },
+    props: { title },
+  }))
+}
+
+const { id } = Astro.params
+const { title } = Astro.props
+const images = await getAlbumImages(id)
+---
+
+<style>
+  h1 {
+    @apply text-3xl
+    text-orange-500;
+  }
+
+  article {
+    @apply text-center
+    columns-1 sm:columns-2 lg:columns-3;
+  }
+
+  img {
+    @apply m-1
+    bg-transparent
+    rounded
+    shadow hover:shadow-lg
+    scale-[99%] hover:scale-[100%]
+    transition-all
+    ease-in-out 
+    duration-300
+    cursor-pointer;
+  }
+
+  img:fullscreen {
+    @apply bg-neutral-900;
+  }
+
+  :fullscreen .controlButton {
+    display: none !important;
+  }
+</style>
+
+<Layout aside={false}>
+  <section id={id}>
+    <div class="flex flex-col">
+      <div class="flex items-center justify-center">
+        <h1>{title}</h1>
+      </div>
+      <a
+        href="#"
+        onclick="history.back()"
+        class="flex items-center justify-end mb-3"
+      >
+        <Icon name="arrow-go-back" class="w-6 h-6 mr-1" />
+        <strong>Back</strong>
+      </a>
+    </div>
+    <article>
+      {
+        images.map((img) => (
+          <Image src={img} alt={img.src} quality={100} loading="eager" />
+        ))
+      }
+    </article>
+  </section>
+  <script>
+    document.querySelectorAll("img").forEach((e) => {
+      e.addEventListener("click", (e: MouseEvent) => {
+        if (document.fullscreenElement) {
+          document.exitFullscreen()
+          return
+        }
+
+        const img = e.target as HTMLImageElement
+        img.requestFullscreen({ navigationUI: "hide" })
+      })
+    })
+  </script>
+</Layout>

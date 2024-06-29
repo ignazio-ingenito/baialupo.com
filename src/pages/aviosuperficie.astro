@@ -42,9 +42,11 @@ const {
   article > div:nth-of-type(even) {
     @apply font-semibold;
   }
-</style>
 
-<style is:global>
+  .avio {
+    @pply flex flex-col;
+  }
+
   .avio ul {
     @apply grid
     grid-cols-1 sm:grid-cols-2;
@@ -82,8 +84,8 @@ const {
   }
 </style>
 
-<Layout classname="avio">
-  <div class="flex flex-col">
+<Layout>
+  <div class="avio">
     <h1 class="title">{title}</h1>
     <section class="info">
       <article>

@@ -4,41 +4,13 @@ import { getEntry } from "astro:content"
 // Components
 import Layout from "../layouts/Layout.astro"
 
+// Css
+import "../styles/privacy.css"
+
 // Contents
 const post = await getEntry("privacy", "cookie")
 const { Content } = await post.render()
 ---
-
-<style is:global>
-  article.privacy strong {
-    @apply font-semibold;
-  }
-
-  article.privacy p,
-  article.privacy ul {
-    @apply mb-3;
-  }
-
-  article.privacy ul {
-    @apply list-disc
-     pl-5;
-  }
-
-  article.privacy table * {
-    @apply text-sm;
-  }
-
-  article.privacy table th,
-  article.privacy table td {
-    @apply border-b border-t border-orange-500/50;
-  }
-
-  article.privacy table td:first-of-type,
-  article.privacy table th {
-    @apply font-semibold
-     text-neutral-600;
-  }
-</style>
 
 <Layout>
   <article class="privacy">

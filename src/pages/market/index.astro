@@ -17,8 +17,8 @@ const posts = (await getCollection("market")).sort(
     flex-col sm:flex-row
     p-1
     gap-x-2
-    bg-neutral-50
-    shadow
+    bg-neutral-100
+    shadow hover:shadow-lg
     min-h-36
     rounded;
   }
@@ -27,7 +27,8 @@ const posts = (await getCollection("market")).sort(
     @apply object-cover
      aspect-auto
      sm:max-w-[50%]
-     rounded-l;
+     rounded
+     p-2;
   }
 
   .card .title {

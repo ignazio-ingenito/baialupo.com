@@ -35,8 +35,16 @@ import cloud5 from "../assets/clouds/cloud5.png"
       text-neutral-50;
     }
 
-    .menu li > a > h4 {
-      @apply drop-shadow;
+    .menu li {
+      @apply transition-all
+      duration-300
+      ease-in-out;
+    }
+
+    .menu li:hover {
+      @apply drop-shadow
+      scale-[102%]
+      text-orange-500;
     }
   }
 

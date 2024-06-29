@@ -26,6 +26,22 @@ const images = await getAlbumImages(id)
     text-orange-500;
   }
 
+  a.back {
+    @apply flex
+    items-center
+    justify-end
+    mb-3
+    mr-3
+    transition-all
+    duration-300
+    ease-in-out;
+  }
+
+  a.back:hover {
+    @apply drop-shadow
+    text-orange-500;
+  }
+
   article {
     @apply text-center
     columns-1 sm:columns-2 lg:columns-3;
@@ -58,11 +74,7 @@ const images = await getAlbumImages(id)
       <div class="flex items-center justify-center">
         <h1>{title}</h1>
       </div>
-      <a
-        href="#"
-        onclick="history.back()"
-        class="flex items-center justify-end mb-3"
-      >
+      <a href="#" onclick="history.back()" class="back">
         <Icon name="arrow-go-back" class="w-6 h-6 mr-1" />
         <strong>Back</strong>
       </a>

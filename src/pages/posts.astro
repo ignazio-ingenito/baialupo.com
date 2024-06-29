@@ -1,0 +1,37 @@
+---
+// Components
+import Card from "../components/Card.astro"
+import Layout from "../layouts/Layout.astro"
+// Resources
+import baia from "../assets/categories/baialupo.jpg"
+import guide from "../assets/categories/guide.jpg"
+import news from "../assets/categories/news.avif"
+import sicurezza from "../assets/categories/sicurezza.jpg"
+---
+
+<style>
+  .categories {
+    @apply grid
+    grid-cols-1 md:grid-cols-2
+    gap-2
+    mx-auto
+    max-w-xl
+    py-4;
+  }
+</style>
+
+<Layout>
+  <div class="flex-1 flex">
+    <section class="categories">
+      <Card link="/baialupo" src={baia} alt="Baialupo" title="Baialupo" />
+      <Card link="/guide" src={guide} alt="Guide" title="Guide" />
+      <Card link="/news" src={news} alt="News" title="News" />
+      <Card
+        link="/sicurezza"
+        src={sicurezza}
+        alt="Sicurezza"
+        title="Sicurezza"
+      />
+    </section>
+  </div>
+</Layout>

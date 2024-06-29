@@ -13,7 +13,7 @@ interface MenuItem {
 
 export const MENU_ITEMS: MenuItem[] = [
     { label: 'Aviosuperficie', path: '/aviosuperficie' },
-    { label: 'Novità', path: '/posts' },
+    { label: 'Blog', path: '/posts' },
     { label: 'Galleria', path: '/gallery' },
     { label: 'Mercatino', path: '/market' },
     { label: 'Meteo', path: '/meteo' },

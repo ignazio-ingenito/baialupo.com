@@ -1,9 +1,8 @@
 ---
-import { Image } from "astro:assets"
 import { getCollection } from "astro:content"
 // Components
+import Card from "../../components/Card.astro"
 import Layout from "../../layouts/Layout.astro"
-import { formatDate } from "../../utils"
 
 const albums = (await getCollection("gallery")).sort(
   ({ data: { updated: a } }, { data: { updated: b } }) =>
@@ -16,48 +15,8 @@ const { id } = Astro.params
 <style>
   .gallery {
     @apply grid
-     grid-cols-1 sm:grid-cols-2 lg:grid-cols-3;
-  }
-
-  article {
-    @apply text-center
-    columns-1 sm:columns-2 lg:columns-3;
-  }
-
-  .card {
-    @apply p-2
-    bg-neutral-100
-    rounded
-    shadow hover:shadow-lg
-    scale-[99%] hover:scale-[100%]
-    transition-all
-    ease-in-out 
-    duration-300;
-  }
-
-  .card img {
-    @apply object-cover
-    aspect-[4/3];
-  }
-
-  .card article {
-    @apply flex flex-col
-    py-2
-    text-center;
-  }
-
-  .title {
-    @apply text-neutral-700
-    font-semibold;
-  }
-
-  .card:hover .title {
-    @apply text-orange-500;
-  }
-
-  .date {
-    @apply block
-      text-sm;
+     grid-cols-1 sm:grid-cols-2 lg:grid-cols-3
+     gap-2;
   }
 </style>
 
@@ -65,21 +24,13 @@ const { id } = Astro.params
   <section id={id} class="gallery">
     {
       albums.map(({ id, data: { title, updated, created, cover } }) => (
-        <section class="card">
-          <a href={`/gallery/${id}`}>
-            <Image
-              class="cover"
-              src={cover}
-              alt={title}
-              quality={100}
-              loading="eager"
-            />
-            <article>
-              <p class="title">{title}</p>
-              <p class="date">{formatDate(updated || created)}</p>
-            </article>
-          </a>
-        </section>
+        <Card
+          link={`/gallery/${id}`}
+          src={cover}
+          alt={title}
+          title={title}
+          date={updated || created}
+        />
       ))
     }
   </section>

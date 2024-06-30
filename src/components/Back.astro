@@ -1,0 +1,26 @@
+---
+import { Icon } from "astro-icon/components"
+---
+
+<style>
+  a.back {
+    @apply flex
+    items-center
+    justify-end
+    mr-3
+    my-4
+    transition-all
+    duration-300
+    ease-in-out;
+  }
+
+  a.back:hover {
+    @apply drop-shadow
+    text-orange-500;
+  }
+</style>
+
+<a href="#" onclick="history.back()" class="back">
+  <Icon name="arrow-go-back" class="w-6 h-6 mr-1" />
+  <strong>Back</strong>
+</a>

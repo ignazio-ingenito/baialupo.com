@@ -1,32 +1,28 @@
 ---
 import { getEntry } from "astro:content"
 // Components
+import Back from "../../components/Back.astro"
 import Layout from "../../layouts/Layout.astro"
 // Utils
 import { formatDate } from "../../utils"
 
 // Styles
 import "../../styles/aviosuperficie.css"
+import Postinfo from "../../components/Postinfo.astro"
 
 // Content
 const post = await getEntry("avio", "aviosuperficie")
 const { Content } = await post.render()
 const {
-  data: { title, updated, created_by },
+  data: { title, updated, created, created_by },
 } = post
 ---
 
-<Layout>
+<Layout back={false}>
   <div class="avio">
     <h1 class="title">{title}</h1>
-    <section class="info">
-      <article>
-        <div>Aggiornato il</div>
-        <div>{formatDate(updated)}</div>
-        <div>Pubblicato da</div>
-        <div>{created_by}</div>
-      </article>
-    </section>
+    <Back />
+    <Postinfo updated={updated || created} created_by={created_by} />
     <Content />
   </div>
 </Layout>

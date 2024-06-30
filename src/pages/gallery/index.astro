@@ -20,7 +20,7 @@ const { id } = Astro.params
   }
 </style>
 
-<Layout aside={false}>
+<Layout aside={false} back={true}>
   <section id={id} class="gallery">
     {
       albums.map(({ id, data: { title, updated, created, cover } }) => (

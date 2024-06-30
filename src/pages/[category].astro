@@ -1,29 +1,73 @@
 ---
-import { getCollection } from "astro:content"
+// Constants
 import { CATEGORIES } from "../consts"
+// Contents
+import { getCollection } from "astro:content"
+// Components
+import Card from "../components/Card.astro"
+import Layout from "../layouts/Layout.astro"
 
 export async function getStaticPaths() {
   const posts = (await getCollection("posts"))
     .sort((a, b) => a.data.id - b.data.id)
     .reverse()
 
-  return CATEGORIES.map((category) => {
+  return CATEGORIES.map((cat) => {
     return {
-      params: { category: category },
-      props: { posts: posts.filter((post) => post.data.category === category) },
+      params: { category: cat },
+      props: {
+        posts: posts.filter(({ data: { category } }) => category === cat),
+      },
     }
   })
 }
 
+const { category } = Astro.params
 const { posts } = Astro.props
+
+const images = import.meta.glob<{ default: ImageMetadata }>(
+  "/src/content/posts/**/*.{jpg,jpeg,png}"
+)
 ---
 
-{
-  posts.map((post) => (
-    <div style="display: flex; flex-direction: column; margin: 0 0 0.5rem 0;">
-      <a href={`/${post.slug}`}>
-        {post.data.id} - {post.data.title}
-      </a>
-    </div>
-  ))
-}
+<style>
+  section {
+    @apply grid
+    grid-cols-1 sm:grid-cols-2
+    gap-2;
+  }
+</style>
+
+<Layout back={true}>
+  <section class={category}>
+    {
+      posts.map(
+        async ({
+          slug,
+          data: {
+            id,
+            title,
+            image,
+            updated,
+            created,
+          },
+        }) => {
+          let img = images["/src/content/posts/no-cover.jpg"]()
+          try {
+            img = images[image || ""]()
+          } catch (e) {}
+          return (
+            <Card
+              id={id}
+              link={`/${slug}`}
+              src={img}
+              alt={title}
+              title={title}
+              date={updated || created}
+            />
+          )
+        }
+      )
+    }
+  </section>
+</Layout>

@@ -1,0 +1,42 @@
+---
+import { formatDate } from "../utils"
+const { updated, created_by } = Astro.props
+---
+
+<style>
+  .info {
+    @apply flex 
+    justify-end
+    mb-2;
+  }
+
+  .info article {
+    @apply grid 
+    grid-cols-2
+    gap-x-1 
+    mb-1
+    pr-4 
+    text-xs;
+  }
+
+  .info article > div {
+    @apply text-xs;
+  }
+
+  .info article > div:nth-of-type(odd) {
+    @apply text-right;
+  }
+
+  .info article > div:nth-of-type(even) {
+    @apply font-semibold;
+  }
+</style>
+
+<section class="info">
+  <article>
+    <div>Aggiornato il</div>
+    <div>{formatDate(updated)}</div>
+    <div>Pubblicato da</div>
+    <div>{created_by}</div>
+  </article>
+</section>

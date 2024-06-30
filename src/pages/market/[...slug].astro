@@ -2,10 +2,11 @@
 import { getEntry, getCollection } from "astro:content"
 
 // Components
+import Back from "../../components/Back.astro"
 import Layout from "../../layouts/Layout.astro"
 
 // Utils
-import { formatDate } from "../../utils"
+import Postinfo from "../../components/Postinfo.astro"
 
 export async function getStaticPaths() {
   const posts = (await getCollection("market")).sort(
@@ -29,30 +30,6 @@ const { Content } = await post!.render()
 <style>
   h3 {
     @apply text-orange-500;
-  }
-
-  section {
-    @apply flex justify-end
-     p-1;
-  }
-
-  article {
-    @apply w-fit 
-      grid grid-cols-2 gap-x-1 
-      mb-6 
-      text-xs;
-  }
-
-  article > div {
-    @apply text-xs;
-  }
-
-  article > div:nth-of-type(odd) {
-    @apply text-right;
-  }
-
-  article > div:nth-of-type(even) {
-    @apply font-semibold;
   }
 
   .market table {
@@ -93,17 +70,11 @@ const { Content } = await post!.render()
   }
 </style>
 
-<Layout>
+<Layout back={false}>
   <div class="market">
     <h3>{title}</h3>
-    <section>
-      <article>
-        <div>Aggiornato il</div>
-        <div>{formatDate(updated)}</div>
-        <div>Pubblicato da</div>
-        <div>{created_by}</div>
-      </article>
-    </section>
+    <Back />
+    <Postinfo updated={updated} created_by={created_by} />
     <Content />
   </div>
 </Layout>

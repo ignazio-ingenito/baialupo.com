@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content"
 // Components
+import Back from "../../components/Back.astro"
 import Layout from "../../layouts/Layout.astro"
 // Utils
 import { formatDate } from "../../utils"
@@ -48,9 +49,10 @@ const posts = (await getCollection("market")).sort(
   }
 </style>
 
-<Layout>
+<Layout back={false}>
   <div class="flex flex-col flex-1 h-full">
-    <h1 class="text-orange-500">Mercatino</h1>
+    <h1 class="text-orange-500 py-0 px-4">Mercatino</h1>
+    <Back />
     <ul class="card-container">
       {
         posts.map(({ data: { image, title, description, updated }, slug }) => (

@@ -1,6 +1,13 @@
 ---
 import { getCollection } from "astro:content"
 
+// Layout
+import Layout from "../layouts/Layout.astro"
+import { getEntryBySlug } from "astro:content"
+
+import Back from "../components/Back.astro"
+import Postinfo from "../components/Postinfo.astro"
+
 export async function getStaticPaths() {
   const posts = (await getCollection("posts"))
     .sort((a, b) => a.data.id - b.data.id)
@@ -8,11 +15,24 @@ export async function getStaticPaths() {
 
   return posts.map((post) => ({
     params: { slug: post.slug },
-    props: { post },
   }))
 }
 
-const { post } = Astro.props
+const { slug } = Astro.params
+
+const post = await getEntryBySlug("posts", slug)
+const {
+  data: { id, title, created, updated, created_by },
+} = post
+const { Content } = await post!.render()
 ---
 
-{post.data.title}
+<Layout back={false}>
+  <section class="grid" id={`${id}`} data-slug={slug}>
+    <h1>{title}</h1>
+    <Back />
+    <Postinfo updated={updated || created} created_by={created_by} />
+    <hr />
+  </section>
+  <Content />
+</Layout>

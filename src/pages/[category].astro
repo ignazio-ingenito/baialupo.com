@@ -42,20 +42,15 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
   <section class={category}>
     {
       posts.map(
-        async ({
-          slug,
-          data: {
-            id,
-            title,
-            image,
-            updated,
-            created,
-          },
-        }) => {
-          let img = images["/src/content/posts/no-cover.jpg"]()
+        async ({ slug, data: { id, title, cover, updated, created } }) => {
+          let img: any = images["/src/content/posts/no-cover.jpg"]()
           try {
-            img = images[image || ""]()
-          } catch (e) {}
+            img = cover != "" ? cover : images[`/public/${cover}`]()
+            console.log({ img })
+          } catch (e) {
+            console.log(e)
+          }
+
           return (
             <Card
               id={id}

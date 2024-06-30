@@ -55,13 +55,19 @@ const {
 
 <section class="card">
   <a href={link}>
-    <Image
-      class="cover"
-      src={src}
-      alt={alt}
-      quality={quality}
-      loading={loading}
-    />
+    {
+      typeof src === "string" ? (
+        <img class="cover w-full aspect-square" src={src} alt={alt} />
+      ) : (
+        <Image
+          class="cover w-full aspect-square"
+          src={src}
+          alt={alt}
+          quality={quality}
+          loading={loading}
+        />
+      )
+    }
     <article>
       {title && <p class="title">{title}</p>}
       {date && <p class="date">{formatDate(date)}</p>}

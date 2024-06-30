@@ -2,6 +2,15 @@
   @apply overflow-x-hidden;
 }
 
+.avio h1,
+.avio h2,
+.avio h3,
+.avio h4,
+.avio h5,
+.avio h6 {
+  @apply text-orange-500;
+}
+
 .avio table td strong {
   @apply text-orange-500;
 }

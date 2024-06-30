@@ -24,7 +24,15 @@ created_by: Alberto
 | Telefono            | +393394556659 - ScuolaVolo<br>+393420693260 - Gestore<br>+390363361332 - Gestore                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | Notam LIIC-M2719/12 | <pre><code>LIIC-M2719/12<br>A) LIMM MILANO FIR<br>B) 2012 May 15 07:16 C) PERM<br>E) REF MILAIP ENR 5 - ULTRA LIGHT MACHINES ACTIVITY.<br>FLYING SCHOOL ACTIVITY IS ALLOWED WI FLW AREA:<br> - AVIOSUPERFICIE BAIALUPO CASSANO D'ADDA / E MILANO<br> - LATERAL LIMITS: CIRCLE OF RADIUS 1.6NM CENTRED ON 453316N 0093010E<br> - VERTICAL LIMITS: SFC / 1000FT AGL<br> - PERIODS OF ACTIVITY: DAILY SR-SS<br> - REMARKS:<br> &nbsp;1) ACTIVITY ACCORDING TO THE PROVISIONS CONTAINED IN D.P.R. 133/2010 ARTICLE 9.<br> &nbsp;2) FLYING SCHOOL 'AS FLYING'.<br> &nbsp;3) ACTIVITY CONDUCTED OUTSIDE CONTROLLED AIRSPACE<br>F) SFC<br>G) 1000FT AGL<br></code></pre> |
 
+### Carte aviosuperficie
+
 - [![img](/img/avio/baia-19-1.png)](/pdf/avio/baia-19-1.pdf)
 - [![img](/img/avio/baia-19-2.png)](/pdf/avio/baia-19-2.pdf)
 
+### Finale 29
+
 [![image](/img/avio/baia-runway.jpg)](/img/avio/baia-runway.jpg)
+
+### Nuova frequenza 8.33 - 129.180Mhz
+
+[![image](/img/avio/baia-radio-833.png)](/img/avio/baia-radio-833.png)

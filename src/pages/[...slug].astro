@@ -5,9 +5,14 @@ import { getCollection } from "astro:content"
 import Layout from "../layouts/Layout.astro"
 import { getEntryBySlug } from "astro:content"
 
+// Components
 import Back from "../components/Back.astro"
 import Postinfo from "../components/Postinfo.astro"
 
+// Css
+import "../styles/post.css"
+
+// Content
 export async function getStaticPaths() {
   const posts = (await getCollection("posts"))
     .sort((a, b) => a.data.id - b.data.id)
@@ -27,12 +32,23 @@ const {
 const { Content } = await post!.render()
 ---
 
+<style>
+  h1 {
+    @apply text-orange-500
+    p-0 m-0;
+  }
+  section {
+    @apply mb-4;
+  }
+</style>
+
 <Layout back={false}>
   <section class="grid" id={`${id}`} data-slug={slug}>
     <h1>{title}</h1>
     <Back />
     <Postinfo updated={updated || created} created_by={created_by} />
-    <hr />
   </section>
-  <Content />
+  <section class="content">
+    <Content />
+  </section>
 </Layout>

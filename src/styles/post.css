@@ -1,0 +1,22 @@
+section.content img.float-left {
+  @apply mr-2 mb-2;
+}
+
+section.content a,
+section.content strong,
+section.content h1,
+section.content h2,
+section.content h3,
+section.content h4,
+section.content h5,
+section.content h6 {
+  @apply text-orange-500;
+}
+
+section.content a {
+  @apply hover:underline;
+}
+
+section.content p {
+  @apply mb-2;
+}

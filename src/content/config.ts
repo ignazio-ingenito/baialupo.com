@@ -54,7 +54,7 @@ const posts = defineCollection({
 		description: z.string().optional(),
 		category: z.string(),
 		featured: z.number().optional().default(0),
-		image: z.string().optional(),
+		cover: z.string().optional(),
 		created: z.coerce.date(),
 		updated: z.coerce.date(),
 		created_by: z.string().optional().default("Ignazio"),

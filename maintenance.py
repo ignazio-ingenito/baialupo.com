@@ -1,5 +1,6 @@
 import os
-import contextlib
+import re
+from bs4 import BeautifulSoup
 from pathlib import Path
 from datetime import datetime
 from PIL import Image, ExifTags
@@ -114,10 +115,61 @@ def build_collection():
         )
 
 
+def fix_image_url(path: Path) -> tuple[str, str]:
+
+    source: str = Path.read_text(path, encoding="utf-8")
+    target: str = source
+    soup = BeautifulSoup(source, "lxml", from_encoding="utf-8")
+
+    # fix float left class
+    for img in soup.find_all("img"):
+        # replace the class baiaimgleft with the tailwind float-start in all images when present
+        fr: str = "images/stories/"
+        to: str = "/img/stories/"
+        tag_source: str = str(img)
+        if img.has_attr("class") and "baiaimgleft" in img["class"]:
+            img["class"].remove("baiaimgleft")
+            img["class"].append("float-start")
+
+        img["src"] = img["src"].replace(fr, to)
+        tag_target: str = str(img)
+        if tag_source != tag_target:
+            target = target.replace(tag_source, tag_target)
+            assert source != target
+
+    # replace the url for the docs
+    # dmdocuments -> /docs
+    for a in soup.find_all("a"):
+        fr: str = "dmdocuments/"
+        to: str = "/docs/"
+
+        tag_source: str = str(a)
+        a["href"] = a["href"].replace(fr, to)
+        tag_target: str = str(a)
+        if tag_source != tag_target:
+            target = target.replace(tag_source, tag_target)
+            assert source != target
+
+    for c in re.findall(r"created: .*$", target, re.MULTILINE):
+        for u in re.findall(r"updated: .*$", target, re.MULTILINE):
+            r = str(c).replace("created:", "updated:")
+            target = target.replace(u, r)
+
+    target = re.sub(r"<br\s*\/>", "", target)
+    Path(path).write_text(target, encoding="utf-8")
+    print(path)
+
+
+def get_contents():
+    path: Path = Path("src/content/posts/").glob("sicurezza/**/*.md")
+    _ = list(map(fix_image_url, path))
+
+
 if __name__ == "__main__":
     # delete_thumbs()
     # delete_thumbs_db()
     # rename_jpeg()
     # rename()
     # check()
-    build_collection()
+    # build_collection()
+    get_contents()

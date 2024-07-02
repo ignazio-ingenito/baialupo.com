@@ -20,3 +20,19 @@ section.content a {
 section.content p {
   @apply mb-2;
 }
+
+section.content iframe {
+  @apply w-full
+  aspect-[16/10]
+  mb-4;
+}
+
+section.content ol {
+  @apply list-inside;
+}
+
+section.content ul {
+  @apply list-inside
+  list-['_-_']
+  mb-3;
+}

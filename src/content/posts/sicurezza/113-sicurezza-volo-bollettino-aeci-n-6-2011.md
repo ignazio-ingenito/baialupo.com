@@ -3,27 +3,16 @@ id: 113
 title: AeCI - Bollettino n. 6-2011
 category: sicurezza
 featured: 0
+cover: /img/covers/aeci.png
 created: 2011-09-15T07:34:31
-updated: 2013-06-14T15:24:38
+updated: 2011-09-15T07:34:31
 created_by: ignazio
 ---
-<table border="0">
- <tbody>
-  <tr>
-   <td>
-    <img border="0" src="images/stories/aeci-logo.jpg" style="float: left; padding-right: 10px;" width="200"/>
-   </td>
-   <td>
-    L'Aeroclub d'Italia ha emesso il bollettino N.6 riguardante un incidente occorso per l'errata chiusura del rubinetto di spurgo del gascolator.
-    <br/>
-    <br/>
-    Preghiamo soci e piloti di prendere visione del il bollettino emesso.
-    <p>
-     <a href="dmdocuments/BollettinoSV201106.pdf">
-      AeCI-SV Bollettino N.6 - 2011
-     </a>
-    </p>
-   </td>
-  </tr>
- </tbody>
-</table>
+
+<img src="/img/stories/aeci-logo.jpg" class="float-start pr-3 pb-10 w-[250px]"/>
+
+L'Aeroclub d'Italia ha emesso il bollettino N.6 riguardante un incidente occorso per l'errata chiusura del rubinetto di spurgo del gascolator.
+
+Preghiamo soci e piloti di prendere visione del il bollettino emesso.
+
+<a href="/docs/BollettinoSV201106.pdf">AeCI-SV Bollettino N.6 - 2011</a>

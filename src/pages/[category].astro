@@ -9,7 +9,10 @@ import Layout from "../layouts/Layout.astro"
 
 export async function getStaticPaths() {
   const posts = (await getCollection("posts"))
-    .sort((a, b) => a.data.id - b.data.id)
+    .sort(
+      ({ data: { updated: a } }, { data: { updated: b } }) =>
+        a.valueOf() - b.valueOf()
+    )
     .reverse()
 
   return CATEGORIES.map((cat) => {
@@ -25,8 +28,8 @@ export async function getStaticPaths() {
 const { category } = Astro.params
 const { posts } = Astro.props
 
-const images = import.meta.glob<{ default: ImageMetadata }>(
-  "/src/content/posts/**/*.{jpg,jpeg,png}"
+const assets = import.meta.glob<{ default: ImageMetadata }>(
+  "/src/content/posts/*.{jpg,jpeg,png}"
 )
 ---
 
@@ -43,12 +46,14 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
     {
       posts.map(
         async ({ slug, data: { id, title, cover, updated, created } }) => {
-          let img: any = images["/src/content/posts/no-cover.jpg"]()
-          try {
-            img = cover != "" ? cover : images[`/public/${cover}`]()
-            console.log({ img })
-          } catch (e) {
-            console.log(e)
+          let img: any = null
+          if (cover == null) {
+            img = assets["/src/content/posts/no-cover.jpg"]()
+          } else if (typeof cover == "string") {
+            img = `${cover}`
+          } else if (typeof cover == "object") {
+            console.log("typeof cover == 'object'")
+            img = cover
           }
 
           return (

@@ -29,9 +29,9 @@ created_by: Alberto
 - [![img](/img/avio/baia-19-1.png)](/pdf/avio/baia-19-1.pdf)
 - [![img](/img/avio/baia-19-2.png)](/pdf/avio/baia-19-2.pdf)
 
-### Finale 29
+### Pista 11
 
-[![image](/img/avio/baia-runway.jpg)](/img/avio/baia-runway.jpg)
+[![image](/img/avio/runway-11.jpg)](/img/avio/runway-11.jpg)
 
 ### Nuova frequenza 8.33 - 129.180Mhz
 

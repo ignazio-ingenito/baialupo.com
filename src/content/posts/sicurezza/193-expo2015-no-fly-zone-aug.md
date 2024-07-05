@@ -1,11 +1,11 @@
 ---
 id: 193
-title: EXPO 2015 - No Fly Zone
+title: EXPO 2015 - No Fly Zone prorogata
 category: sicurezza
 featured: 0
 cover: /img/covers/enac.png
-created: 2015-06-03T14:14:17
-updated: 2015-06-03T14:14:17
+created: 2015-06-03T08:00:00
+updated: 2015-06-03T08:00:00
 created_by: Alberto
 ---
 
@@ -13,7 +13,7 @@ E' stata prorogata, con il notam W1118/15, la <strong>No Fly Zone</strong> sopra
 
 Ecco la zona rappresentata graficamente:
 
-<a href="https://www.google.com/maps/d/edit?mid=zeaiapETAEy4.kUqdr1GkVcAY" target="_blank"><img src="/docs/W083315.jpg" /></a>
+<img src="/img/stories/2015-06-W083315.jpg" />
 
 Di seguito il testo del Notam:
 
@@ -25,7 +25,3 @@ RMK: FLW CATEGORIES NOT AFFECTED:<br>
 1- STATE ACFT, STATE, RESCUE, HOSPITAL AND EMERGENCY FLT<br>
 2- FLYING ACT OVER SEGMENT ROZZANO (MLW1) - ROGOREDO (MLW2) AND THE AIRSPACE NECESSARY FOR HOLDING ORBITS ON THE SAID POINTS,CONNECTED WITH LDG AND DEP FROM LIML AD. GND - 2500FT AMSL, 28 MAY 22:00 2015 UNTIL 24 AUG 21:59 2015.<br>
 CREATED: 26 MAY 12:16 2015
-
-```
-
-```

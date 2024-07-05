@@ -3,66 +3,47 @@ id: 161
 title: Riapre l'aeroporto di Gorizia
 category: news
 featured: 0
-created: 2013-09-05T06:56:33
-updated: 2013-09-05T07:03:29
+cover: /img/stories/2013-gorizia-aeroporto.jpg
+created: 2013-09-05T08:00:00
+updated: 2013-09-05T08:00:00
 created_by: Ignazio
 ---
 
-<table border="0">
- <tbody>
-  <tr>
-   <td style="vertical-align: top; padding-right: 10px;">
-    <img align="left" alt="" border="0" src="images/stories/2013-gorizia-aeroporto.jpg" style="padding-right: 10px;"/>
-   </td>
-   <td style="vertical-align: top;">
-    L'Associazione Sportiva Dilettantistica Transfrontaliera Duca D'Aosta è lietissima di comunicare la riapertura di LIPG al traffico AG ed ULM (dotato di radio), da domani
-    <strong>
-     giovedì 5 settembre
-    </strong>
-    con
-    <strong>
-     orario 14:00 - 18:00
-    </strong>
-    , come sarà precisato nel Notam che verrà emesso questa mattina.
-    <br/>
-    <br/>
-    Note:
-    <br/>
-    <ul>
-     <li>
-      Gorizia Radio su 119.85;
-     </li>
-     <li>
-      Pista 09-27 limitata provvisoriamente agli ultimi 600m della 09 e primi 600m della 27;
-     </li>
-     <li>
-      Per il momento atterraggi sulla 09, decolli sulla 27;
-     </li>
-    </ul>
-    <p>
-     <span style="line-height: 1.3em;">
-      Ulteriori info:
-      <br/>
-     </span>
-    </p>
-    <ul>
-     <li>
-      <span style="line-height: 1.3em;">
-       Presidente - Com.te Fulvio Chianese 328 7437712
-      </span>
-     </li>
-     <li>
-      <span style="line-height: 1.3em;">
-       Responsabile voli  - Bartolomeo Conti 329 2135701
-      </span>
-     </li>
-     <li>
-      <span style="line-height: 1.3em;">
-       Tiziano Morsolin - 329 6268064
-      </span>
-     </li>
-    </ul>
-   </td>
-  </tr>
- </tbody>
-</table>
+<img align="left" alt="" class="float-start mr-3 w-[300px] h-[160px] object-cover" src="/img/stories/2013-gorizia-aeroporto.jpg"/>
+
+L'Associazione Sportiva Dilettantistica Transfrontaliera Duca D'Aosta è lietissima di comunicare la riapertura di LIPG al traffico AG ed ULM (dotato di radio), da domani <strong>giovedì 5 settembre</strong> con <strong>orario 14:00 - 18:00</strong>,<br />
+come sarà precisato nel Notam che verrà emesso questa mattina.
+
+<style>
+    .grid > div {
+        padding: 0 0.5rem;
+        border-bottom-width: 1px;
+        --tw-border-opacity: 1;
+        border-color: rgb(255 237 213 / var(--tw-border-opacity));
+    }
+
+    .grid > div:nth-of-type(1),
+    .grid > div:nth-of-type(2) {
+        border-top-width: 1px;
+    }
+</style>
+
+<div class="grid grid-cols-[auto,1fr,1fr] my-4">
+    <div class="  bg-orange-50">Radio</div>
+    <div class="  col-span-2">Gorizia Radio su 119.85</div>
+    <div class=" bg-orange-50">Pista</div>
+    <div class=" col-span-2">09-27</div>
+    <div class=" bg-orange-50">Note</div>
+    <div class=" col-span-2">L'uso della pista è limitato provvisoriamente agli ultimi 600m della 09 e primi 600m della 27</div>
+    <div class=" bg-orange-50">Regole da osservare</div>    
+    <div class=" col-span-2">Per il momento atterraggi sulla 09, decolli sulla 27</div>
+    <div class=" bg-orange-50">Presidente</div>
+    <div class="">Com.te Fulvio Chianese</div>
+    <div class=" bg-orange-50">328 7437712</div>
+    <div class=" bg-orange-50">Responsabile voli</div>
+    <div class="">Bartolomeo Conti</div>
+    <div class=" bg-orange-50">329 2135701</div>
+    <div class=""></div>
+    <div class="">Tiziano Morsolin</div>
+    <div class=" bg-orange-50">329 6268064</div>
+</div>

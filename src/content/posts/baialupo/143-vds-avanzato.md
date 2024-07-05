@@ -3,7 +3,7 @@ id: 143
 title: Corso VDS Avanzato
 category: baialupo
 featured: 0
-cover: /img/stories/headset.png
+cover: /img/stories/runway.jpg
 created: 2013-02-07T12:30:00
 updated: 2013-02-07T12:30:00
 created_by: ignazio
@@ -19,9 +19,7 @@ Le lezioni teoriche si terranno tutti i sabati mattina dalle 10 alle 12 per un t
 La parte pratica verrà svolta il sabato o la domenica previo accordo con l'isturttore, vi ricordadiamo che il DPR ha fissato una attività minima di volo di 5 ore da svolgersi in un minimo di 5 missioni.
 
 I dettagli sul programma previsto sono pubblicati sul sito dell'AeCI nel documento:
-<a href="https://www.aeci.it/upload/files/7%20-%20Programma%20didattico%20VDS%20avanzato-2010.pdf" target="_blank">
-Programma_didattico_VDS_avanzato.doc
-</a>
+<a href="https://www.aeci.it/upload/files/7%20-%20Programma%20didattico%20VDS%20avanzato-2010.pdf" target="_blank">Programma_didattico_VDS_avanzato.doc</a>
 
 Per quanto riguarda i costi, di seguito riportiamo le due soluzioni possibili
 

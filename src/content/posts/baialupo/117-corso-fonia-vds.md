@@ -3,7 +3,7 @@ id: 117
 title: Corso fonia aeronautica
 category: baialupo
 featured: 0
-cover: /img/stories/headset.png
+cover: /img/covers/flying.png
 created: 2011-10-24T09:30:00
 updated: 2011-10-24T09:30:00
 created_by: ignazio

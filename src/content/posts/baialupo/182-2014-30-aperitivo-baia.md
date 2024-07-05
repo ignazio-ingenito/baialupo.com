@@ -4,8 +4,8 @@ title: Aperitivo a Baia
 category: baialupo
 featured: 0
 cover: /img/stories/2014-09-baia-aperitivo.png
-created: 2014-09-29T08:00:00
-updated: 2014-09-29T08:00:00
+created: 2014-09-30T08:00:00
+updated: 2014-09-30T08:00:00
 created_by: Rossella
 ---
 

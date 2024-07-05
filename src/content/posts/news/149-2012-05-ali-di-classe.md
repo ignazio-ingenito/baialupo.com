@@ -3,45 +3,26 @@ id: 149
 title: Ali in festa!
 category: news
 featured: 0
-created: 2013-04-24T23:00:00
-updated: 2013-06-14T12:52:31
+cover: /img/stories/ali-di-classe.gif
+created: 2013-04-28T08:00:00
+updated: 2013-04-28T08:00:00
 created_by: ignazio
 ---
-<table border="0">
- <tbody>
-  <tr>
-   <td>
-    <img border="0" class="baiaimgleft" src="images/stories/ali-di-classe.gif" style="float: left; padding-right: 5px;"/>
-   </td>
-   <td valign="top">
-    <p>
-     Cari piloti, anche quest’anno Domenica 5 Maggio si svolgerà
-     <br/>
-     “Ali in Festa” la tradizionale festa del Club Ali di Classe.
-     <br/>
-     <br/>
-     Quest’anno il pranzo sarà preparato dall’amico Delio e dai suoi collaboratori (certi del risultato…!!)
-     <br/>
-     <br/>
-     Sarà un buffet romagnolo (costo € 18 a persona) composto da:
-     <br/>
-     - aperitivo,
-     <br/>
-     - antipasti misti,
-     <br/>
-     - bis di primi,
-     <br/>
-     - grigliata di carne con contorni,
-     <br/>
-     - dolce e bevande.
-     <br/>
-     <br/>
-     Il programma della giornata vedrà il parco macchine del Club in bella mostra, si svolgeranno voli dimostrativi e di propaganda, interverranno velivoli acrobatici ospiti, con i quali stiamo prendendo accordi.
-     <br/>
-     <br/>
-     Gli amici di Ali di Classe vi aspettano sul campo!
-    </p>
-   </td>
-  </tr>
- </tbody>
-</table>
+
+<img class="float-start mr-3 mb-4 w-[300px]" src="/img/stories/ali-di-classe.gif"/>
+Cari piloti, anche quest’anno Domenica 5 Maggio si svolgerà<br/>
+“Ali in Festa” la tradizionale festa del Club Ali di Classe.
+
+Quest’anno il pranzo sarà preparato dall’amico Delio e dai suoi collaboratori (certi del risultato…!!)
+
+Sarà un buffet romagnolo del costo di 18 euro a persona sarà composto da:
+
+- aperitivo,
+- antipasti misti,
+- bis di primi,
+- grigliata di carne con contorni,
+- dolce e bevande.
+
+Il programma della giornata vedrà il parco macchine del Club in bella mostra, si svolgeranno voli dimostrativi e di propaganda, interverranno velivoli acrobatici ospiti, con i quali stiamo prendendo accordi.
+
+Gli amici di Ali di Classe vi aspettano sul campo!

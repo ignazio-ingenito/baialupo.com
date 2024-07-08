@@ -15,21 +15,18 @@ export function randomBetween(min: number, max: number) {
 
 export async function getAlbumImages(id: string) {
     // 1. List all album files from collections path
-    let images = import.meta.glob<{ default: ImageMetadata }>(
-        "/src/content/gallery/**/*.{jpeg,jpg}"
+    const files = import.meta.glob<{ default: ImageMetadata }>(
+        "/src/content/gallery/**/*.{jpeg,jpg,JPEG,JPG,webp,WEBP,png,PNG}"
     )
 
     // 2. Filter images by albumId
-    images = Object.fromEntries(
-        Object.entries(images).filter(([key]) => key.includes(id))
+    const images = Object.fromEntries(
+        Object.entries(files)
+            .filter(([key]) => key.includes(id))
     )
 
     // 3. Images are promises, so we need to resolve the glob promises
-    const resolvedImages = await Promise.all(
-        Object.values(images).map((image) => image().then((mod) => mod.default))
+    return await Promise.all(
+        Object.values(images).map((image) => image().then((i) => i.default))
     )
-
-    // 4. Shuffle images in random order
-    resolvedImages.sort((a, b) => Math.random() - 0.5)
-    return resolvedImages
 }

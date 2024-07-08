@@ -9,7 +9,7 @@ updated: 2012-04-05T23:00:00
 created_by: ignazio
 ---
 
-<img src="/img/stories/logo-Tecnam.gif" class="float-start mr-3 mb-3 w-[250px]"/>
+<img src="/img/covers/tecnam.png" class="float-start mr-3 mb-3 w-[200px]"/>
 Venerdì 6 Aprile,
  
  la Tecnam ha emanato il bollettino obbligatorio

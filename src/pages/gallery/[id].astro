@@ -1,5 +1,5 @@
 ---
-import { Image } from "astro:assets"
+import { Image, imageConfig } from "astro:assets"
 import { getCollection } from "astro:content"
 import { getAlbumImages } from "../../utils"
 
@@ -62,9 +62,17 @@ const images = await getAlbumImages(id)
     </div>
     <article>
       {
-        images.map((img) => (
-          <Image src={img} alt={img.src} quality={100} loading="eager" />
-        ))
+        images
+          .sort((a, b) => a.src.localeCompare(b.src))
+          .map((img) => (
+            <Image
+              src={img}
+              alt={img.src}
+              quality={100}
+              title={img.src}
+              loading="eager"
+            />
+          ))
       }
     </article>
   </section>

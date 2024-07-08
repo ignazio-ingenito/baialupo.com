@@ -9,7 +9,7 @@ updated: 2011-09-13T12:21:14
 created_by: ignazio
 ---
 
-<img class="float-start pr-4 pb-4 w-[250px]" src="/img/stories/fs-logobianco.png" />
+<img class="float-start pr-4 pb-4 w-[250px]" src="/img/stories/2011-09-flysynthesis.png" />
 
 Il 12 agosto Fly Syntesis ha emesso un nuovo service bullettin riguardante i velivoli Texan, la prescrizione e' obbligatoria e deve essere effettuata entro le prossime 25 ore.
 

@@ -3,13 +3,13 @@ id: 99
 title: Primo volo del bimotore MCR TwinR
 category: news
 featured: 0
-cover: /img/stories/mcr-twinr.jpg
+cover: /img/stories/2011-03-mcr-twinr.jpg
 created: 2011-03-08T10:11:21
 updated: 2011-03-08T10:11:21
 created_by: ignazio
 ---
 
-<img alt="MCR TwinR" class="float-start mr-3 w-[300px]" src="/img/stories/mcr-twinr.jpg" title="Primo volo per il TwinR"/>
+<img alt="MCR TwinR" class="float-start mr-3 w-[300px]" src="/img/stories/2011-03-mcr-twinr.jpg" title="Primo volo per il TwinR"/>
 Il bimotore di Christophe e Pierre Robin ha effettuato il suo primo volo giovedì 3 marzo, pilotato da Christian Briand, ex pilota collaudatore della Socata.
 
 La Dyn Aèro, ha atteso qualche giorno in attesa di una finestra meteo che permettesse le migliori condizioni per il battesimo del nuovo nato della casa, meteo che è migliorato lo scorso giovedì e che a permesso a Christian di decollare dalll'aeroporto di Dijon-Darois alle 17.

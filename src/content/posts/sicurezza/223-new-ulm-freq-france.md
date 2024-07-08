@@ -3,7 +3,7 @@ id: 223
 title: Nuova frequenza per i campi ulm in Francia
 category: sicurezza
 featured: 1
-cover: /img/stories/ffplum.png
+cover: /img/covers/ffplum.png
 created: 2023-08-22T17:01:42
 updated: 2023-08-22T17:09:24
 created_by: ignazio

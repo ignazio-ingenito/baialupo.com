@@ -27,7 +27,7 @@ created_by: ignazio
     }
 </style>
 
-<img class="h-[300px] w-[160px] object-cover float-start mr-3" src="/img/stories/headset.png"/>
+<img class="h-[300px] w-[160px] object-cover float-start mr-3" src="/img/stories/2011-10-headset.png"/>
 
 <div class="grid grid-cols-3 my-4">
     <div>Aprile</div>

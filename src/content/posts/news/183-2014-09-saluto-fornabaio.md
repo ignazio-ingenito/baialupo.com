@@ -3,14 +3,14 @@ id: 183
 title: Saluto a Fornabaio
 category: news
 featured: 1
-cover: /img/stories/2014-giulio-fornabaio.jpeg
+cover: /img/stories/2014-giulio-fornabaio.jpg
 created: 2014-09-20T22:00:00
 updated: 2014-09-22T13:10:17
 created_by: Giulio Vigano'
 ---
 
-<a href="images/stories/2014-giulio-fornabaio.jpeg" target="_blank">
-    <img class="float-start mr-3 w-[300px]" src="/img/stories/2014-giulio-fornabaio.jpeg"/>
+<a href="images/stories/2014-giulio-fornabaio.jpg" target="_blank">
+    <img class="float-start mr-3 w-[300px]" src="/img/stories/2014-giulio-fornabaio.jpg"/>
 </a>
 
 Ciao Francesco,

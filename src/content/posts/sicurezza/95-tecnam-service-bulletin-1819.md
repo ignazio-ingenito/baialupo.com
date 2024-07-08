@@ -9,7 +9,7 @@ updated: 2010-11-13T20:27:30
 created_by: Mariko
 ---
 
-<img src="/img/stories/logo-Tecnam.gif" class="float-start mr-3" width="250"/>
+<img src="/img/covers/tecnam.png" class="float-start mr-3 mb-[10rem]" width="200"/>
 
 Per chi non fosse ancora al corrente informo che la tecnam ha emesso due bollettini di servizio, uno riguardante i P96 Golf (obbligatorio, tutti i sn) l'altro riguardante anche i Sierra e i Bravo (raccomandazione, solo alcuni sn) in merito all'ispezione dei longheroni alari.
 

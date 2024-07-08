@@ -14,3 +14,16 @@ Vuoi partecipare al meeting piu' bello dell'anno ma non te la senti di affrontar
 <br />
 Stiamo organizzando alcune partenze con piloti esperti e gruppi da 3-4 aeromobili massimo, se sei interessato ad unirti a noi scrivi a
 <a href="mailto:ignazio@baialupo">ignazio@baialupo.com</a>
+
+Avete voglia di dare una mano ? Stiamo affigendo i poster dell'evento in ogni aeroprto, aviosuperfice e campo di volo,
+conttataci per avere il materiale publicitario.<br />
+<br />
+
+<div class="flex flex-col sm:flex-row gap-1">
+    <div class="flex-1">
+        <img class="w-full shadow rounded-sm" src="/img/stories/2014-vfrmeeting-groppo.jpg">
+    </div>
+    <div class="flex-1">
+        <img class="w-full shadow rounded-sm" src="/img/stories/2014-vfrmeeting-leo.jpg">
+    </div>
+</div>

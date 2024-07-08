@@ -9,7 +9,7 @@ updated: 2014-01-04T08:00:00
 created_by: Mariko
 ---
 
- <img class="float-start mr-3 h-[400px]" src="/img/stories/headphone.png"/>
+ <img class="float-start mr-3 h-[400px]" src="/img/stories/2014-01-headphone.png"/>
 
 Riceviamo e pubblichiamo il testo della comunicazione pervenuta da AeCI:
 

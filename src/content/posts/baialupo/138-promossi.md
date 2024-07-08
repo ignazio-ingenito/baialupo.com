@@ -3,7 +3,7 @@ id: 138
 title: Promossi!
 category: baialupo
 featured: 1
-cover: /img/stories/preoccupati.jpg
+cover: /img/stories/2012-10-preoccupati.jpg
 created: 2012-10-13T08:30:00
 updated: 2012-10-13T08:30:00
 created_by: Mariko
@@ -17,4 +17,4 @@ I miei più sinceri complimenti a tutti! Bravissimi!
 
 Eccoli poco prima di sottoporsi all'esame: notate la tensione che traspare dalle loro espressioni!
 
-<img  src="/img/stories/preoccupati.jpg"/>
+<img  src="/img/stories/2012-10-preoccupati.jpg"/>

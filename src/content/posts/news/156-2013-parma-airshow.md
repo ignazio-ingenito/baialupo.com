@@ -3,13 +3,13 @@ id: 156
 title: Aeroparma Airshow
 category: news
 featured: 0
-cover: /img/stories/frecce-tricolori.jpg
+cover: /img/stories/2013-05-frecce-tricolori.jpg
 created: 2013-05-25T08:00:00
 updated: 2013-05-25T08:00:00
 created_by: AeC Parma
 ---
 
-<img class="float-start mr-3 w-[300px]" src="/img/stories/frecce-tricolori.jpg"/>
+<img class="float-start mr-3 w-[300px]" src="/img/stories/2013-05-frecce-tricolori.jpg"/>
 
 Cari amici,<br/>
 è con piacere che Vi segnaliamo l'evento che avrà inizio alle 15:30 di domenica 9 giugno presso l'aeroporto di Parma e che tra gli altri vedrà la partecipizione di Reparto Sperimentale Volo, 15° Stormo S.A.R. e delle Frecce Tricolori.

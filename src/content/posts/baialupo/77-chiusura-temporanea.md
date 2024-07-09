@@ -2,7 +2,7 @@
 id: 77
 title: Chiusura temporanea della pista
 category: baialupo
-featured: 1
+featured: 0
 cover: /img/stories/2010-05-chiusura-temporanea.png
 created: 2010-05-05T10:41:05
 updated: 2010-05-05T10:41:05

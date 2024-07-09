@@ -2,7 +2,7 @@
 id: 190
 title: "Circolare ENAC: il piano di volo abbreviato."
 category: sicurezza
-featured: 1
+featured: 0
 cover: /img/covers/enac.png
 created: 2015-04-22T08:00:00
 updated: 2015-04-22T08:00:00

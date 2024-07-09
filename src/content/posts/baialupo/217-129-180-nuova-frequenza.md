@@ -2,7 +2,7 @@
 id: 217
 title: Nuova frequenza radio
 category: baialupo
-featured: 1
+featured: 0
 cover: /img/covers/baia.png
 created: 2019-01-01T11:12:01
 updated: 2019-01-01T11:45:15

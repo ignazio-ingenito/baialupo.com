@@ -2,7 +2,7 @@
 id: 187
 title: Pranzo a Baia
 category: baialupo
-featured: 1
+featured: 0
 cover: /img/stories/2014-11-pranzo.jpg
 created: 2015-01-28T14:36:20
 updated: 2015-01-28T14:36:20

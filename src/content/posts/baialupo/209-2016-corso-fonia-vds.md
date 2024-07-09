@@ -2,7 +2,7 @@
 id: 209
 title: Corso fonia aeronautica
 category: baialupo
-featured: 1
+featured: 0
 cover: /img/covers/flying.png
 created: 2016-04-06T06:00:00
 updated: 2016-04-06T08:24:49

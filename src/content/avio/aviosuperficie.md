@@ -1,7 +1,7 @@
 ---
 title: Info Aviosuperficie
 category: Aviosuperficie
-featured: 1
+featured: 0
 created: 2019-01-01T12:30:00+01:00
 updated: 2019-01-01T12:30:00+01:00
 created_by: Alberto

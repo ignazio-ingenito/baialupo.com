@@ -2,7 +2,7 @@
 id: 181
 title: Baia a Legnago
 category: baialupo
-featured: 1
+featured: 0
 cover: /img/stories/2014-09-legnago.jpg
 created: 2014-09-15T12:37:38
 updated: 2014-09-16T10:46:22

@@ -2,7 +2,7 @@
 id: 138
 title: Promossi!
 category: baialupo
-featured: 1
+featured: 0
 cover: /img/stories/2012-10-preoccupati.jpg
 created: 2012-10-13T08:30:00
 updated: 2012-10-13T08:30:00

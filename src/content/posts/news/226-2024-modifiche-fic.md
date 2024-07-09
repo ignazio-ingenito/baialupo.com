@@ -1,8 +1,8 @@
 ---
-id: 225
+id: 226
 title: Nuove modifiche ai settori dei FIC
 category: news
-featured: 1
+featured: 0
 cover: https://www.deskaeronautico.it/download/2024/06/FIC_Milano2-1024x840.png
 created: 2024-06-08T09:29:10
 updated: 2024-06-09T09:25:00

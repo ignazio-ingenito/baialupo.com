@@ -2,7 +2,7 @@
 id: 167
 title: Revisione Spazi Aerei del Nord Est
 category: sicurezza
-featured: 1
+featured: 0
 cover: /img/covers/enac.png
 created: 2013-11-29T08:00:00
 updated: 2013-11-29T08:00:00

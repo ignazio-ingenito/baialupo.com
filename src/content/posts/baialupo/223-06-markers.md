@@ -2,7 +2,7 @@
 id: 223
 title: Installazione indicazione piste
 category: baialupo
-featured: 1
+featured: 0
 cover: /img/stories/2023-06-markers-4.jpg
 created: 2023-06-11T23:59:59
 updated: 2023-06-11T23:59:59

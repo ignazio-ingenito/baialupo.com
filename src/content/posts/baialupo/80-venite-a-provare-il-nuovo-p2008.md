@@ -2,7 +2,7 @@
 id: 80
 title: Presentazione P2008 a Baialupo!
 category: baialupo
-featured: 1
+featured: 0
 cover: /img/stories/2010-07-p2008.jpg
 created: 2010-07-02T07:45:33
 updated: 2010-07-02T07:45:33

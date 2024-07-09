@@ -1,9 +1,9 @@
 ---
-id: 224
+id: 225
 title: Chiusura temporanea Aviosuperficie
 alias: 2024-chiusura-temporanea
 category: news
-featured: 1
+featured: 0
 cover: /img/stories/2024-08-baia-runway-out.jpg
 created: 2024-06-08T09:38:15
 updated: 2024-06-08T09:38:15

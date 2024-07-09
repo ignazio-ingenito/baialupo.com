@@ -2,7 +2,7 @@
 id: 178
 title: Festa degli Alpini - Cornate d'Adda
 category: news
-featured: 1
+featured: 0
 cover: /img/stories/2014-Cornate-1.jpg
 created: 2014-06-05T08:00:00
 updated: 2014-06-05T08:00:00

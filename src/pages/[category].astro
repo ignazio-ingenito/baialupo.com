@@ -6,6 +6,8 @@ import { getCollection } from "astro:content"
 // Components
 import Card from "../components/Card.astro"
 import Layout from "../layouts/Layout.astro"
+// Utils
+import { handleCover } from "../utils"
 
 export async function getStaticPaths() {
   const posts = (await getCollection("posts"))
@@ -45,28 +47,16 @@ const assets = import.meta.glob<{ default: ImageMetadata }>(
   <section class={category}>
     {
       posts.map(
-        async ({ slug, data: { id, title, cover, updated, created } }) => {
-          let img: any = null
-          if (cover == null) {
-            img = assets["/src/content/posts/no-cover.jpg"]()
-          } else if (typeof cover == "string") {
-            img = `${cover}`
-          } else if (typeof cover == "object") {
-            console.log("typeof cover == 'object'")
-            img = cover
-          }
-
-          return (
-            <Card
-              id={id}
-              link={`/${slug}`}
-              src={img}
-              alt={title}
-              title={title}
-              date={updated || created}
-            />
-          )
-        }
+        async ({ slug, data: { id, title, cover, updated, created } }) => (
+          <Card
+            id={id}
+            link={`/${slug}`}
+            src={handleCover(cover, assets)}
+            alt={title}
+            title={title}
+            date={updated || created}
+          />
+        )
       )
     }
   </section>

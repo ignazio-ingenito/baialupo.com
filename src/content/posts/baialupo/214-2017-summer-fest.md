@@ -2,10 +2,10 @@
 id: 214
 title: SummerFest 2017
 category: baialupo
-featured: 1
+featured: 0
 cover: /img/stories/2017-festa-baia.jpg
-created: 2023-01-10T09:17:20
-updated: 2023-01-10T09:17:20
+created: 2017-06-04T00:00:00
+updated: 2017-06-04T00:00:00
 created_by: ignazio
 ---
 

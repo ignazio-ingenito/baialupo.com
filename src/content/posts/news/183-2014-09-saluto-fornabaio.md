@@ -2,7 +2,7 @@
 id: 183
 title: Saluto a Fornabaio
 category: news
-featured: 1
+featured: 0
 cover: /img/stories/2014-giulio-fornabaio.jpg
 created: 2014-09-20T22:00:00
 updated: 2014-09-22T13:10:17

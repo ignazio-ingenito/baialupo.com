@@ -2,7 +2,7 @@
 id: 180
 title: Aviosuperficie 'Il Picchio' - Chiusura al traffico non di base
 category: news
-featured: 1
+featured: 0
 cover: /img/stories/2014-08-logo-picchio.jpg
 created: 2014-08-08T08:00:00
 updated: 2014-08-08T08:00:00

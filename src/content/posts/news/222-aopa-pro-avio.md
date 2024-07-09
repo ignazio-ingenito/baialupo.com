@@ -2,7 +2,7 @@
 id: 222
 title: Campagna AOPA pro Aviosuperfici
 category: news
-featured: 1
+featured: 0
 cover: /img/covers/aopa.png
 created: 2023-01-10T07:56:10
 updated: 2023-01-10T09:18:36

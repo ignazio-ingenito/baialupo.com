@@ -2,7 +2,7 @@
 id: 219
 title: Nuova FMC - Milano Est
 category: sicurezza
-featured: 1
+featured: 0
 cover: /img/covers/enac.png
 created: 2023-01-10T09:16:01
 updated: 2023-01-10T09:16:01

@@ -2,7 +2,7 @@
 id: 203
 title: Esami VDS - 2015
 category: baialupo
-featured: 1
+featured: 0
 cover: /img/stories/2015-09-15-esami-vds.jpg
 created: 2015-09-15T09:52:28
 updated: 2015-09-15T10:15:14

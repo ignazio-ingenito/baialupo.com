@@ -1,21 +1,48 @@
 ---
-import Layout from "../layouts/Layout.astro"
-
+// Contents
 import { getCollection } from "astro:content"
+// Components
+import Card from "../components/Card.astro"
+import Layout from "../layouts/Layout.astro"
+// Utils
+import { handleCover } from "../utils"
 
-const posts = (await getCollection("posts", ({ data }) => data.featured == 1))
+const assets = import.meta.glob<{ default: ImageMetadata }>(
+  "/src/content/posts/*.{jpg,jpeg,png}"
+)
+
+const posts = (await getCollection("posts", ({ data }) => data.featured == 0))
   .sort((a, b) => a.data.updated.valueOf() - b.data.updated.valueOf())
-  .slice(5)
   .reverse()
+  .slice(0, 31)
 ---
 
+<style>
+  section {
+    @apply grid
+    grid-cols-1 sm:grid-cols-2
+    gap-2;
+  }
+</style>
+
+<style is:global>
+  x-section.card:nth-of-type(1) {
+    @apply col-span-2;
+  }
+</style>
+
 <Layout>
-  <section class="flex flex-col">
+  <section>
     {
-      posts.map(({ slug, data }) => (
-        <a href={slug}>
-          <h3 class="inline-block pt-0 my-0">{data.title}</h3>
-        </a>
+      posts.map(({ slug, data: { id, title, cover, updated, created } }) => (
+        <Card
+          id={id}
+          link={`/${slug}`}
+          src={handleCover(cover, assets)}
+          alt={title}
+          title={title}
+          date={updated || created}
+        />
       ))
     }
   </section>

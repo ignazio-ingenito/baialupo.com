@@ -2,7 +2,7 @@
 id: 201
 title: Riorganizzazione TMA Milano
 category: sicurezza
-featured: 1
+featured: 0
 cover: /img/covers/enac.png
 created: 2015-09-01T08:00:00
 updated: 2015-09-01T08:00:00

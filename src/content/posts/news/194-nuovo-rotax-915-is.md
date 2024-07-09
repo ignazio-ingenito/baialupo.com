@@ -2,7 +2,7 @@
 id: 194
 title: Nuovo Rotax 135HP
 category: news
-featured: 1
+featured: 0
 cover: /img/stories/2015-rotax915is.jpg
 created: 2015-07-30T06:52:53
 updated: 2015-07-30T06:52:53

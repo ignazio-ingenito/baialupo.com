@@ -1,8 +1,5 @@
 ---
 import { Image } from "astro:assets"
-// Assets
-import sunrise from "../assets/sunrise.gif"
-import sunset from "../assets/sunset.gif"
 ---
 
 <style>
@@ -119,7 +116,7 @@ import sunset from "../assets/sunset.gif"
   <div>
     <div id="sunrise" class="font-bold text-xl"></div>
     <div class="flex">
-      <Image src={sunrise} alt="sunrise" class="w-5 h-5 mt-1" />
+      <img src="/sunrise.png" alt="sunrise" class="w-5 h-5 mt-1" />
       <div class="font-thin text-base">sunrise</div>
     </div>
   </div>
@@ -138,7 +135,7 @@ import sunset from "../assets/sunset.gif"
   <div>
     <div id="sunset" class="font-bold text-xl"></div>
     <div class="flex">
-      <Image src={sunset} alt="sunset" class="w-5 h-5 mt-1" />
+      <img src="/sunset.png" alt="sunset" class="w-5 h-5 mt-1" />
       <div class="font-thin text-base">sunset</div>
     </div>
   </div>

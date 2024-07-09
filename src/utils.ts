@@ -30,3 +30,11 @@ export async function getAlbumImages(id: string) {
         Object.values(images).map((image) => image().then((i) => i.default))
     )
 }
+
+export function handleCover(cover: string | undefined, assets: Record<string, () => Promise<{
+    default: ImageMetadata
+}>>) {
+    return (cover != null)
+        ? cover
+        : assets["/src/content/posts/no-cover.jpg"]()
+}

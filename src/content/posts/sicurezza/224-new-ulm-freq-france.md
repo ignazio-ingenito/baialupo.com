@@ -1,8 +1,8 @@
 ---
-id: 223
+id: 224
 title: Nuova frequenza per i campi ulm in Francia
 category: sicurezza
-featured: 1
+featured: 0
 cover: /img/covers/ffplum.png
 created: 2023-08-22T17:01:42
 updated: 2023-08-22T17:09:24

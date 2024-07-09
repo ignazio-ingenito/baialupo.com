@@ -2,7 +2,7 @@
 id: 94
 title: Situazione meteo in tempo reale
 category: baialupo
-featured: 1
+featured: 0
 cover: /img/stories/2010-11-centro-meteo-lombardo.png
 created: 2010-11-13T19:54:57
 updated: 2010-11-13T19:54:57

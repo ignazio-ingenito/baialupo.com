@@ -21,11 +21,14 @@ jobs:
 
       - name: Build
         run: npm run build
+
+      - name: Get ip
+        run: curl -s https://api.ipify.org
       
       - name: Upload to Aruba
-        uses: aruba/upload-to-aruba@v1.1.0
+        uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
-          host: ftp.baialupo.com
-          username: 733495@aruba.it 
-          password: admin
-          path: /www.baialupo.com/new
+          server: ftp.baialupo.com
+          username: ${{ secrets.ARUBA_FTP_USER }} 
+          password: ${{ secrets.ARUBA_FTP_PWD }}
+          local-dir: /www.baialupo.com/new

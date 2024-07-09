@@ -108,7 +108,7 @@ const { Content } = await post!.render()
         day: "2-digit",
       })
 
-      const _ = [...document.querySelectorAll(".selector > li > a")]
+      Array.from(document.querySelectorAll(".selector > li > a"))
         .slice(2, 7)
         .map((e) => {
           const offset = parseInt(e.getAttribute("data-offset-days") || "0")

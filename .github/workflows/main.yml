@@ -11,10 +11,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Use Node.js 20
+      - name: Use Node.js 21
         uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: 21.7.1
 
       - name: Install dependencies
         run: npm install

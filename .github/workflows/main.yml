@@ -15,20 +15,12 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Get ip
+        run: curl -s https://api.ipify.org
+
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Use Node.js 21
-        uses: actions/setup-node@v3
-        with:
-          node-version: 21.7.1
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Get ip
-        run: curl -s https://api.ipify.org
-      
       - name: Build
         uses: withastro/action@v2
 
@@ -39,4 +31,4 @@ jobs:
           username: ${{ secrets.ARUBA_FTP_USER }} 
           password: ${{ secrets.ARUBA_FTP_PWD }}
           local-dir: ./dist
-          server-dir: /www.baialupo.com/new
+          server-dir: /www.baialupo.com/new2

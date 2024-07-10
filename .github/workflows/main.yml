@@ -1,9 +1,16 @@
+name: Deploy to Aruba on push
+
 on:
   push:
     branches:
       - next
+  workflow_dispatch:
 
-name: Deploy to Aruba on push
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -23,7 +30,7 @@ jobs:
         run: curl -s https://api.ipify.org
       
       - name: Build
-        run: npm run build
+        uses: withastro/action@v2
 
       - name: Upload to Aruba
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5

@@ -2,7 +2,7 @@
 id: 62
 title: Transponder modo S - Come richiedere il codice a 24 bit per i mezzi VDS
 alias: xpdr-s-mode-vds
-category: sicurezza
+category: guide
 featured: 0
 cover: /img/stories/2009-11-garmin-stack.jpg
 created: 2009-11-17T10:16:57

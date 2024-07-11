@@ -15,5 +15,6 @@ export default defineConfig({
     }
   },
   site: 'https://www.baialupo.com',
-  trailingSlash: "never"
+  base: '/new',
+  trailingSlash: "ignore"
 });

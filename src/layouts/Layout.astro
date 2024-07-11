@@ -1,12 +1,12 @@
 ---
-import Back from "../components/Back.astro"
-import Head from "../components/Head.astro"
-import Navbar from "../components/Navbar.astro"
-import Banner from "../components/Banner.astro"
-import Meteo from "../components/Meteo.astro"
-import Footer from "../components/Footer.astro"
+import Back from "../components/Back.astro";
+import Head from "../components/Head.astro";
+import Navbar from "../components/Navbar.astro";
+import Banner from "../components/Banner.astro";
+import Meteo from "../components/Meteo.astro";
+import Footer from "../components/Footer.astro";
 
-const { aside = true, back = false } = Astro.props
+const { aside = true, back = false } = Astro.props;
 ---
 
 <style>
@@ -44,6 +44,7 @@ const { aside = true, back = false } = Astro.props
     flex
     flex-col
     pr-3
+    pb-[3rem] sm:pb-0
     overflow-y-auto;
   }
 </style>

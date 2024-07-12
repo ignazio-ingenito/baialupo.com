@@ -32,16 +32,16 @@
     <div class="swiper-wrapper">
       {
         [...Array(41).keys()].map((k: number) => {
-          const index: string = (k + 1).toString().padStart(2, "0")
+          const index: string = (k + 1).toString().padStart(2, "0");
           return (
             <div class="swiper-slide">
               <img
-                src={`/banner/headerimg.${index}.jpg`}
+                src={`${import.meta.env.BASE_URL}/banner/headerimg.${index}.jpg`}
                 alt={`banner ${index}`}
                 class="swiper-lazy"
               />
             </div>
-          )
+          );
         })
       }
     </div>
@@ -51,11 +51,11 @@
   </div>
 
   <script>
-    import "swiper/css"
-    import "swiper/css/navigation"
-    import "swiper/css/effect-fade"
-    import Swiper from "swiper"
-    import { Autoplay, EffectFade, Navigation } from "swiper/modules"
+    import "swiper/css";
+    import "swiper/css/navigation";
+    import "swiper/css/effect-fade";
+    import Swiper from "swiper";
+    import { Autoplay, EffectFade, Navigation } from "swiper/modules";
 
     document.addEventListener("DOMContentLoaded", function () {
       new Swiper(".swiper", {
@@ -70,7 +70,7 @@
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
         },
-      })
-    })
+      });
+    });
   </script>
 </div>

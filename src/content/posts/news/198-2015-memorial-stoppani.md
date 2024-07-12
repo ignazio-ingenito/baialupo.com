@@ -3,14 +3,14 @@ id: 198
 title: 13mo Memorial Mario Stoppani
 category: news
 featured: 0
-cover: /img/stories/2015-memorial-stoppani.jpg
+cover: /new/img/stories/2015-memorial-stoppani.jpg
 created: 2015-08-11T08:00:00
 updated: 2015-08-11T08:00:00
 created_by: Ignazio
 ---
 
 <div class="flex flex-col sm:flex-row">
-    <div class="flex-1"><img class="w-[300px]" src="/img/stories/2015-memorial-stoppani.jpg"/></div>
+    <div class="flex-1"><img class="w-[300px]" src="/new/img/stories/2015-memorial-stoppani.jpg"/></div>
     <div class="flex-1 pt-3">E' con molto piacere che riceviamo l'invito dell'amico Gianni Bonafini a partecipare al prossimo Memorial Stoppani che come ogni anno si terra' il 30 agosto presso il campo volo di Artogne che viene aperto solo per l'occasione.</div>
 </div>
 

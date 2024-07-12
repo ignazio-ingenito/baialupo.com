@@ -3,13 +3,13 @@ id: 109
 title: Come eravamo...
 category: news
 featured: 0
-cover: /img/stories/2011-come-eravamo-volantino.jpg
+cover: /new/img/stories/2011-come-eravamo-volantino.jpg
 created: 2011-09-01T12:00:00
 updated: 2011-09-01T12:00:00
 created_by: ignazio
 ---
 
-<img class="float-start mr-3 w-[300px]" src="/img/stories/2011-come-eravamo-volantino.jpg"/>
+<img class="float-start mr-3 w-[300px]" src="/new/img/stories/2011-come-eravamo-volantino.jpg"/>
 
 Cari amici,<br />
 vi segnaliamo che domenica 18 settembre presso il campo di volo "La Strozza" in provincia di Ferrara si terrà il secondo raduno nazionale delle macchine volanti "<em>di una volta</em>".

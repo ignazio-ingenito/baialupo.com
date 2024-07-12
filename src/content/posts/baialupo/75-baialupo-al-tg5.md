@@ -3,13 +3,13 @@ id: 75
 title: Baialupo al TG5
 category: baialupo
 featured: 0
-cover: /img/stories/2010-04-tg5.png
+cover: /new/img/stories/2010-04-tg5.png
 created: 2010-04-06T19:46:42
 updated: 2010-04-06T19:46:42
 created_by: Mariko
 ---
 
-<img src="/img/stories/2010-04-tg5.png" class="float-start mr-3 w-[250px] -translate-y-[85px]" />
+<img src="/new/img/stories/2010-04-tg5.png" class="float-start mr-3 w-[250px] -translate-y-[85px]" />
 Durante l'edizione serale del TG5 è andato in onda un servizio sugli ultraleggeri girato presso la nostra aviosuperficie.
 <br />
 <br />

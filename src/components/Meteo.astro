@@ -1,5 +1,5 @@
 ---
-import { Image } from "astro:assets"
+import { Image } from "astro:assets";
 ---
 
 <style>
@@ -116,7 +116,11 @@ import { Image } from "astro:assets"
   <div>
     <div id="sunrise" class="font-bold text-xl"></div>
     <div class="flex">
-      <img src="/sunrise.png" alt="sunrise" class="w-5 h-5 mt-1" />
+      <img
+        src={`${import.meta.env.BASE_URL}/sunrise.png`}
+        alt="sunrise"
+        class="w-5 h-5 mt-1"
+      />
       <div class="font-thin text-base">sunrise</div>
     </div>
   </div>
@@ -135,7 +139,11 @@ import { Image } from "astro:assets"
   <div>
     <div id="sunset" class="font-bold text-xl"></div>
     <div class="flex">
-      <img src="/sunset.png" alt="sunset" class="w-5 h-5 mt-1" />
+      <img
+        src={`${import.meta.env.BASE_URL}/sunset.png`}
+        alt="sunset"
+        class="w-5 h-5 mt-1"
+      />
       <div class="font-thin text-base">sunset</div>
     </div>
   </div>

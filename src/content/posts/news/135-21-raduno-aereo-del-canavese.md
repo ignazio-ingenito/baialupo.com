@@ -3,13 +3,13 @@ id: 135
 title: 21 Raduno Aereo del Canavese
 category: news
 featured: 0
-cover: /img/stories/2013-06-flying-club-barone-rosso.jpg
+cover: /new/img/stories/2013-06-flying-club-barone-rosso.jpg
 created: 2013-06-12T08:35:41
 updated: 2013-06-12T08:35:41
 created_by: ignazio
 ---
 
-<img class="float-start mr-3 w-[300px]" src="/img/stories/2013-06-flying-club-barone-rosso.jpg"/>
+<img class="float-start mr-3 w-[300px]" src="/new/img/stories/2013-06-flying-club-barone-rosso.jpg"/>
 
 <em>E con piacere che vi giriamo l'invito ricevuto dagli amici di Vische:</em>
 

@@ -3,7 +3,7 @@ id: 155
 title: Cambio di frequenza per Padova Info
 category: sicurezza
 featured: 0
-cover: /img/covers/enav.png
+cover: /new/img/covers/enav.png
 created: 2013-05-23T07:22:53
 updated: 2013-05-23T07:22:53
 created_by: ignazio
@@ -11,7 +11,7 @@ created_by: ignazio
 
 <div class="flex flex-col sm:flex-row">
     <div>
-        <img src="/img/covers/enav.png" class="max-w-[200px]"/>
+        <img src="/new/img/covers/enav.png" class="max-w-[200px]"/>
     </div>
     <div class="leading-6">
         Vi segnaliamo che con il seguente NOTAM e' stato segnalato il cambio di frequenza per PADOVA Informazioni, la vecchia frequenza 126.775 e stata cambiata in <strong class="text-lg">126.425</strong>

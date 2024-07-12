@@ -3,14 +3,14 @@ id: 200
 title: 43° Raduno F-CAP 2015
 category: news
 featured: 0
-cover: /img/stories/2015-raduno-fcap.png
+cover: /new/img/stories/2015-raduno-fcap.png
 created: 2015-08-31T10:23:33
 updated: 2015-08-31T10:28:59
 created_by: Ignazio
 ---
 
 <a href="/docs/2015-programma-raduno-fcap.pdf" target="_blank">
-    <img class="float-start mr-3" src="/img/stories/2015-raduno-fcap.png"/>
+    <img class="float-start mr-3" src="/new/img/stories/2015-raduno-fcap.png"/>
 </a>
 
 Cari Amiche e Amici,<br/>

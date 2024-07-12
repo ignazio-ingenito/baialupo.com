@@ -3,14 +3,14 @@ id: 172
 title: Riapertura ristorante "La Piramide" - Voghera
 category: news
 featured: 0
-cover: /img/stories/2013-riapertura-risto-voghera-s.jpg
+cover: /new/img/stories/2013-riapertura-risto-voghera-s.jpg
 created: 2014-01-08T07:51:25
 updated: 2014-01-08T08:01:32
 created_by: Ignazio
 ---
 
-<a href="/img/stories/2013-riapertura-risto-voghera.jpg">
-<img class="float-start mr-3 w-[300px]" src="/img/stories/2013-riapertura-risto-voghera-s.jpg"/>
+<a href="/new/img/stories/2013-riapertura-risto-voghera.jpg">
+<img class="float-start mr-3 w-[300px]" src="/new/img/stories/2013-riapertura-risto-voghera-s.jpg"/>
 </a>
 
 Vi segnaliamo che dal mese di Dicembre il ristorante "La Piramide", presso l'aeroporto di Rivanazzano - Voghera (PV) ha riaperto sotto la nuova gestione di Marco Biglieri.

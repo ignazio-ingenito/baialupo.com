@@ -3,13 +3,13 @@ id: 100
 title: Novità Tecnam a Friedrichshafen
 category: news
 featured: 0
-cover: /img/covers/tecnam.png
+cover: /new/img/covers/tecnam.png
 created: 2011-04-07T11:12:36
 updated: 2011-04-07T11:12:36
 created_by: ignazio
 ---
 
-<img alt="Tecnam" class="float-start mr-3 w-[300px]" src="/img/covers/tecnam.png"/>
+<img alt="Tecnam" class="float-start mr-3 w-[300px]" src="/new/img/covers/tecnam.png"/>
 
 La Tecnam Costruzioni Aeronautiche ha annunciato due gorsse novità per il Salone Aeronautico di Friedrichshafen.
 

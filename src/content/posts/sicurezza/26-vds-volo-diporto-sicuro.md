@@ -3,7 +3,7 @@ id: 83
 title: VDS - Volo Diporto Sicuro - 6a puntata
 category: sicurezza
 featured: 0
-cover: /img/covers/volo-diporto-sicuro.png
+cover: /new/img/covers/volo-diporto-sicuro.png
 created: 2010-05-14T23:00:00
 updated: 2010-05-14T23:00:00
 created_by: Mariko

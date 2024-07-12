@@ -3,14 +3,14 @@ id: 196
 title: Aeroparty a Caiolo
 category: news
 featured: 0
-cover: /img/stories/2015-aeroparty.jpg
+cover: /new/img/stories/2015-aeroparty.jpg
 created: 2015-07-30T06:49:32
 updated: 2015-07-30T06:59:06
 created_by: Ignazio
 ---
 
-<a href="/img/stories/2015-aeroparty.jpg" target="_blank">
-    <img class="float-start mr-3 w-[300px]" src="/img/stories/2015-aeroparty.jpg"/>
+<a href="/new/img/stories/2015-aeroparty.jpg" target="_blank">
+    <img class="float-start mr-3 w-[300px]" src="/new/img/stories/2015-aeroparty.jpg"/>
 </a>
 
 L’Aero Club Sondrio organizza il primo <strong>Aeroparty</strong>, una “mega festa” della durata di due giorni dove sarà possibile condividere tutti insieme la passione per il volo.

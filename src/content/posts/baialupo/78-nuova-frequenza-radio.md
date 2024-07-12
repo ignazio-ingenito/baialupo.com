@@ -3,13 +3,13 @@ id: 78
 title: Nuova frequenza radio
 category: baialupo
 featured: 0
-cover: /img/covers/baia.png
+cover: /new/img/covers/baia.png
 created: 2010-05-15T07:25:08
 updated: 2010-05-15T07:25:08
 created_by: Alberto
 ---
 
-<img  src="/img/covers/baia.png" class="float-start mr-3 w-[300px]" />
+<img  src="/new/img/covers/baia.png" class="float-start mr-3 w-[300px]" />
 Abbiamo finalmente ricevuto dal Ministero dello Sviluppo Economico la lettera di assegnazione della nuova frequenza radio per la nostra aviosupericie.
 <br/>
 <br/>

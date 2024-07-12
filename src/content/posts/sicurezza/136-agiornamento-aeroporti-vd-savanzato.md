@@ -3,7 +3,7 @@ id: 136
 title: Aggiornamento elenco aeroporti aperti al VDS Avanzato
 category: sicurezza
 featured: 0
-cover: /img/covers/enac.png
+cover: /new/img/covers/enac.png
 created: 2012-10-04T10:17:13
 updated: 2012-10-04T10:17:13
 created_by: ignazio
@@ -14,7 +14,7 @@ E' stato pubblicato in AIP (AD 1.3) l'elenco aggiornato degli aeroporti che potr
 Tre le novita' ci sono aeroporti come: Grosseto, Roma Urbe, Oristano e Sarzana.
 
 <h3>Elenco aeroporti certificati aperti al traffico VDS Avanzato</h3>
-<img src="/img/stories/runway.jpg" class="float-start pr-1 w-[250px]"/>
+<img src="/new/img/stories/runway.jpg" class="float-start pr-1 w-[250px]"/>
 <div class="grid grid-cols-2">
     <div>ALBENGA (LIMG)</div>
     <div>PANTELLERIA (LICG)*</div>

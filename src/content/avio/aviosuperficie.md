@@ -7,7 +7,7 @@ updated: 2019-01-01T12:30:00+01:00
 created_by: Alberto
 ---
 
-[![image](/img/avio/baia-pattern.jpg)](/img/avio/baia-pattern.jpg)
+[![image](/new/img/avio/baia-pattern.jpg)](/new/img/avio/baia-pattern.jpg)
 
 |                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -26,13 +26,13 @@ created_by: Alberto
 
 ### Carte aviosuperficie
 
-- [![img](/img/avio/baia-19-1.png)](/pdf/avio/baia-19-1.pdf)
-- [![img](/img/avio/baia-19-2.png)](/pdf/avio/baia-19-2.pdf)
+- [![img](/new/img/avio/baia-19-1.png)](/pdf/avio/baia-19-1.pdf)
+- [![img](/new/img/avio/baia-19-2.png)](/pdf/avio/baia-19-2.pdf)
 
 ### Pista 11
 
-[![image](/img/avio/runway-11.jpg)](/img/avio/runway-11.jpg)
+[![image](/new/img/avio/runway-11.jpg)](/new/img/avio/runway-11.jpg)
 
 ### Nuova frequenza 8.33 - 129.180Mhz
 
-[![image](/img/avio/baia-radio-833.png)](/img/avio/baia-radio-833.png)
+[![image](/new/img/avio/baia-radio-833.png)](/new/img/avio/baia-radio-833.png)

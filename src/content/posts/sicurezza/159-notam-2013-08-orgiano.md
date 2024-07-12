@@ -3,13 +3,13 @@ id: 159
 title: Notam Orgiano (VI) - 19/29 Agosto
 category: sicurezza
 featured: 0
-cover: /img/covers/aeci.png
+cover: /new/img/covers/aeci.png
 created: 2013-08-15T06:31:24
 updated: 2013-08-15T06:31:24
 created_by: Ignazio
 ---
 
-<img src="/img/stories/aeci-logo.jpg" class="float-start mr-3 mb-14 w-[250px]"/>
+<img src="/new/img/stories/aeci-logo.jpg" class="float-start mr-3 mb-14 w-[250px]"/>
 
 Il Prefetto della provincia di Vicenza ha disposto, nei giorni dal 19 al 29 agosto 2013 dalle ore 11.00 alle ore 16.00, il divieto di sorvolo dell’area di 500 metri di raggio dal punto identificato con le coordinate
 

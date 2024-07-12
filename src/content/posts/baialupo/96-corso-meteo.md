@@ -3,7 +3,7 @@ id: 96
 title: Corso Meteo - Nuova data
 category: baialupo
 featured: 0
-cover: /img/covers/ufficio-meteo.png
+cover: /new/img/covers/ufficio-meteo.png
 created: 2009-10-10 09:00:00
 updated: 2009-10-10 09:00:00
 created_by: ignazio
@@ -11,7 +11,7 @@ created_by: ignazio
 
 **Attenzione ! - Vista l'allerta neve del week-end il corso e' stato rimandato ai giorni 15 e 16 Gennaio.**
 
- <img src="/img/covers/ufficio-meteo.png" class="float-start mr-3 w-[300px]"/>
+ <img src="/new/img/covers/ufficio-meteo.png" class="float-start mr-3 w-[300px]"/>
 
 Ciao a tutti,
 vi segnaliamo che **sabato 27 e domenica 28** presso il campo si terrà un corso di approfondimento di meteorologia.

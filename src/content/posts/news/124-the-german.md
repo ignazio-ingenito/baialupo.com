@@ -3,7 +3,7 @@ id: 124
 title: The German
 category: news
 featured: 0
-cover: /img/stories/2012-02-the-german.png
+cover: /new/img/stories/2012-02-the-german.png
 created: 2013-06-12T08:35:41
 updated: 2013-06-12T08:35:41
 created_by: ignazio

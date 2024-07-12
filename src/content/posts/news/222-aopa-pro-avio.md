@@ -3,13 +3,13 @@ id: 222
 title: Campagna AOPA pro Aviosuperfici
 category: news
 featured: 0
-cover: /img/covers/aopa.png
+cover: /new/img/covers/aopa.png
 created: 2023-01-10T07:56:10
 updated: 2023-01-10T09:18:36
 created_by: ignazio
 ---
 
-<img class="float-start mr-3 max-w-[300px]" src="/img/stories/2023-01-aopa-pro-aviosuperfici.jpg"/>
+<img class="float-start mr-3 max-w-[300px]" src="/new/img/stories/2023-01-aopa-pro-aviosuperfici.jpg"/>
 
 Come tutti saprete abbiamo aderito alla campagna AOPA contro l'entrata in vigore del nuovo regolamento nazione per avio ed eli superfici.
 

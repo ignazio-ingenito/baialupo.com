@@ -3,13 +3,13 @@ id: 125
 title: Nuovo Rotax 912 a iniezione
 category: news
 featured: 0
-cover: /img/covers/rotax.png
+cover: /new/img/covers/rotax.png
 created: 2013-06-12T08:35:41
 updated: 2013-06-12T08:35:41
 created_by: ignazio
 ---
 
- <img alt="Rotax 912is" class="float-start mr-3 -mt-20 w-[300px]" src="/img/covers/rotax.png"/>
+ <img alt="Rotax 912is" class="float-start mr-3 -mt-20 w-[300px]" src="/new/img/covers/rotax.png"/>
 
 E' stato finalmete presentato il motore di cui si parlava ormai da anni, ovvero il nuovo 100 cavalli ad iniezione elettronica.
 

@@ -3,14 +3,14 @@ id: 187
 title: Pranzo a Baia
 category: baialupo
 featured: 0
-cover: /img/stories/2014-11-pranzo.jpg
+cover: /new/img/stories/2014-11-pranzo.jpg
 created: 2015-01-28T14:36:20
 updated: 2015-01-28T14:36:20
 created_by: Ignazio
 ---
 
 <a href="gallery/category/44-2014-11-pranzo">
-    <img class="float-start mr-3 w-[300px]" src="/img/stories/2014-11-pranzo.jpg"/>
+    <img class="float-start mr-3 w-[300px]" src="/new/img/stories/2014-11-pranzo.jpg"/>
 </a>
 
 Ciao a tutti,<br/>

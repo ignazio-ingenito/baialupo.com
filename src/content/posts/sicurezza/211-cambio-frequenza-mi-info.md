@@ -3,7 +3,7 @@ id: 211
 title: Cambio frequenza Mi Info
 category: sicurezza
 featured: 0
-cover: /img/covers/enav.png
+cover: /new/img/covers/enav.png
 created: 2016-05-18T17:12:58
 updated: 2016-05-18T17:12:58
 created_by: ignazio

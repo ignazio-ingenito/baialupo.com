@@ -3,13 +3,13 @@ id: 170
 title: Certificato di radiotelefonia
 category: sicurezza
 featured: 0
-cover: /img/covers/aeci.png
+cover: /new/img/covers/aeci.png
 created: 2014-01-04T08:00:00
 updated: 2014-01-04T08:00:00
 created_by: Mariko
 ---
 
- <img class="float-start mr-3 h-[400px]" src="/img/stories/2014-01-headphone.png"/>
+ <img class="float-start mr-3 h-[400px]" src="/new/img/stories/2014-01-headphone.png"/>
 
 Riceviamo e pubblichiamo il testo della comunicazione pervenuta da AeCI:
 

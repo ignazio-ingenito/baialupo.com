@@ -3,14 +3,14 @@ id: 203
 title: Esami VDS - 2015
 category: baialupo
 featured: 0
-cover: /img/stories/2015-09-15-esami-vds.jpg
+cover: /new/img/stories/2015-09-15-esami-vds.jpg
 created: 2015-09-15T09:52:28
 updated: 2015-09-15T10:15:14
 created_by: Ignazio
 ---
 
-<a href="/img/category/45-2015-esami-vds" target="_blank">
-<img class="float-start mr-3 max-w-[300px]" src="/img/stories/2015-09-15-esami-vds.jpg"/>
+<a href="/new/img/category/45-2015-esami-vds" target="_blank">
+<img class="float-start mr-3 max-w-[300px]" src="/new/img/stories/2015-09-15-esami-vds.jpg"/>
 </a>
 
 Cari amici,<br/>

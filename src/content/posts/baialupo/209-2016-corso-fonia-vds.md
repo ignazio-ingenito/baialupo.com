@@ -3,7 +3,7 @@ id: 209
 title: Corso fonia aeronautica
 category: baialupo
 featured: 0
-cover: /img/covers/flying.png
+cover: /new/img/covers/flying.png
 created: 2016-04-06T06:00:00
 updated: 2016-04-06T08:24:49
 created_by: ignazio
@@ -27,7 +27,7 @@ created_by: ignazio
     }
 </style>
 
-<img class="h-[300px] w-[160px] object-cover float-start mr-3" src="/img/stories/2011-10-headset.png"/>
+<img class="h-[300px] w-[160px] object-cover float-start mr-3" src="/new/img/stories/2011-10-headset.png"/>
 
 <div class="grid grid-cols-3 my-4">
     <div>Aprile</div>

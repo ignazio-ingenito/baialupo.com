@@ -3,13 +3,13 @@ id: 69
 title: Bollettino obbligatorio per Evektor Eurostar
 category: sicurezza
 featured: 0
-cover: /img/covers/evektor.png
+cover: /new/img/covers/evektor.png
 created: 2009-12-15T09:12:26
 updated: 2009-12-15T09:12:26
 created_by: ignazio
 ---
 
-<img class="float-start mr-2" src="/img/stories/evektor-ev97.jpg" width="250"/>
+<img class="float-start mr-2" src="/new/img/stories/evektor-ev97.jpg" width="250"/>
 
 A seguito del rapporto emanato dall'Ufficio d'inchiesta sugli incidenti aeronautici della Confederazione elvetica, relativo ad un incidente occorso al velivolo Eurostar EV-97 nel 2006, la Evektor ha emesso un **bollettino obbligatorio** per tutti i velivoli prodotti fino al 1-dic-2009 con esclusione del solo modello SLW.
 

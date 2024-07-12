@@ -3,13 +3,13 @@ id: 177
 title: Orsera Fly-Inn
 category: news
 featured: 0
-cover: /img/stories/2014-vrsar-flyin.jpg
+cover: /new/img/stories/2014-vrsar-flyin.jpg
 created: 2014-05-22T14:28:32
 updated: 2014-05-22T14:28:32
 created_by: Ignazio
 ---
 
-<img class="float-start mr-3 w-[300px]" src="/img/stories/2014-vrsar-flyin.jpg"/>
+<img class="float-start mr-3 w-[300px]" src="/new/img/stories/2014-vrsar-flyin.jpg"/>
 
 Anche quest'anno abbiamo ricevuto l'invito dei nostri amici dell'aeroporto di Orsera (LDPV) per il loro annuale Fly-In che si terrà dal 16 al 18 maggio.
 

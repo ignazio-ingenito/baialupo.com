@@ -10,7 +10,7 @@ created_by: ignazio
 ---
 
 Ciao a tutti,<br/>
-domenica mattina grazie all'aiuto di alcuni soci sono state apposta in testata pista le segnalazioni per l'indicazione del QFU in entrambe le direzioni dela nostra pista.
+domenica mattina grazie all'aiuto di alcuni soci sono state apposte in testata pista le segnalazioni per l'indicazione del QFU in entrambe le direzioni dela nostra pista.
 
 <div class="flex">
   <div class="w-full columns-1 sm:columns-2">

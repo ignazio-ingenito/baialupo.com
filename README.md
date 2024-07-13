@@ -77,3 +77,13 @@ This theme is based off of the lovely [Bear Blog](https://github.com/HermanMarti
 - Get Short TAF from https://tgftp.nws.noaa.gov/data/forecasts/shorttaf/stations/LIML.TXT
 - Get Metar from https://tgftp.nws.noaa.gov/data/observations/metar/stations/LIML.TXT
 - Get Decoded Metar from https://tgftp.nws.noaa.gov/data/observations/metar/decoded/LIML.TXT
+
+### Synching via ftp
+
+lftp ftp.baialupo.com
+login 733495@aruba.it
+hTu2q6z0W32!
+
+lftp ftp.baialupo.com
+login 733495@aruba.it
+hTu2q6z0W32!

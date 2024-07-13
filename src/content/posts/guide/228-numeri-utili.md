@@ -1,12 +1,12 @@
 ---
 id: 228
-title: Numeri utili
+title: Numeri utili ARO
 alias: numeri-utili
 category: guide
 featured: 0
 cover: /new/img/stories/2024-07-numeri-utili.jpg
-created: 2024-07-12T23:59:59
-updated: 2024-07-12T23:59:59
+created: 2024-07-13T00:00:00
+updated: 2024-07-13T00:00:00
 created_by: ignazio
 ---
 

@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/covers/aopa.png
 created: 2009-10-20T12:00:00
 updated: 2009-10-20T12:00:00
-created_by: ignazio
+created_by: Ignazio
 ---
 
 <a href="http://www.aopa.it" target="_blank">

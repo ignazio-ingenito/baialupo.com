@@ -1,20 +1,20 @@
 ---
 // Contents
-import { getCollection } from "astro:content";
+import { getCollection } from "astro:content"
 // Components
-import Card from "../components/Card.astro";
-import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro"
+import Layout from "../layouts/Layout.astro"
 // Utils
-import { handleCover } from "../utils";
+import { handleCover } from "../utils"
 
 const assets = import.meta.glob<{ default: ImageMetadata }>(
   "/src/content/posts/*.{jpg,jpeg,png}"
-);
+)
 
-const posts = (await getCollection("posts", ({ data }) => data.featured == 0))
+const posts = (await getCollection("posts"))
   .sort((a, b) => a.data.updated.valueOf() - b.data.updated.valueOf())
   .reverse()
-  .slice(0, 31);
+  .slice(0, 31)
 ---
 
 <style>
@@ -34,16 +34,19 @@ const posts = (await getCollection("posts", ({ data }) => data.featured == 0))
 <Layout>
   <section>
     {
-      posts.map(({ slug, data: { id, title, cover, updated, created } }) => (
-        <Card
-          id={id}
-          link={`${import.meta.env.BASE_URL}/${slug}`}
-          src={handleCover(cover, assets)}
-          alt={title}
-          title={title}
-          date={updated || created}
-        />
-      ))
+      posts.map(
+        ({ slug, data: { id, title, cover, featured, updated, created } }) => (
+          <Card
+            id={id}
+            link={`${import.meta.env.BASE_URL}/${slug}`}
+            src={handleCover(cover, assets)}
+            alt={title}
+            title={title}
+            date={updated || created}
+            featured={featured}
+          />
+        )
+      )
     }
   </section>
 </Layout>

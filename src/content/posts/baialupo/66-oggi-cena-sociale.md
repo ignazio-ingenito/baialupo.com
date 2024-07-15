@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/stories/2009-11-cena.jpg
 created: 2009-11-27T11:57:31
 updated: 2009-11-27T11:57:31
-created_by: ignazio
+created_by: Ignazio
 ---
 
 <a href="/gallery/2009-11-cena-baia" target="_blank">

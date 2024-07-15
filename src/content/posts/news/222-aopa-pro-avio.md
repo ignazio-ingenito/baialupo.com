@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/covers/aopa.png
 created: 2023-01-10T07:56:10
 updated: 2023-01-10T09:18:36
-created_by: ignazio
+created_by: Ignazio
 ---
 
 <img class="float-start mr-3 max-w-[300px]" src="/new/img/stories/2023-01-aopa-pro-aviosuperfici.jpg"/>

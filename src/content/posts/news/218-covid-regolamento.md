@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/covers/baia.png
 created: 2020-05-04T08:00:00
 updated: 2020-05-04T08:00:00
-created_by: ignazio
+created_by: Ignazio
 ---
 
 Da **martedi 5 Maggio** l’Aviosuperficie Baialupo riapre con le seguenti norme di **emergenza Covid19**

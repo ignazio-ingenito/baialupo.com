@@ -5,7 +5,7 @@ category: sicurezza
 featured: 0
 created: 2011-09-28T12:30:15
 updated: 2011-09-28T12:30:15
-created_by: ignazio
+created_by: Ignazio
 ---
 
 Segnaliamo a tutti i soci che Sabato 1 e Domenica 2 Ottobre si terra' la seconda edizione della "Festa del paramotore" presso il campo volo di Trezzo sull'Adda.

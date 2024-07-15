@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/covers/enav.png
 created: 2011-06-06T19:18:12
 updated: 2011-06-06T19:18:12
-created_by: ignazio
+created_by: Ignazio
 ---
 
 <img src="/new/img/stories/2011-06-liml-ctr.png" class="float-left" title="CTR Linate"/>

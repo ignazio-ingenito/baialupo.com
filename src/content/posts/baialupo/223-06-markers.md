@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/stories/2023-06-markers-4.jpg
 created: 2023-06-11T23:59:59
 updated: 2023-06-11T23:59:59
-created_by: ignazio
+created_by: Ignazio
 ---
 
 Ciao a tutti,<br/>

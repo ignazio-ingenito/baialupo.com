@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/stories/2012-06-lemerlinevolo.jpg
 created: 2012-06-12T08:35:41
 updated: 2012-06-12T08:35:41
-created_by: ignazio
+created_by: Ignazio
 ---
 
 <a href="/docs/2012-06-lemerlinevolo.2012.pdf"><img class="float-start mr-3 w-[300px]" src="/new/img/stories/2012-06-lemerlinevolo.jpg"/></a>

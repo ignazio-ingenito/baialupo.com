@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/covers/enac.png
 created: 2012-10-04T10:17:13
 updated: 2012-10-04T10:17:13
-created_by: ignazio
+created_by: Ignazio
 ---
 
 E' stato pubblicato in AIP (AD 1.3) l'elenco aggiornato degli aeroporti che potranno essere impiegati dai piloti avanzati ai comandi di apparecchi VDS anchessi avanzati.

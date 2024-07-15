@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/stories/2011-03-aquino.jpg
 created: 2011-03-07T11:01:56
 updated: 2011-03-07T11:01:56
-created_by: ignazio
+created_by: Ignazio
 ---
 
 <img class="float-start mr-3 w-[300px]" src="/new/img/stories/2011-03-aquino.jpg"/>

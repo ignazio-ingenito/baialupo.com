@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/covers/ami.png
 created: 2013-05-10T07:01:37
 updated: 2013-05-10T07:01:37
-created_by: ignazio
+created_by: Ignazio
 ---
 
 <img src="/new/img/stories/2013-05-am-50mo.png" class="float-start mr-3 max-w-[300px]"/>

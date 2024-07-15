@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/covers/ffplum.png
 created: 2023-08-22T17:01:42
 updated: 2023-08-22T17:09:24
-created_by: ignazio
+created_by: Ignazio
 ---
 
 La Federazione Francese d'ULM ha pubblicato la notizia che la frequenza **125.335Mhz** e stata dedicata ai campi ulm.

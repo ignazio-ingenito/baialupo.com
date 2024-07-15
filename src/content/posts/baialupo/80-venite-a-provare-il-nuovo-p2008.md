@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/stories/2010-07-p2008.jpg
 created: 2010-07-02T07:45:33
 updated: 2010-07-02T07:45:33
-created_by: ignazio
+created_by: Ignazio
 ---
 
 <img  src="/new/img/stories/2010-07-p2008.jpg" class="float-start mr-3 w-[300px]"/>

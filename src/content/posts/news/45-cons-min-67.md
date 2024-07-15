@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/stories/2009-10-governo.png
 created: 2009-10-01T08:30:00
 updated: 2009-10-01T08:30:00
-created_by: ignazio
+created_by: Ignazio
 ---
 
 <img class="float-start mr-3 w-[250px]" src="/new/img/stories/2009-10-governo.png"/>

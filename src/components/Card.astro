@@ -1,6 +1,6 @@
 ---
-import { Image } from "astro:assets";
-import { formatDate } from "../utils";
+import { Image } from "astro:assets"
+import { formatDate } from "../utils"
 
 const {
   link,
@@ -8,20 +8,34 @@ const {
   alt,
   title,
   date,
+  featured = false,
   quality = 100,
-  loading = "eager",
-} = Astro.props;
+  loading = "eager"
+} = Astro.props
 ---
 
 <style>
   .card {
-    @apply p-2
+    @apply relative
+    p-2
     bg-neutral-100
     rounded
     shadow hover:shadow-lg
     transition-all
-    ease-in-out 
+    ease-in-out
     duration-300;
+  }
+
+  .card.featured::before {
+    content: "new";
+    @apply absolute
+     bottom-0 right-0
+     text-sm text-right font-semibold
+     w-[3rem]
+     pr-[0.45rem]
+     rounded-tl-full
+     bg-orange-500 text-orange-50
+     duration-100;
   }
 
   .card img {
@@ -53,7 +67,7 @@ const {
   }
 </style>
 
-<section class="card">
+<section class={`card ${featured ? "featured" : ""}`}>
   <a href={link}>
     {
       typeof src === "string" ? (

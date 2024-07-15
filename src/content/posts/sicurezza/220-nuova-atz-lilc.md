@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/covers/enac.png
 created: 2023-05-07T15:20:42
 updated: 2023-05-07T15:20:42
-created_by: ignazio
+created_by: Ignazio
 ---
 
 <img alt="Nuova ATZ LILC - Calcinate del Pesce" class="float-start mr-3 w-[300px]" src="/new/img/stories/2021-220-nuova-atz-lilc.png" title="Nuova ATZ LILC - Calcinate del Pesce"/>

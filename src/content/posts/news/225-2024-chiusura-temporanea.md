@@ -7,7 +7,7 @@ featured: 0
 cover: /new/img/stories/2024-08-baia-runway-out.jpg
 created: 2024-06-08T09:38:15
 updated: 2024-06-08T09:38:15
-created_by: ignazio
+created_by: Ignazio
 ---
 
 ### Si comunica che Sabato 08/06/2024 l'aviosuperficie sarà chiusa.

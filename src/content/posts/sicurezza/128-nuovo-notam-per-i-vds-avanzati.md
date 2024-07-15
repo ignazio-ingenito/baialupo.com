@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/covers/enac.png
 created: 2012-05-03T23:00:00
 updated: 2012-05-03T23:00:00
-created_by: ignazio
+created_by: Ignazio
 ---
 
 Da oggi e' stato emanato il seguente notam che in breve rimuove l'obbligo del susffisso UL per identificare i VDS Avanzati.
@@ -14,13 +14,13 @@ Da oggi e' stato emanato il seguente notam che in breve rimuove l'obbligo del su
 LIIA-C0434/12A02
 
 <div class="grid grid-cols-[auto,1fr] gap-y-2 text-sm">
-    <div class="mr-3">A )</div> 
+    <div class="mr-3">A )</div>
     <div>LIBB LIMM LIRR</div>
-    <div class="mr-3">B )</div> 
+    <div class="mr-3">B )</div>
     <div>2012 May 04 09:46</div>
-    <div class="mr-3">C )</div> 
+    <div class="mr-3">C )</div>
     <div>2012 Aug 01 23:59 EST</div>
-    <div class="mr-3">D )</div> 
+    <div class="mr-3">D )</div>
     <div>TESTO ITALIANO:</div>
     <div class="pl-3">1.</div>
     <div class="pl-2">L'ATTIVITA' DI VOLO DA DIPORTO SPORTIVO DEVE ESSERE CONDOTTA IN ACCORDO AL 'DPR 133/2010'. IN PARTICOLARE I VOLI DA DIPORTO SPORTIVO POSSONO ESSERE CONDOTTI SOLO DI GIORNO IN ACCORDO ALLE REGOLE DI VOLO A VISTA.</div>
@@ -36,5 +36,5 @@ LIIA-C0434/12A02
         - NEL CAMPO 18 COME APPROPRIATO LA DICITURA 'RMK/ULAC ADVANCED' OR 'RMK/ GYRO ADVANCED' OR 'RMK/ UHEL ADVANCED'<br>
     </div>
     <div class="pl-3">4.</div>
-    <div class="pl-2">COLORO CHE INTENDONO EFFETTUARE VOLO DA DIPORTO SPORTIVO SUL TERRITORIO ITALIANO DEVONO PREVENTIVAMENTE PRENDERE VISIONE DEL 'DPR 133/2010', DI TUTTE LE INFORMAZIONI NECESSARIE E DELLE LIMITAZIONI APPLICABILI PER LA CORRETTA ESECUZIONE DEI VOLI CHE POSSONO ESSERE ACQUISITE ANCHE SUL SITO WWW.AECI.IT</div> 
+    <div class="pl-2">COLORO CHE INTENDONO EFFETTUARE VOLO DA DIPORTO SPORTIVO SUL TERRITORIO ITALIANO DEVONO PREVENTIVAMENTE PRENDERE VISIONE DEL 'DPR 133/2010', DI TUTTE LE INFORMAZIONI NECESSARIE E DELLE LIMITAZIONI APPLICABILI PER LA CORRETTA ESECUZIONE DEI VOLI CHE POSSONO ESSERE ACQUISITE ANCHE SUL SITO WWW.AECI.IT</div>
 </div>

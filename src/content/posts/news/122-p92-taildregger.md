@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/stories/2012-01-tecnam-p92-taildragger.jpg
 created: 2012-01-05T08:00:00
 updated: 2012-01-05T08:00:00
-created_by: ignazio
+created_by: Ignazio
 ---
 
 <img class="float-start mr-3 w-[300px]" src="/new/img/stories/2012-01-tecnam-p92-taildragger.jpg"/>

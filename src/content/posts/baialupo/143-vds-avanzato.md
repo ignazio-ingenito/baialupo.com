@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/stories/runway.jpg
 created: 2013-02-07T12:30:00
 updated: 2013-02-07T12:30:00
-created_by: ignazio
+created_by: Ignazio
 ---
 
 <img src="/new/img/stories/runway.jpg" class="float-start mr-3 h-[290px] w-[180px] object-cover"/>

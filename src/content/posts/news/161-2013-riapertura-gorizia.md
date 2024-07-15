@@ -35,7 +35,7 @@ come sarà precisato nel Notam che verrà emesso questa mattina.
     <div class=" col-span-2">09-27</div>
     <div class=" bg-orange-50">Note</div>
     <div class=" col-span-2">L'uso della pista è limitato provvisoriamente agli ultimi 600m della 09 e primi 600m della 27</div>
-    <div class=" bg-orange-50">Regole da osservare</div>    
+    <div class=" bg-orange-50">Regole da osservare</div>
     <div class=" col-span-2">Per il momento atterraggi sulla 09, decolli sulla 27</div>
     <div class=" bg-orange-50">Presidente</div>
     <div class="">Com.te Fulvio Chianese</div>

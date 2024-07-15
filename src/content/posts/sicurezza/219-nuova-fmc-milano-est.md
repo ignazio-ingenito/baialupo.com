@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/covers/enac.png
 created: 2023-01-10T09:16:01
 updated: 2023-01-10T09:16:01
-created_by: ignazio
+created_by: Ignazio
 ---
 
 <a href="/new/img/stories/2012-fmc-milano-est.png">

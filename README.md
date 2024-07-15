@@ -78,12 +78,6 @@ This theme is based off of the lovely [Bear Blog](https://github.com/HermanMarti
 - Get Metar from https://tgftp.nws.noaa.gov/data/observations/metar/stations/LIML.TXT
 - Get Decoded Metar from https://tgftp.nws.noaa.gov/data/observations/metar/decoded/LIML.TXT
 
-### Synching via ftp
+### Memory Issue
 
-lftp ftp.baialupo.com
-login 733495@aruba.it
-hTu2q6z0W32!
-
-lftp ftp.baialupo.com
-login 733495@aruba.it
-hTu2q6z0W32!
+export NODE_OPTIONS=--max_old_space_size=4096

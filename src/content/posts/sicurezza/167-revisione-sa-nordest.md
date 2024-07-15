@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/covers/enac.png
 created: 2013-11-29T08:00:00
 updated: 2013-11-29T08:00:00
-created_by: Ignazlo
+created_by: Ignazio
 ---
 
 <a href="/new/img/stories/2013-revisione-sa-ne-newwrkdays-full.jpg" target="_blank">

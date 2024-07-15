@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/covers/enav.png
 created: 2016-05-18T17:12:58
 updated: 2016-05-18T17:12:58
-created_by: ignazio
+created_by: Ignazio
 ---
 
 Attenzione, vi segnalo il presente notam: LIIA-A3167/16

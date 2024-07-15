@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/stories/2010-09-rally-prosciutto.png
 created: 2010-09-27T15:20:47
 updated: 2010-09-27T15:20:47
-created_by: ignazio
+created_by: Ignazio
 ---
 
 <img class="float-start mr-3 w-[300px]" src="/new/img/stories/2010-09-rally-prosciutto.png"/>

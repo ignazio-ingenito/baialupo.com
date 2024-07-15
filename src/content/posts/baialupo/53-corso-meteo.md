@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/covers/ufficio-meteo.png
 created: 2009-10-10 09:00:00
 updated: 2009-10-10 09:00:00
-created_by: ignazio
+created_by: Ignazio
 ---
 
 <img  src="/new/img/covers/ufficio-meteo.png" class="float-start mr-3 mb-3 w-[180px]"/>

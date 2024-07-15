@@ -7,7 +7,7 @@ featured: 0
 cover: /new/img/stories/2024-07-numeri-utili.jpg
 created: 2024-07-13T00:00:00
 updated: 2024-07-13T00:00:00
-created_by: ignazio
+created_by: Ignazio
 ---
 
 <style>

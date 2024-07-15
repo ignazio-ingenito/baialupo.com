@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/covers/enav.png
 created: 2013-05-23T07:22:53
 updated: 2013-05-23T07:22:53
-created_by: ignazio
+created_by: Ignazio
 ---
 
 <div class="flex flex-col sm:flex-row">

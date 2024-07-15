@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/covers/evektor.png
 created: 2009-12-15T09:12:26
 updated: 2009-12-15T09:12:26
-created_by: ignazio
+created_by: Ignazio
 ---
 
 <img class="float-start mr-2" src="/new/img/stories/evektor-ev97.jpg" width="250"/>

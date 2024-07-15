@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/stories/2013-04-ali-di-classe.gif
 created: 2013-04-28T08:00:00
 updated: 2013-04-28T08:00:00
-created_by: ignazio
+created_by: Ignazio
 ---
 
 <img class="float-start mr-3 mb-4 w-[300px]" src="/new/img/stories/2013-04-ali-di-classe.gif"/>

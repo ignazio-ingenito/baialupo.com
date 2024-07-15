@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/covers/flying.png
 created: 2011-10-24T09:30:00
 updated: 2011-10-24T09:30:00
-created_by: ignazio
+created_by: Ignazio
 ---
 
 <img class="h-[300px] w-[160px] object-cover float-start mr-3" src="/new/img/stories/2011-10-headset.png"/>Segnaliamo a tutti gli iscritti il calendario del corso di Fonia Aeronautica:

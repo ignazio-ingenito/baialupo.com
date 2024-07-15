@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/stories/2011-03-mcr-twinr.jpg
 created: 2011-03-08T10:11:21
 updated: 2011-03-08T10:11:21
-created_by: ignazio
+created_by: Ignazio
 ---
 
 <img alt="MCR TwinR" class="float-start mr-3 w-[300px]" src="/new/img/stories/2011-03-mcr-twinr.jpg" title="Primo volo per il TwinR"/>

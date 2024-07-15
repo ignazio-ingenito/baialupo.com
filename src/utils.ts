@@ -1,12 +1,11 @@
-
 export function formatDate(
-    date: Date, locales: Intl.LocalesArgument = "it-IT",
+    date: Date | string, locales: Intl.LocalesArgument = "it-IT",
     options: Intl.DateTimeFormatOptions = {
         year: "numeric",
         month: "long",
         day: "numeric",
     }) {
-    return date.toLocaleDateString(locales, options)
+    return (typeof date == "string" ? new Date(date) : date).toLocaleDateString(locales, options)
 }
 
 export function randomBetween(min: number, max: number) {
@@ -37,4 +36,8 @@ export function handleCover(cover: string | undefined, assets: Record<string, ()
     return (cover != null)
         ? cover
         : assets["/src/content/posts/no-cover.jpg"]()
+}
+
+export function urlFor() {
+
 }

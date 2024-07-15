@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/stories/2009-campovolo-isonzo.jpg
 created: 2009-12-14T12:05:57
 updated: 2009-12-14T12:05:57
-created_by: ignazio
+created_by: Ignazio
 ---
 
 <img  src="/new/img/stories/2009-campovolo-isonzo.jpg" class="float-start mr-3 w-[300px]"/>

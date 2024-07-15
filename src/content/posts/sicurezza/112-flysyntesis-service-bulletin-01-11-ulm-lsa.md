@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/covers/flysynthesis.png
 created: 2011-09-13T12:21:14
 updated: 2011-09-13T12:21:14
-created_by: ignazio
+created_by: Ignazio
 ---
 
 <img class="float-start pr-4 pb-4 w-[250px]" src="/new/img/stories/2011-09-flysynthesis.png" />

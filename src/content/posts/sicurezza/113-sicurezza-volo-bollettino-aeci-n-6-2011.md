@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/covers/aeci.png
 created: 2011-09-15T07:34:31
 updated: 2011-09-15T07:34:31
-created_by: ignazio
+created_by: Ignazio
 ---
 
 <img src="/new/img/stories/aeci-logo.jpg" class="float-start pr-3 pb-10 w-[250px]"/>

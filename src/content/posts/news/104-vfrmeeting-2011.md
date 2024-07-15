@@ -3,13 +3,13 @@ id: 104
 title: VFRMeeting 2011
 category: news
 featured: 0
-cover: http://i.imgur.com/YPOkl.png
+cover: /new/img/stories/2011-07-vfrmeeting.png
 created: 2011-06-10T08:00:00
 updated: 2011-06-10T08:00:00
 created_by: Mariko
 ---
 
-<img class="float-start mr-3 w-[300px]" src="http://i.imgur.com/YPOkl.png"/>
+<img class="float-start mr-3 w-[300px]" src="/new/img/stories/2011-07-vfrmeeting.png"/>
 
 Il <u>2 luglio al Boglietto</u> si terrà il raduno dei piloti VFR italiani, sono previsti spettacoli ed esibizioni che, per chi vorrà fermarsi, dureranno fino a notte.
 

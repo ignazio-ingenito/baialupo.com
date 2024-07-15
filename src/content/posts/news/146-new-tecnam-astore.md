@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/stories/2013-03-tecnam-astore.png
 created: 2013-03-21T12:00:00
 updated: 2013-03-21T12:00:00
-created_by: ignazio
+created_by: Ignazio
 ---
 
 <img class="float-start mr-3 mb-4 w-[300px]" src="/new/img/stories/2013-03-tecnam-astore.png"/>

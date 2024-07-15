@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/stories/2013-astore-aero-1.jpg
 created: 2013-04-25T08:00:00
 updated: 2013-04-25T08:00:00
-created_by: ignazio
+created_by: Ignazio
 ---
 
 <img class="float-start mr-3 mb-8 w-[300px]" src="/new/img/stories/2013-astore-aero-1.jpg"/>

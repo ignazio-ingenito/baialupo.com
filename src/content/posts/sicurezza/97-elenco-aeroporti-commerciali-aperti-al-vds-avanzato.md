@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/covers/aeci.png
 created: 2011-02-03T10:42:50
 updated: 2011-02-03T10:42:50
-created_by: ignazio
+created_by: Ignazio
 ---
 
 <img class="float-start mr-3 w-[300px] -my-24" src="/new/img/covers/aeci.png"/>

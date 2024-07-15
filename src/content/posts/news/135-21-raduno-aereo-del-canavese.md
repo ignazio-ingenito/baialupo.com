@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/stories/2013-06-flying-club-barone-rosso.jpg
 created: 2013-06-12T08:35:41
 updated: 2013-06-12T08:35:41
-created_by: ignazio
+created_by: Ignazio
 ---
 
 <img class="float-start mr-3 w-[300px]" src="/new/img/stories/2013-06-flying-club-barone-rosso.jpg"/>

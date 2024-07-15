@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/covers/tecnam.png
 created: 2011-08-17T06:45:16
 updated: 2011-08-17T06:45:16
-created_by: ignazio
+created_by: Ignazio
 ---
 
 <img class="float-start mr-3" src="/new/img/covers/tecnam.png" width="200"/>

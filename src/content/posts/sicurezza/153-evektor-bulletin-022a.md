@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/covers/evektor.png
 created: 2013-05-07T06:56:20
 updated: 2013-05-07T06:56:20
-created_by: ignazio
+created_by: Ignazio
 ---
 
 <a href="/new/img/stories/2013-05-evektor-bulletin-022a-img.jpg" target="_blank">

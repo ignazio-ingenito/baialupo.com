@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/covers/ansv.png
 created: 2006-06-26T23:00:00
 updated: 2006-06-26T23:00:00
-created_by: ignazio
+created_by: Ignazio
 ---
 
 Emanate sei nuove raccomandazioni di sicurezza per prevenire gli incidenti dell’aviazione turistico sportiva

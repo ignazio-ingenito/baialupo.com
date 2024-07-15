@@ -6,7 +6,7 @@ featured: 0
 cover: /new/img/covers/rotax.png
 created: 2013-06-12T08:35:41
 updated: 2013-06-12T08:35:41
-created_by: ignazio
+created_by: Ignazio
 ---
 
  <img alt="Rotax 912is" class="float-start mr-3 -mt-20 w-[300px]" src="/new/img/covers/rotax.png"/>

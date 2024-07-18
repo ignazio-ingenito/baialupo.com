@@ -14,7 +14,7 @@ const assets = import.meta.glob<{ default: ImageMetadata }>(
 const posts = (await getCollection("posts"))
   .sort((a, b) => a.data.updated.valueOf() - b.data.updated.valueOf())
   .reverse()
-  .slice(0, 31)
+  .slice(0, 30)
 ---
 
 <style>

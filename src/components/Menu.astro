@@ -1,0 +1,104 @@
+---
+import { Icon } from "astro-icon/components"
+
+import { MENU_ITEMS } from "../consts"
+---
+
+<style>
+  @media screen and (max-width: 640px) {
+    .menu {
+      @apply absolute
+      z-50
+      top-[81px]
+      w-0
+      pt-8
+      h-screen
+      flex
+      flex-col
+      gap-y-4
+      bg-neutral-100
+      text-orange-500
+      overflow-hidden
+      duration-300
+      transition-all;
+    }
+
+    .menu.open {
+      @apply w-screen
+      z-50;
+    }
+
+    .menu li a * {
+      @apply transition-all duration-300 ease-in-out;
+    }
+
+    .menu li a {
+      @apply flex
+      items-center
+      pl-[25dvw]
+      gap-x-3;
+    }
+    .menu li a svg {
+      @apply w-8 h-8;
+    }
+
+    .menu li a:hover svg {
+      @apply drop-shadow;
+    }
+
+    .menu li a:hover h4 {
+      @apply drop-shadow
+       scale-105;
+    }
+  }
+
+  @media screen and (min-width: 640px) {
+    .menu {
+      @apply absolute
+      z-50
+      w-full
+      flex
+      items-center
+      justify-center
+      gap-x-3
+      text-neutral-50;
+    }
+
+    .menu li {
+      @apply transition-all duration-300 ease-in-out;
+    }
+
+    .menu li svg {
+      @apply hidden;
+    }
+
+    .menu li:hover {
+      @apply drop-shadow
+      scale-[102%]
+      text-orange-500;
+    }
+  }
+</style>
+
+<ul class="menu">
+  <li>
+    <a href={`${import.meta.env.BASE_URL}`}>
+      <Icon name="home" /><h4>Home</h4>
+    </a>
+  </li>
+  {
+    MENU_ITEMS.map(({ label, path, icon }) => {
+      const link = !path.startsWith("/")
+        ? path
+        : `${import.meta.env.BASE_URL}${path}`
+      return (
+        <li>
+          <a href={link}>
+            <Icon name={`${icon}`} />
+            <h4>{label}</h4>
+          </a>
+        </li>
+      )
+    })
+  }
+</ul>

@@ -1,18 +1,19 @@
 ---
-import Back from "../components/Back.astro";
-import Head from "../components/Head.astro";
-import Navbar from "../components/Navbar.astro";
-import Banner from "../components/Banner.astro";
-import Meteo from "../components/Meteo.astro";
-import Footer from "../components/Footer.astro";
+import Back from "../components/Back.astro"
+import Head from "../components/Head.astro"
+import Menu from "../components/Menu.astro"
+import Navbar from "../components/Navbar.astro"
+import Banner from "../components/Banner.astro"
+import Meteo from "../components/Meteo.astro"
+import Footer from "../components/Footer.astro"
 
-const { aside = true, back = false } = Astro.props;
+const { aside = true, back = false } = Astro.props
 ---
 
 <style>
   body {
-    @apply h-screen w-screen 
-     overflow-hidden 
+    @apply h-screen w-screen
+     overflow-hidden
      flex flex-col
      bg-gradient-to-b
      from-[80px] from-[#fcebd0]
@@ -23,7 +24,7 @@ const { aside = true, back = false } = Astro.props;
     @apply overflow-hidden
      flex flex-col flex-1 gap-y-1
      w-full
-     pt-1 px-1 pb-1 sm:pt-0 sm:pb-9 
+     pt-1 px-1 pb-1 sm:pt-0 sm:pb-9
      max-w-4xl
      sm:mx-auto sm:-my-8
      text-neutral-600;
@@ -31,10 +32,10 @@ const { aside = true, back = false } = Astro.props;
 
   section {
     @apply flex
-     flex-1 
-     flex-col-reverse 
+     flex-1
+     flex-col-reverse
      sm:flex-row
-     gap-1 
+     gap-1
      m-0 p-0
      overflow-hidden;
   }
@@ -63,5 +64,6 @@ const { aside = true, back = false } = Astro.props;
       </section>
       <Footer />
     </main>
+    <Menu />
   </body>
 </html>

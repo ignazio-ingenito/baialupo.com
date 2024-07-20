@@ -15,7 +15,7 @@ const avio = defineCollection({
 
 const gallery = defineCollection({
 	type: "data",
-	schema: ({ image }) =>
+	schema: () =>
 		z.object({
 			title: z.string(),
 			cover: z.string(),

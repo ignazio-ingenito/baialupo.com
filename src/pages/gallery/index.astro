@@ -29,7 +29,7 @@ const { id } = Astro.params
       albums.map(({ id, data: { title, updated, created, cover } }) => (
         <Card
           link={`/new/gallery/${id}`}
-          src={path.join(BASEURL, cover)}
+          src={path.join(BASEURL, "new", cover)}
           alt={cover}
           title={title}
           date={updated || created}

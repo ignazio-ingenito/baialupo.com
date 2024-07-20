@@ -1,6 +1,9 @@
 ---
+import path from "path"
 import { getCollection } from "astro:content"
+
 // Components
+import { BASEURL } from "../../consts"
 import Card from "../../components/Card.astro"
 import Layout from "../../layouts/Layout.astro"
 
@@ -25,9 +28,9 @@ const { id } = Astro.params
     {
       albums.map(({ id, data: { title, updated, created, cover } }) => (
         <Card
-          link={`/gallery/${id}`}
-          src={cover}
-          alt={title}
+          link={`/new/gallery/${id}`}
+          src={path.join(BASEURL, cover)}
+          alt={cover}
           title={title}
           date={updated || created}
         />

@@ -18,9 +18,10 @@ const gallery = defineCollection({
 	schema: ({ image }) =>
 		z.object({
 			title: z.string(),
-			cover: image(),
+			cover: z.string(),
 			created: z.coerce.date(),
 			updated: z.coerce.date(),
+			files: z.array(z.string()).default([])
 		}),
 })
 

@@ -17,9 +17,6 @@ export async function getStaticPaths() {
 
 const { id } = Astro.params
 const { title, files } = Astro.props
-const images = files
-  .sort((a, b) => a.localeCompare(b))
-  .map((i) => path.join(BASEURL, "gallery", id, i))
 ---
 
 <style>
@@ -62,7 +59,7 @@ const images = files
       <Back />
     </div>
     <article>
-      {images.map((img) => <img src={img} alt="img" />)}
+      {files.map((img) => <img src={img} alt="img" />)}
     </article>
   </section>
   <script>

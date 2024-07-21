@@ -9,7 +9,7 @@ updated: 2015-08-31T10:28:59
 created_by: Ignazio
 ---
 
-<a href="/docs/2015-programma-raduno-fcap.pdf" target="_blank">
+<a href="https://www.baialupo.com/docs/2015-programma-raduno-fcap.pdf" target="_blank">
     <img class="float-start mr-3" src="/new/img/stories/2015-raduno-fcap.png"/>
 </a>
 
@@ -27,4 +27,4 @@ Sabato 5 settembre sarà, anche, dedicato alla premiazione riservata alle miglio
 Vi aspettiamo, come sempre, numerosi.<br/>
 A presto!
 
-<a href="/docs/2015-programma-raduno-fcap.pdf">Programma Raduno 2015</a>
+<a href="https://www.baialupo.com/docs/2015-programma-raduno-fcap.pdf">Programma Raduno 2015</a>

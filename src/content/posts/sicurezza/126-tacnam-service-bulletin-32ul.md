@@ -13,7 +13,7 @@ created_by: Ignazio
 Venerdì 6 Aprile,
 
 la Tecnam ha emanato il bollettino obbligatorio
-<a href="/docs/Tecnam.SB032-UL.pdf" target="_blank" title="Tecnam SB 22 -UL">
+<a href="https://www.baialupo.com/docs/Tecnam.SB032-UL.pdf" target="_blank" title="Tecnam SB 22 -UL">
 Service Bullettin 32-UL
 </a>
 .

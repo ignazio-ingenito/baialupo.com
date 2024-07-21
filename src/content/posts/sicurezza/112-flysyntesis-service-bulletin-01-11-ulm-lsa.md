@@ -15,4 +15,4 @@ Il 12 agosto Fly Syntesis ha emesso un nuovo service bullettin riguardante i vel
 
 Per maggiori dettaggli consultare il bollettino:
 
-<a href="/docs/FS-SB01-11-ULMLSA.pdf">Service Bulletin N° 01/11-ULM-LSA</a>
+<a href="https://www.baialupo.com/docs/FS-SB01-11-ULMLSA.pdf">Service Bulletin N° 01/11-ULM-LSA</a>

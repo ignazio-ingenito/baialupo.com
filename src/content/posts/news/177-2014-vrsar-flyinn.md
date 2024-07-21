@@ -18,4 +18,4 @@ In contemporanea si svolgerà per chi volesse parteciapre una gara di atterraggi
 Per raggiungere Orsera sarà sufficiente portare i proprio documenti (carta d'identità o passaporto) in quanto sarà presente in aeroporto il servizio doganale durante i giorni del raduno.
 
 Chi volesse maggiori informazioni può scaricare il
-<a href="/docs/2014-vrsar-flyin.pdf" target="_blank">programma del raduno</a> con i dettagli su orari e prezzi.
+<a href="https://www.baialupo.com/docs/2014-vrsar-flyin.pdf" target="_blank">programma del raduno</a> con i dettagli su orari e prezzi.

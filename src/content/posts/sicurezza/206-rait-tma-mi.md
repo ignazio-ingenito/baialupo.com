@@ -13,4 +13,4 @@ created_by: Mariko
 Ciao a tutti,<br/>
 come vi avevamo promesso pubblichiamo le slide utilizzate da Mariko durante il seminario del 7 febbraio sulle Nuove Regole dell'Aria e sulla revisione della TMA di Milano, ringraziamo ancora una volta per la collaborazione AOPA Italia ed il VFRMagazine e per il materiale fornitoci.<br />
 <br />
-<a href="/docs/Seminario.7.febbraio.2016.pdf" target="_blank">Seminario.7.febbraio.2016.pdf</a>
+<a href="https://www.baialupo.com/docs/Seminario.7.febbraio.2016.pdf" target="_blank">Seminario.7.febbraio.2016.pdf</a>

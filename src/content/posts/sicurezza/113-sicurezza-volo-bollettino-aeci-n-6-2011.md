@@ -15,4 +15,4 @@ L'Aeroclub d'Italia ha emesso il bollettino N.6 riguardante un incidente occorso
 
 Preghiamo soci e piloti di prendere visione del il bollettino emesso.
 
-<a href="/docs/BollettinoSV201106.pdf">AeCI-SV Bollettino N.6 - 2011</a>
+<a href="https://www.baialupo.com/docs/BollettinoSV201106.pdf">AeCI-SV Bollettino N.6 - 2011</a>

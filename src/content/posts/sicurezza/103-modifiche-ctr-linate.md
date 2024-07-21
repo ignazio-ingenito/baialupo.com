@@ -15,6 +15,6 @@ Con la circolare AIC A3 2011 l'Enav ha annunciato la modifica del CTR di Linate 
 
 Cosi come riportato nella circolare, l'entrata in vigore del nuovo assetto e' pianificato con l'uscita dell'AIRAC di settembre 2011, all'interno della circolare viene inoltre illustrato il nuovo disegno CTR.
 
-<a href="/docs/AIC_A_2011_03.pdf" target="_blank">
+<a href="https://www.baialupo.com/docs/AIC_A_2011_03.pdf" target="_blank">
     Leggi la circolare
 </a>

@@ -20,8 +20,8 @@ Cordialmente<br />
 Aeroclub G. Bolla di Parma<br />
 Segreteria Organizzativa <br />
 0521 980204<br />
-<a href="www.aeroparmaairshow.it" target="_blank">www.aeroparmaairshow.it</a><br />
+[www.aeroparmaairshow.it](www.aeroparmaairshow.it)
 
-- <a href="/docs/2013.LIMP.Locandina_Aeroparma.pdf">Locandina Aeroparma</a>
-- <a href="/docs/2013.LIMP.Comunicato.pdf">Comunicato</a>
-- <a href="/docs/2013.LIMP.Come_raggiungere_fiere.pdf">Come raggiungere Aeroparma Airshow</a>
+- [Locandina Aeroparma](https://www.baialupo.com/docs/2013.LIMP.Locandina_Aeroparma.pdf)
+- [Comunicato](https://www.baialupo.com/docs/2013.LIMP.Comunicato.pdf)
+- [Come raggiungere Aeroparma Airshow](https://www.baialupo.com/docs/2013.LIMP.Come_raggiungere_fiere.pdf)

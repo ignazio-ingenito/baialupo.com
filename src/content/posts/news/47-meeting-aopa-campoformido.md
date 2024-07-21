@@ -21,4 +21,4 @@ Il meeting è ovviamente aperto a tutti.
 
 Per i mezzi VDS è necessario richiedere l'autorizzazione alla DCA di Venezia.
 
-<a href="/docs/lipd-briefingpackage.pdf" target="_blank">LIPD - Briefing Package</a>
+[LIPD - Briefing Package](https://www.baialupo.com/docs/lipd-briefingpackage.pdf)

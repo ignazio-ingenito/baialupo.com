@@ -5,6 +5,7 @@ export const SITE_TITLE: string = 'baialupo.com'
 export const SITE_DESCRIPTION: string = 'Aviosuperficie Baialupo | Milano | Italy'
 export const CATEGORIES: string[] = ["baialupo", "guide", "mercatino", "news", "sicurezza"]
 export const AIRPORT_AW_CODE: string = "AW-317499"
+export const BASEURL =  "https://www.baialupo.com"
 
 interface MenuItem {
     label: string

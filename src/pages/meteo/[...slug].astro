@@ -1,20 +1,9 @@
 ---
+import path from "path"
 import { getEntry } from "astro:content"
 
 // Components
 import Layout from "../../layouts/Layout.astro"
-
-// Paths
-const keys = [
-  { slug: undefined, id: "0", label: "oggi" },
-  { slug: "tomorrow", id: "1", label: "domani" },
-  { slug: "day/2", id: "2", label: "" },
-  { slug: "day/3", id: "3", label: "" },
-  { slug: "day/4", id: "4", label: "" },
-  { slug: "day/5", id: "5", label: "" },
-  { slug: "day/6", id: "6", label: "" },
-  { slug: "week", id: "7", label: "settimana" },
-]
 
 export async function getStaticPaths() {
   const keys = [
@@ -25,17 +14,17 @@ export async function getStaticPaths() {
     { slug: "day/4", id: "4", label: "" },
     { slug: "day/5", id: "5", label: "" },
     { slug: "day/6", id: "6", label: "" },
-    { slug: "week", id: "7", label: "settimana" },
+    { slug: "week", id: "7", label: "settimana" }
   ]
 
   return keys.map(({ slug, id }) => ({
     params: { slug },
-    props: { id },
+    props: { id, keys }
   }))
 }
 
 const { slug } = Astro.params
-const { id } = Astro.props
+const { id, keys } = Astro.props
 
 // Contents
 const post = await getEntry("meteo", `${id}`)
@@ -80,7 +69,10 @@ const { Content } = await post!.render()
       {
         keys.map(({ slug: s, label }, i) => (
           <li class={s === slug ? "active" : ""}>
-            <a href={`/meteo/${s || ""}`} data-offset-days={i}>
+            <a
+              href={path.join(import.meta.env.BASE_URL, "meteo", s || "")}
+              data-offset-days={i}
+            >
               {label}
             </a>
           </li>
@@ -105,7 +97,7 @@ const { Content } = await post!.render()
       const now = new Date()
       const intl = new Intl.DateTimeFormat("it-IT", {
         weekday: "short",
-        day: "2-digit",
+        day: "2-digit"
       })
 
       Array.from(document.querySelectorAll(".selector > li > a"))

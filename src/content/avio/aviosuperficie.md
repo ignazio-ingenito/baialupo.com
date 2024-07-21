@@ -26,8 +26,8 @@ created_by: Alberto
 
 ### Carte aviosuperficie
 
-- [![img](/new/img/avio/baia-19-1.png)](/pdf/avio/baia-19-1.pdf)
-- [![img](/new/img/avio/baia-19-2.png)](/pdf/avio/baia-19-2.pdf)
+- [![img](/new/img/avio/baia-19-1.png)](https://www.baialupo.com/docs/baialupo/baia-19-1.pdf)
+- [![img](/new/img/avio/baia-19-2.png)](https://www.baialupo.com/docs/baialupo/baia-19-2.pdf)
 
 ### Pista 11
 

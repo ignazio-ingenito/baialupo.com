@@ -15,4 +15,4 @@ created_by: Ignazio
 Ieri 21 luglio, presso l'AirVenture do Oshkosh, la Rotax ha presentao ufficilamente un nuovo motore turbocompresso ad iniezione da 135 cavalli fino ad una quota di 23'000ft (7000m).<br />
 <br />
 La produzione di questo nuovo motore, denominato 915 iS, e' programmata per la seconda meta' del 2017, pochi i dati tecnici disponibili rilasciati in uno questo
-<a href="/docs/2015-rotax 915-is-datasheet-072015.pdf" target="_blank">datasheet</a>.
+<a href="https://www.baialupo.com/docs/2015-rotax 915-is-datasheet-072015.pdf" target="_blank">datasheet</a>.

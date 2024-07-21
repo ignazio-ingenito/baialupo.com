@@ -13,5 +13,5 @@ created_by: Mariko
 E' stata pubblicata da ENAC la circolare contenente le note esplicative riguardanti l'implementazione del <strong>piano di volo abbreviato</strong> in Italia.<br/>
 <br/>
 <br/>
-<a href="/docs/AIC_A_2015_03.pdf" target="_blank">AIC_A_2015_03.pdf</a>
+<a href="https://www.baialupo.com/docs/AIC_A_2015_03.pdf" target="_blank">AIC_A_2015_03.pdf</a>
 <embed src="/docs/AIC_A_2015_03.pdf" class="w-full h-screen"></embed>

@@ -1,35 +1,37 @@
 ---
-// Import the global.css file here so that it is included on
-// all pages through the use of the <BaseHead /> component.
-import "../styles/global.css";
-import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+import { ViewTransitions } from "astro:transitions"
+
+// Import the global.css file here so that it is included on all pages through the use of the <BaseHead /> component.
+import "../styles/global.css"
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts"
 
 interface Props {
-  title?: string;
-  description?: string;
-  image?: string;
+  title?: string
+  description?: string
+  image?: string
 }
 
-const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const canonicalURL = new URL(Astro.url.pathname, Astro.site)
 const {
   title = SITE_TITLE,
   description = SITE_DESCRIPTION,
   image = `${import.meta.env.BASE_URL}/favicon.ico`,
-} = Astro.props;
+} = Astro.props
 ---
 
 <head>
   <!-- Google tag (gtag.js) -->
-  <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-3GYD7H6BLV"
-  ></script>
+  <script
+    is:inline
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-3GYD7H6BLV"></script>
   <script is:inline>
-    window.dataLayer = window.dataLayer || [];
+    window.dataLayer = window.dataLayer || []
     function gtag() {
-      dataLayer.push(arguments);
+      dataLayer.push(arguments)
     }
-    gtag("js", new Date());
-
-    gtag("config", "G-3GYD7H6BLV");
+    gtag("js", new Date())
+    gtag("config", "G-3GYD7H6BLV")
   </script>
 
   <!-- Global Metadata -->
@@ -67,18 +69,8 @@ const {
   <meta property="og:description" content={description} />
   <meta property="og:image" content={new URL(image, Astro.url)} />
 
-  <!-- Get theme from local storage -->
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      const isDark = localStorage.getItem("theme") === "dark";
-      if (isDark) {
-        document.documentElement.classList.add("dark");
-      } else {
-        document.documentElement.classList.remove("dark");
-      }
+  <ViewTransitions />
 
-      const theme = isDark ? "sunset" : "light";
-      document.documentElement.setAttribute("data-theme", theme);
-    });
-  </script>
+  <!-- Named slot for image preloading -->
+  <slot name="head" />
 </head>

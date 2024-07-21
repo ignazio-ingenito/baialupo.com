@@ -16,6 +16,6 @@ Il 6 agosto, l'ENAV attraverso una una circolare ha antici[pato le modifiche che
 
 Il documento contiene una cartina per mostrare le diverse quote permesse per ciascuna zona, vi ricordiamo che contemporaneamente all'entrata in vigore di queste modifiche verranno aboliti i settori VFR.
 
-<a href="/docs/AIC_A_2015_09.pdf" target="_blank">
+<a href="https://www.baialupo.com/docs/AIC_A_2015_09.pdf" target="_blank">
 Scarica la circolare AIC_A_2015_09.pdf
 </a>

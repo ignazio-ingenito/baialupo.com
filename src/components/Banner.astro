@@ -1,3 +1,95 @@
+---
+import { Image } from "astro:assets"
+
+import h01 from "/src/assets/images/banner/header/headerimg.01.jpg"
+import h02 from "/src/assets/images/banner/header/headerimg.02.jpg"
+import h03 from "/src/assets/images/banner/header/headerimg.03.jpg"
+import h04 from "/src/assets/images/banner/header/headerimg.04.jpg"
+import h05 from "/src/assets/images/banner/header/headerimg.05.jpg"
+import h06 from "/src/assets/images/banner/header/headerimg.06.jpg"
+import h07 from "/src/assets/images/banner/header/headerimg.07.jpg"
+import h08 from "/src/assets/images/banner/header/headerimg.08.jpg"
+import h09 from "/src/assets/images/banner/header/headerimg.09.jpg"
+import h10 from "/src/assets/images/banner/header/headerimg.10.jpg"
+import h11 from "/src/assets/images/banner/header/headerimg.11.jpg"
+import h12 from "/src/assets/images/banner/header/headerimg.12.jpg"
+import h13 from "/src/assets/images/banner/header/headerimg.13.jpg"
+import h14 from "/src/assets/images/banner/header/headerimg.14.jpg"
+import h15 from "/src/assets/images/banner/header/headerimg.15.jpg"
+import h16 from "/src/assets/images/banner/header/headerimg.16.jpg"
+import h17 from "/src/assets/images/banner/header/headerimg.17.jpg"
+import h18 from "/src/assets/images/banner/header/headerimg.18.jpg"
+import h19 from "/src/assets/images/banner/header/headerimg.19.jpg"
+import h20 from "/src/assets/images/banner/header/headerimg.20.jpg"
+import h21 from "/src/assets/images/banner/header/headerimg.21.jpg"
+import h22 from "/src/assets/images/banner/header/headerimg.22.jpg"
+import h23 from "/src/assets/images/banner/header/headerimg.23.jpg"
+import h24 from "/src/assets/images/banner/header/headerimg.24.jpg"
+import h25 from "/src/assets/images/banner/header/headerimg.25.jpg"
+import h26 from "/src/assets/images/banner/header/headerimg.26.jpg"
+import h27 from "/src/assets/images/banner/header/headerimg.27.jpg"
+import h28 from "/src/assets/images/banner/header/headerimg.28.jpg"
+import h29 from "/src/assets/images/banner/header/headerimg.29.jpg"
+import h30 from "/src/assets/images/banner/header/headerimg.30.jpg"
+import h31 from "/src/assets/images/banner/header/headerimg.31.jpg"
+import h32 from "/src/assets/images/banner/header/headerimg.32.jpg"
+import h33 from "/src/assets/images/banner/header/headerimg.33.jpg"
+import h34 from "/src/assets/images/banner/header/headerimg.34.jpg"
+import h35 from "/src/assets/images/banner/header/headerimg.35.jpg"
+import h36 from "/src/assets/images/banner/header/headerimg.36.jpg"
+import h37 from "/src/assets/images/banner/header/headerimg.37.jpg"
+import h38 from "/src/assets/images/banner/header/headerimg.38.jpg"
+import h39 from "/src/assets/images/banner/header/headerimg.39.jpg"
+import h40 from "/src/assets/images/banner/header/headerimg.40.jpg"
+import h41 from "/src/assets/images/banner/header/headerimg.41.jpg"
+import h42 from "/src/assets/images/banner/header/headerimg.42.jpg"
+
+const assets = [
+  h01,
+  h02,
+  h03,
+  h04,
+  h05,
+  h06,
+  h07,
+  h08,
+  h09,
+  h10,
+  h11,
+  h12,
+  h13,
+  h14,
+  h15,
+  h16,
+  h17,
+  h18,
+  h19,
+  h20,
+  h21,
+  h22,
+  h23,
+  h24,
+  h25,
+  h26,
+  h27,
+  h28,
+  h29,
+  h30,
+  h31,
+  h32,
+  h33,
+  h34,
+  h35,
+  h36,
+  h37,
+  h38,
+  h39,
+  h40,
+  h41,
+  h42,
+]
+---
+
 <style>
   .banner {
     @apply hidden sm:flex
@@ -27,22 +119,16 @@
     @apply text-[12px];
   }
 </style>
+
 <div class="banner">
   <div class="swiper">
     <div class="swiper-wrapper">
       {
-        [...Array(41).keys()].map((k: number) => {
-          const index: string = (k + 1).toString().padStart(2, "0");
-          return (
-            <div class="swiper-slide">
-              <img
-                src={`${import.meta.env.BASE_URL}/banner/headerimg.${index}.jpg`}
-                alt={`banner ${index}`}
-                class="swiper-lazy"
-              />
-            </div>
-          );
-        })
+        assets.map((asset) => (
+          <div class="swiper-slide">
+            <Image src={asset} alt={asset.src} class="swiper-lazy" />
+          </div>
+        ))
       }
     </div>
     <div class="swiper-button-prev"></div>
@@ -51,11 +137,11 @@
   </div>
 
   <script>
-    import "swiper/css";
-    import "swiper/css/navigation";
-    import "swiper/css/effect-fade";
-    import Swiper from "swiper";
-    import { Autoplay, EffectFade, Navigation } from "swiper/modules";
+    import "swiper/css"
+    import "swiper/css/navigation"
+    import "swiper/css/effect-fade"
+    import Swiper from "swiper"
+    import { Autoplay, EffectFade, Navigation } from "swiper/modules"
 
     document.addEventListener("DOMContentLoaded", function () {
       new Swiper(".swiper", {
@@ -70,7 +156,7 @@
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
         },
-      });
-    });
+      })
+    })
   </script>
 </div>

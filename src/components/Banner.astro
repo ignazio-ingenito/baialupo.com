@@ -42,7 +42,6 @@ import h38 from "/src/assets/images/banner/header/headerimg.38.jpg"
 import h39 from "/src/assets/images/banner/header/headerimg.39.jpg"
 import h40 from "/src/assets/images/banner/header/headerimg.40.jpg"
 import h41 from "/src/assets/images/banner/header/headerimg.41.jpg"
-import h42 from "/src/assets/images/banner/header/headerimg.42.jpg"
 
 const assets = [
   h01,
@@ -85,8 +84,7 @@ const assets = [
   h38,
   h39,
   h40,
-  h41,
-  h42,
+  h41
 ]
 ---
 
@@ -147,15 +145,15 @@ const assets = [
       new Swiper(".swiper", {
         autoplay: {
           delay: 2500,
-          disableOnInteraction: true,
+          disableOnInteraction: true
         },
         modules: [Autoplay, EffectFade, Navigation],
         loop: true,
         effect: "fade",
         navigation: {
           nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
+          prevEl: ".swiper-button-prev"
+        }
       })
     })
   </script>

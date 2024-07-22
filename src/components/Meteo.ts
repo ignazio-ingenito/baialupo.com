@@ -2,24 +2,11 @@ const AIRPORT_AW_URL: string = `https://server.airportweather.com/api/airports/$
 
 import { AIRPORT_AW_CODE } from "../consts"
 import type {
-    IMeteo,
     MetarCoverageDefinition,
-    Nowcast,
     Weather,
+    WeatherApiResponse,
 } from "./Meteo.d"
 
-const response = await fetch(AIRPORT_AW_URL)
-const all: IMeteo = await response.json()
-const { next_sunrise, next_sunset, nowcast }: Weather = all.weather
-const {
-    air_pressure_qnh,
-    air_temperature_2m_agl,
-    ceiling_agl,
-    cloud_cover,
-    dew_point_temperature_2m_agl,
-    surface_visibility,
-    wind_10m_agl,
-}: Nowcast = nowcast
 
 function percentageToMetar(value: number): MetarCoverageDefinition | null {
     // SKC (Sky Clear)
@@ -38,49 +25,79 @@ function percentageToMetar(value: number): MetarCoverageDefinition | null {
     return MetarDefs.find((m) => value >= m.min && value <= m.max) || null
 }
 
-// temperature
-const temp = air_temperature_2m_agl.time_steps[0].quantity
-document.getElementById("temp")!.textContent = temp.value
-    ? `${temp.value.toFixed(1)}°C`
-    : `${temp.meaning}`
-// dewpoint
-const dewp = dew_point_temperature_2m_agl.time_steps[0].quantity
-document.getElementById("dewpoint")!.textContent = dewp.value
-    ? `${dewp.value.toFixed(1)}°C`
-    : `${dewp.meaning}`
-// visibility
-const vis = surface_visibility.time_steps[0].quantity
-document.getElementById("visibility")!.textContent = vis.value
-    ? `${Math.round(vis.value / 1000)} km`
-    : `${vis.meaning}`
-// ceiling
-const ceil = ceiling_agl.time_steps[0].quantity
-document.getElementById("ceiling")!.textContent = ceil.value
-    ? `${Math.round(ceil.value * 3.28084)} ft`
-    : `${ceil.meaning}`
-// ceiling type
-const clouds = cloud_cover.time_steps[0].quantity
-const ceilType =
-    percentageToMetar(clouds.value)?.description.toLowerCase() || ""
-document.getElementById("ceiling-type")!.textContent = ceilType
-// wind
-const { from_direction, speed } = wind_10m_agl.time_steps[0]
-const windDir = from_direction.value
-    ? `${Math.round(from_direction.value)}°`
-    : from_direction.meaning
-const windSpeed = Math.round(speed.value * 1.94384)
-document.getElementById("wind")!.textContent = `${windDir} ${windSpeed}kt`
+async function hydrateMeteo(weather: Weather) {
+    const {
+        nowcast: {
+            air_pressure_qnh,
+            air_temperature_2m_agl,
+            ceiling_agl,
+            cloud_cover,
+            dew_point_temperature_2m_agl,
+            surface_visibility,
+            wind_10m_agl,
+        },
+        next_sunrise,
+        next_sunset
+    } = weather
 
-// QNH
-const qnh = air_pressure_qnh.time_steps[0].quantity
-document.getElementById("qnh")!.textContent = vis.value
-    ? `${Math.round(qnh.value / 100)} hPa`
-    : `${vis.meaning}`
+    // temperature
+    const temp = air_temperature_2m_agl.time_steps[0].quantity
+    document.getElementById("temp")!.textContent = temp.value
+        ? `${temp.value.toFixed(1)}°C`
+        : `${temp.meaning}`
+    // dewpoint
+    const dewp = dew_point_temperature_2m_agl.time_steps[0].quantity
+    document.getElementById("dewpoint")!.textContent = dewp.value
+        ? `${dewp.value.toFixed(1)}°C`
+        : `${dewp.meaning}`
+    // visibility
+    const vis = surface_visibility.time_steps[0].quantity
+    document.getElementById("visibility")!.textContent = vis.value
+        ? `${Math.round(vis.value / 1000)} km`
+        : `${vis.meaning}`
+    // ceiling
+    const ceil = ceiling_agl.time_steps[0].quantity
+    document.getElementById("ceiling")!.textContent = ceil.value
+        ? `${Math.round(ceil.value * 3.28084)} ft`
+        : `${ceil.meaning}`
+    // ceiling type
+    const clouds = cloud_cover.time_steps[0].quantity
+    const ceilType =
+        percentageToMetar(clouds.value)?.description.toLowerCase() || ""
+    document.getElementById("ceiling-type")!.textContent = ceilType
+    // wind
+    const { from_direction, speed } = wind_10m_agl.time_steps[0]
+    const windDir = from_direction.value
+        ? `${Math.round(from_direction.value)}°`
+        : from_direction.meaning
+    const windSpeed = Math.round(speed.value * 1.94384)
+    document.getElementById("wind")!.textContent = `${windDir} ${windSpeed}kt`
 
-const sunrise: Date = new Date(next_sunrise.replaceAll(/\[.*/g, ""))
-document.getElementById("sunrise")!.textContent =
-    sunrise.toLocaleTimeString("it-IT")
+    // QNH
+    const qnh = air_pressure_qnh.time_steps[0].quantity
+    document.getElementById("qnh")!.textContent = vis.value
+        ? `${Math.round(qnh.value / 100)} hPa`
+        : `${vis.meaning}`
 
-const sunset: Date = new Date(next_sunset.replaceAll(/\[.*/g, ""))
-document.getElementById("sunset")!.textContent =
-    sunset.toLocaleTimeString("it-IT")
+    const sunrise: Date = new Date(next_sunrise.replaceAll(/\[.*/g, ""))
+    document.getElementById("sunrise")!.textContent =
+        sunrise.toLocaleTimeString("it-IT")
+
+    const sunset: Date = new Date(next_sunset.replaceAll(/\[.*/g, ""))
+    document.getElementById("sunset")!.textContent =
+        sunset.toLocaleTimeString("it-IT")
+}
+
+async function getMeteo(): Promise<WeatherApiResponse> {
+    const response = await fetch(AIRPORT_AW_URL)
+    return await response.json()
+}
+
+async function renderMeteo() {
+    const res: WeatherApiResponse = await getMeteo()
+    hydrateMeteo(res.weather)
+}
+
+document.addEventListener("DOMContentLoaded", async function() {
+    await renderMeteo()
+})

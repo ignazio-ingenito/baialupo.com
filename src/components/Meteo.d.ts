@@ -16,18 +16,6 @@ export interface Timezone {
     offset: Offset
 }
 
-export interface Weather {
-    elevation: Elevation
-    icao_id: string
-    latitude: Latitude
-    longitude: Longitude
-    magnetic_declination: MagneticDeclination
-    next_sunrise: string
-    next_sunset: string
-    nowcast: Nowcast
-    timezone: Timezone
-}
-
 export interface Elevation {
     unit?: string
     value: number
@@ -66,6 +54,25 @@ export interface Nowcast {
     wind_10m_agl: Wind10mAgl
 }
 
+export interface Weather {
+    elevation: Elevation
+    icao_id: string
+    latitude: Latitude
+    longitude: Longitude
+    magnetic_declination: MagneticDeclination
+    next_sunrise: string
+    next_sunset: string
+    nowcast: Nowcast
+    timezone: Timezone
+}
+
+export interface WeatherApiResponse {
+    canShowKiosk: boolean
+    icao: string
+    isOverAccessLimit: boolean
+    weather: Weather
+}
+
 // AirPressureQnh
 export interface AirPressureQnhTimeStepQuantity {
     unit?: string
@@ -97,7 +104,6 @@ export interface AirTemperature2mAglTimeStep {
 export interface AirTemperature2mAgl {
     time_steps: AirTemperature2mAglTimeStep[]
 }
-
 
 // CeilingAgl
 export interface CeilingAglTimeStepQuantity {
@@ -215,4 +221,4 @@ export type MetarCoverageDefinition = {
     max: number
     code: string
     description: string
-} 
+}

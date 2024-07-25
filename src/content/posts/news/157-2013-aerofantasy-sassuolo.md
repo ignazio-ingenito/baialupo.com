@@ -3,14 +3,14 @@ id: 157
 title: Aerofantasy 2013
 category: news
 featured: 0
-cover: /new/img/stories/2013-locandina-af-sassuolo.jpg
+cover: /web/img/stories/2013-locandina-af-sassuolo.jpg
 created: 2013-05-27T08:00:00
 updated: 2013-05-27T08:00:00
 created_by: AeC Sassuolo
 ---
 
 <a href="images/stories/2013-locandina-af-sassuolo.jpg" target="_blank">
-    <img class="float-start mr-3 w-[300px]" src="/new/img/stories/2013-locandina-af-sassuolo.jpg"/>
+    <img class="float-start mr-3 w-[300px]" src="/web/img/stories/2013-locandina-af-sassuolo.jpg"/>
 </a>
 
 <strong>ATTENZIONE: La manifestazione e' stata rimandata a data da destinarsi causa maltempo.</strong>

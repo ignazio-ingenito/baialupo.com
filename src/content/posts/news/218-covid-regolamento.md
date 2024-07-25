@@ -3,7 +3,7 @@ id: 218
 title: "Emergenza Covid-19: Regolamento aviosuperficie"
 category: news
 featured: 0
-cover: /new/img/covers/baia.png
+cover: /web/img/covers/baia.png
 created: 2020-05-04T08:00:00
 updated: 2020-05-04T08:00:00
 created_by: Ignazio

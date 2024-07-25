@@ -3,13 +3,13 @@ id: 95
 title: Tecnam Service Bullettin 18-UL/19-UL
 category: sicurezza
 featured: 0
-cover: /new/img/covers/tecnam.png
+cover: /web/img/covers/tecnam.png
 created: 2010-11-13T20:27:30
 updated: 2010-11-13T20:27:30
 created_by: Mariko
 ---
 
-<img src="/new/img/covers/tecnam.png" class="float-start mr-3 mb-[10rem]" width="200"/>
+<img src="/web/img/covers/tecnam.png" class="float-start mr-3 mb-[10rem]" width="200"/>
 
 Per chi non fosse ancora al corrente informo che la tecnam ha emesso due bollettini di servizio, uno riguardante i P96 Golf (obbligatorio, tutti i sn) l'altro riguardante anche i Sierra e i Bravo (raccomandazione, solo alcuni sn) in merito all'ispezione dei longheroni alari.
 

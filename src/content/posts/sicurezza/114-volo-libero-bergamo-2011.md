@@ -3,13 +3,13 @@ id: 114
 title: Raduno di deltaplano e parapendio a Palazzago
 category: sicurezza
 featured: 0
-cover: /new/img/stories/2011-09-volo-libero-bg.png
+cover: /web/img/stories/2011-09-volo-libero-bg.png
 created: 2011-09-21T07:25:07
 updated: 2011-09-21T07:25:07
 created_by: Ignazio
 ---
 
-<img class="float-start mr-3 w-[250px]" src="/new/img/stories/2011-09-volo-libero-bg.png"/>
+<img class="float-start mr-3 w-[250px]" src="/web/img/stories/2011-09-volo-libero-bg.png"/>
 
 Cari soci e piloti, vi riportiamo il seguente avviso di sicurezza.
 

@@ -3,7 +3,7 @@ id: 193
 title: EXPO 2015 - No Fly Zone prorogata
 category: sicurezza
 featured: 0
-cover: /new/img/covers/enac.png
+cover: /web/img/covers/enac.png
 created: 2015-06-03T08:00:00
 updated: 2015-06-03T08:00:00
 created_by: Alberto
@@ -13,7 +13,7 @@ E' stata prorogata, con il notam W1118/15, la <strong>No Fly Zone</strong> sopra
 
 Ecco la zona rappresentata graficamente:
 
-<img src="/new/img/stories/2015-06-W083315.jpg" />
+<img src="/web/img/stories/2015-06-W083315.jpg" />
 
 Di seguito il testo del Notam:
 

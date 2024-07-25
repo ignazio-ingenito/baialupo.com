@@ -3,13 +3,13 @@ id: 179
 title: VFRMeeting 2014
 category: baialupo
 featured: 0
-cover: /new/img/stories/2014-vfrmeeting.jpg
+cover: /web/img/stories/2014-vfrmeeting.jpg
 created: 2014-05-26T08:00:00
 updated: 2014-05-26T08:00:00
 created_by: Ignazio
 ---
 
-<img  src="/new/img/stories/2014-vfrmeeting.jpg" class="float-start mr-3"/>
+<img  src="/web/img/stories/2014-vfrmeeting.jpg" class="float-start mr-3"/>
 
 Ciao a tutti,<br/>
 piccola comunicazione di servizio per chi si parteciperà alla cena dell VFRMeeting di Lecce.

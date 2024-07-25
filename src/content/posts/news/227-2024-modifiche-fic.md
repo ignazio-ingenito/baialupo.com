@@ -3,14 +3,14 @@ id: 227
 title: Nuove modifiche ai settori dei FIC
 category: news
 featured: 0
-cover: /new/img/stories/2024-06-fic-milano.png
+cover: /web/img/stories/2024-06-fic-milano.png
 created: 2024-06-08T09:29:10
 updated: 2024-06-09T09:25:00
 created_by: Ignazio
 ---
 
- <a href="/new/img/stories/2024-06-fic-milano.png">
-    <img class="float-start mr-3 max-w-[300px]" src="/new/img/stories/2024-06-fic-milano.png"/>
+ <a href="/web/img/stories/2024-06-fic-milano.png">
+    <img class="float-start mr-3 max-w-[300px]" src="/web/img/stories/2024-06-fic-milano.png"/>
  </a>
 
 Dalle 11.00 locali del **4 giugno 2024** entreranno in vigore con il NOTAM permanente <a href="https://www.deskaeronautico.it/notam=A4580/24">A4580/24</a> (revisione di <a href="https://www.deskaeronautico.it/notam=A4498/24">A4498/24</a>) alcune modifiche alla settorizzazione del FIC di **Milano**.
@@ -25,8 +25,8 @@ La frequenza **135.075** MHz sarà disponibile nell’area di Torino e Cuneo a n
 
 Ad est del CTR di Linate, a nord-est del fiume Po inclusa l’area di Carpi, sarà da utilizzare la frequenza **124.925** MHz.
 
-<a href="/new/img/stories/2024-06-fic-brindisi.png">
-    <img class="float-end mr-3 max-w-[300px]" src="/new/img/stories/2024-06-fic-brindisi.png"/>
+<a href="/web/img/stories/2024-06-fic-brindisi.png">
+    <img class="float-end mr-3 max-w-[300px]" src="/web/img/stories/2024-06-fic-brindisi.png"/>
 </a>
 
 Si ricorda che dal **13 giugno 2024** cambieranno anche i confini dei settori FIC di **Brindisi** con il passaggio del settore nord a **Roma** ACC. Il 41° parallelo non sarà più il confine tra i due attuali settori nord e sud di Brindisi.

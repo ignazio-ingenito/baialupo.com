@@ -3,7 +3,7 @@ id: 232
 title: Aiutiamo Costa Volpino!
 category: news
 featured: 1
-cover: /new/img/stories/2024-petizione-costa-volpino.png
+cover: /web/img/stories/2024-petizione-costa-volpino.png
 created: 2024-07-16T00:00:00
 updated: 2024-07-16T00:00:00
 created_by: Ignazio
@@ -31,7 +31,7 @@ created_by: Ignazio
 
 [Firma la petizione !](https://www.change.org/p/difendiamo-l-aviosuperficie-di-costa-volpino)
 
-[![Difendiamo Costa Volpino](/new/img/stories/2024-petizione-costa-volpino.png)](https://www.change.org/p/difendiamo-l-aviosuperficie-di-costa-volpino)
+[![Difendiamo Costa Volpino](/web/img/stories/2024-petizione-costa-volpino.png)](https://www.change.org/p/difendiamo-l-aviosuperficie-di-costa-volpino)
 
 L'aviosuperficie di Costa Volpino non è solo un luogo magnifico tra il verde delle montagne e il blu del Lago, è un presidio di sicurezza volo e di protezione civile. È un simbolo di inclusione per tutti noi. L'Aviosuperficie riveste un ruolo vitale nel fornire servizi di sicurezza volo e protezione civile, contribuendo alla sicurezza della nostra comunità.
 

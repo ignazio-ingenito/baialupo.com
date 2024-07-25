@@ -3,13 +3,13 @@ id: 90
 title: Rally del Prosciutto 2010
 category: news
 featured: 0
-cover: /new/img/stories/2010-09-rally-prosciutto.png
+cover: /web/img/stories/2010-09-rally-prosciutto.png
 created: 2010-09-27T15:20:47
 updated: 2010-09-27T15:20:47
 created_by: Ignazio
 ---
 
-<img class="float-start mr-3 w-[300px]" src="/new/img/stories/2010-09-rally-prosciutto.png"/>
+<img class="float-start mr-3 w-[300px]" src="/web/img/stories/2010-09-rally-prosciutto.png"/>
 
 Ciao a tutti,
 

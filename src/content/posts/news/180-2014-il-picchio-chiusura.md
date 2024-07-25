@@ -3,13 +3,13 @@ id: 180
 title: Aviosuperficie 'Il Picchio' - Chiusura al traffico non di base
 category: news
 featured: 0
-cover: /new/img/stories/2014-08-logo-picchio.jpg
+cover: /web/img/stories/2014-08-logo-picchio.jpg
 created: 2014-08-08T08:00:00
 updated: 2014-08-08T08:00:00
 created_by: Ignazio
 ---
 
-<img class="float-start mr-3 w-[210px]" src="/new/img/stories/2014-08-logo-picchio.jpg"/>
+<img class="float-start mr-3 w-[210px]" src="/web/img/stories/2014-08-logo-picchio.jpg"/>
 
 Buongioro a tutti,<br/>
 vi informo che a causa dei problemi avuti dai gestori con la DCA di Malpensa ed essendo la pista ubicata all'interno del CTR, le operazioni sono state normate da una lettera di operazioni  che prevede la chiusura dell'aviosuperficie al traffico non di base.

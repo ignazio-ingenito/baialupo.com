@@ -3,13 +3,13 @@ id: 53
 title: Corso Meteo
 category: baialupo
 featured: 0
-cover: /new/img/covers/ufficio-meteo.png
+cover: /web/img/covers/ufficio-meteo.png
 created: 2009-10-10 09:00:00
 updated: 2009-10-10 09:00:00
 created_by: Ignazio
 ---
 
-<img  src="/new/img/covers/ufficio-meteo.png" class="float-start mr-3 mb-3 w-[180px]"/>
+<img  src="/web/img/covers/ufficio-meteo.png" class="float-start mr-3 mb-3 w-[180px]"/>
 
 Ciao a tutti,<br>
 vi segnaliamo che <strong> sabato 17 e domenica 18 </strong> presso il campo si terrà un corso di approfondimento di meteorologia.

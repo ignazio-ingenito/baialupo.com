@@ -3,14 +3,14 @@ id: 163
 title: 6­­° Salone del Volo
 category: news
 featured: 0
-cover: /new/img/stories/2013-padova-salone-del-volo.jpg
+cover: /web/img/stories/2013-padova-salone-del-volo.jpg
 created: 2013-09-07T08:00:00
 updated: 2013-09-07T08:00:00
 created_by: Ignazio
 ---
 
 <a href="https://www.festivaldellaria.it/" target="_blank">
-    <img alt="" class="float-start mr-3 w-[300px]" src="/new/img/stories/2013-padova-salone-del-volo.jpg"/>
+    <img alt="" class="float-start mr-3 w-[300px]" src="/web/img/stories/2013-padova-salone-del-volo.jpg"/>
 </a>
 
 Dal 13 al 15 settembre sull’Aeroporto Civile di Padova “Gino Allegri” si terrà il 6° Salone del Volo - Festival dell’Aria.

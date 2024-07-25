@@ -3,14 +3,14 @@ id: 181
 title: Baia a Legnago
 category: baialupo
 featured: 0
-cover: /new/img/stories/2014-09-legnago.jpg
+cover: /web/img/stories/2014-09-legnago.jpg
 created: 2014-09-15T12:37:38
 updated: 2014-09-16T10:46:22
 created_by: Ignazio
 ---
 
 <a href="/gallery/2014-09-legnago" target="_blank">
-<img class="float-start mr-3 w-[300px]" src="/new/img/stories/2014-09-legnago.jpg"/>
+<img class="float-start mr-3 w-[300px]" src="/web/img/stories/2014-09-legnago.jpg"/>
 </a>
 
 Ciao a tutti dopo la magnifica riuscita del raduno di Legnago

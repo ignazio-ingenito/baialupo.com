@@ -7,7 +7,7 @@ updated: 2019-01-01T12:30:00+01:00
 created_by: Alberto
 ---
 
-[![image](/new/img/avio/baia-pattern.jpg)](/new/img/avio/baia-pattern.jpg)
+[![image](/web/img/avio/baia-pattern.jpg)](/web/img/avio/baia-pattern.jpg)
 
 |                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -26,13 +26,13 @@ created_by: Alberto
 
 ### Carte aviosuperficie
 
-- [![img](/new/img/avio/baia-19-1.png)](https://www.baialupo.com/docs/baialupo/baia-19-1.pdf)
-- [![img](/new/img/avio/baia-19-2.png)](https://www.baialupo.com/docs/baialupo/baia-19-2.pdf)
+- [![img](/web/img/avio/baia-19-1.png)](https://www.baialupo.com/docs/baialupo/baia-19-1.pdf)
+- [![img](/web/img/avio/baia-19-2.png)](https://www.baialupo.com/docs/baialupo/baia-19-2.pdf)
 
 ### Pista 11
 
-[![image](/new/img/avio/runway-11.jpg)](/new/img/avio/runway-11.jpg)
+[![image](/web/img/avio/runway-11.jpg)](/web/img/avio/runway-11.jpg)
 
 ### Nuova frequenza 8.33 - 129.180Mhz
 
-[![image](/new/img/avio/baia-radio-833.png)](/new/img/avio/baia-radio-833.png)
+[![image](/web/img/avio/baia-radio-833.png)](/web/img/avio/baia-radio-833.png)

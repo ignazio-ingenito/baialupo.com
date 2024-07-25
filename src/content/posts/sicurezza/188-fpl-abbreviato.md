@@ -3,13 +3,13 @@ id: 188
 title: Nuove regole per FPL
 category: sicurezza
 featured: 0
-cover: /new/img/covers/enac.png
+cover: /web/img/covers/enac.png
 created: 2015-04-07T08:00:00
 updated: 2015-04-07T08:00:00
 created_by: Ignazio
 ---
 
-<img class="float-start mr-3 mb-4 w-[280px]" src="/new/img/covers/enac.png"/>
+<img class="float-start mr-3 mb-4 w-[280px]" src="/web/img/covers/enac.png"/>
 
 Buongiorno a tutti,<br/>
 vi segnaliamo l'uscita del RAIT (Regole dell'Aria Italia) con l'introduzione del piano di volo abbreviato, ovvero potremo tornare ad attraversare gli spazi aerei controllati, senza bisogno del FPL, queste modifiche sono contenute a pag 6/7 (RAIT.4005).

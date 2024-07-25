@@ -3,13 +3,13 @@ id: 143
 title: Corso VDS Avanzato
 category: baialupo
 featured: 0
-cover: /new/img/stories/runway.jpg
+cover: /web/img/stories/runway.jpg
 created: 2013-02-07T12:30:00
 updated: 2013-02-07T12:30:00
 created_by: Ignazio
 ---
 
-<img src="/new/img/stories/runway.jpg" class="float-start mr-3 h-[290px] w-[180px] object-cover"/>
+<img src="/web/img/stories/runway.jpg" class="float-start mr-3 h-[290px] w-[180px] object-cover"/>
 
 Ciao a tutti,<br />
 da <strong>sabato 23 febbraio</strong> avra' inizio il nuovo corso per il conseguimento per l'<strong>abilitazione al VDS avanzato</strong>.

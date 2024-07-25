@@ -3,13 +3,13 @@ id: 197
 title: Vola in Festa 2015 - Aeroporto Aguscello
 category: news
 featured: 0
-cover: /new/img/stories/2015-vola-in-festa.png
+cover: /web/img/stories/2015-vola-in-festa.png
 created: 2015-08-04T16:23:07
 updated: 2015-08-04T16:23:07
 created_by: Ignazio
 ---
 
-<img class="float-start mr-3 w-[350px]" src="/new/img/stories/2015-vola-in-festa.png"/>
+<img class="float-start mr-3 w-[350px]" src="/web/img/stories/2015-vola-in-festa.png"/>
 
 Cari amici e' con piacere che vi segnaliamo la manifestazione che si terrà ad Agusello il 27 Settembre.
 

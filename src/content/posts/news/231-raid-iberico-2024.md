@@ -3,7 +3,7 @@ id: 231
 title: Raid Iberico 2024
 category: news
 featured: 1
-cover: /new/img/stories/2024-raid-iberico.png
+cover: /web/img/stories/2024-raid-iberico.png
 created: 2024-07-15T00:00:00
 updated: 2024-07-15T00:00:00
 created_by: Ignazio
@@ -21,7 +21,7 @@ ecco l'elenco delle tappe:
 <div class="grid grid-cols-1 md:grid-cols-[4fr,3fr] gap-x-2 gap-y-2">
     <div>
         <a href="https://forms.gle/qV4wkfwetL8yjhez9">
-            <img src="/new/img/stories/2024-raid-iberico-map.png" />
+            <img src="/web/img/stories/2024-raid-iberico-map.png" />
         </a>
     </div>
     <div>
@@ -51,7 +51,7 @@ ecco l'elenco delle tappe:
     </div>
     <div class="col-span-2">
         <a href="https://forms.gle/qV4wkfwetL8yjhez9">
-            <img src="/new/img/stories/2024-raid-iberico.png" />
+            <img src="/web/img/stories/2024-raid-iberico.png" />
         </a>
     </div>
 </div>

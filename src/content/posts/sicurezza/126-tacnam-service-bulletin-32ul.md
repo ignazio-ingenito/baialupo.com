@@ -3,13 +3,13 @@ id: 126
 title: Tecnam Service Bullettin 32-UL
 category: sicurezza
 featured: 0
-cover: /new/img/covers/tecnam.png
+cover: /web/img/covers/tecnam.png
 created: 2012-04-05T23:00:00
 updated: 2012-04-05T23:00:00
 created_by: Ignazio
 ---
 
-<img src="/new/img/covers/tecnam.png" class="float-start mr-3 mb-3 w-[200px]"/>
+<img src="/web/img/covers/tecnam.png" class="float-start mr-3 mb-3 w-[200px]"/>
 Venerdì 6 Aprile,
 
 la Tecnam ha emanato il bollettino obbligatorio

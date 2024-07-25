@@ -3,14 +3,14 @@ id: 54
 title: Meeting AOPA - Campoformido
 category: news
 featured: 0
-cover: /new/img/covers/aopa.png
+cover: /web/img/covers/aopa.png
 created: 2009-10-20T12:00:00
 updated: 2009-10-20T12:00:00
 created_by: Ignazio
 ---
 
 <a href="https://www.aopa.it" target="_blank">
-    <img alt="Aopa Logo" class="float-start mr-3 w-[300px] -mt-16" src="/new/img/covers/aopa.png" title="AOPA"/>
+    <img alt="Aopa Logo" class="float-start mr-3 w-[300px] -mt-16" src="/web/img/covers/aopa.png" title="AOPA"/>
 </a>
 
 Sabato 7 Novembre,<br/>

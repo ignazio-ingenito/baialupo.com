@@ -3,14 +3,14 @@ id: 147
 title: Volata collettiva
 category: news
 featured: 0
-cover: /new/img/stories/2013-04-cadelconte.jpg
+cover: /web/img/stories/2013-04-cadelconte.jpg
 created: 2013-04-11T08:00:00
 updated: 2013-04-11T08:00:00
 created_by: Ignazio
 ---
 
  <a href="https://www.cadelconte.com">
-  <img class="float-start mr-3 mb-4 w-[300px]" src="/new/img/stories/2013-04-cadelconte.jpg"/>
+  <img class="float-start mr-3 mb-4 w-[300px]" src="/web/img/stories/2013-04-cadelconte.jpg"/>
  </a>
 
 Ciao a tutti,<br/>

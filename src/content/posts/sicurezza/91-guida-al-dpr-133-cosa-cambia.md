@@ -3,7 +3,7 @@ id: 91
 title: "Guida al DPR 133: cosa cambia"
 category: sicurezza
 featured: 0
-cover: /new/img/stories/2010-10-vfr-megazine.png
+cover: /web/img/stories/2010-10-vfr-megazine.png
 created: 2010-10-04T10:48:33
 updated: 2010-10-04T10:48:33
 created_by: Mariko

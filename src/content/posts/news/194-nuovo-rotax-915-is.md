@@ -3,14 +3,14 @@ id: 194
 title: Nuovo Rotax 135HP
 category: news
 featured: 0
-cover: /new/img/stories/2015-rotax915is.jpg
+cover: /web/img/stories/2015-rotax915is.jpg
 created: 2015-07-30T06:52:53
 updated: 2015-07-30T06:52:53
 created_by: Ignazio
 ---
 
-<a href="/new/img/stories/2015-rotax915is.jpg" target="_blank">
-    <img class="float-start mr-3 mb-4 w-[300px]" src="/new/img/stories/2015-rotax915is.jpg"/>
+<a href="/web/img/stories/2015-rotax915is.jpg" target="_blank">
+    <img class="float-start mr-3 mb-4 w-[300px]" src="/web/img/stories/2015-rotax915is.jpg"/>
 </a>
 Ieri 21 luglio, presso l'AirVenture do Oshkosh, la Rotax ha presentao ufficilamente un nuovo motore turbocompresso ad iniezione da 135 cavalli fino ad una quota di 23'000ft (7000m).<br />
 <br />

@@ -3,13 +3,13 @@ id: 161
 title: Riapre l'aeroporto di Gorizia
 category: news
 featured: 0
-cover: /new/img/stories/2013-gorizia-aeroporto.jpg
+cover: /web/img/stories/2013-gorizia-aeroporto.jpg
 created: 2013-09-05T08:00:00
 updated: 2013-09-05T08:00:00
 created_by: Ignazio
 ---
 
-<img align="left" alt="" class="float-start mr-3 w-[300px] h-[160px] object-cover" src="/new/img/stories/2013-gorizia-aeroporto.jpg"/>
+<img align="left" alt="" class="float-start mr-3 w-[300px] h-[160px] object-cover" src="/web/img/stories/2013-gorizia-aeroporto.jpg"/>
 
 L'Associazione Sportiva Dilettantistica Transfrontaliera Duca D'Aosta è lietissima di comunicare la riapertura di LIPG al traffico AG ed ULM (dotato di radio), da domani <strong>giovedì 5 settembre</strong> con <strong>orario 14:00 - 18:00</strong>,<br />
 come sarà precisato nel Notam che verrà emesso questa mattina.

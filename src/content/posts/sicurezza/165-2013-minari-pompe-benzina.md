@@ -3,7 +3,7 @@ id: 165
 title: SB-912-063UL - Pompe Benzina
 category: sicurezza
 featured: 0
-cover: /new/img/covers/rotax.png
+cover: /web/img/covers/rotax.png
 created: 2013-09-24T07:06:08
 updated: 2013-09-24T07:06:08
 created_by: Ignazio

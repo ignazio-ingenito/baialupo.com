@@ -3,13 +3,13 @@ id: 146
 title: Nuovo Tecnam ad Ala bassa
 category: news
 featured: 0
-cover: /new/img/stories/2013-03-tecnam-astore.png
+cover: /web/img/stories/2013-03-tecnam-astore.png
 created: 2013-03-21T12:00:00
 updated: 2013-03-21T12:00:00
 created_by: Ignazio
 ---
 
-<img class="float-start mr-3 mb-4 w-[300px]" src="/new/img/stories/2013-03-tecnam-astore.png"/>
+<img class="float-start mr-3 mb-4 w-[300px]" src="/web/img/stories/2013-03-tecnam-astore.png"/>
 
 Tecnam presentera' l'ultimo nato al salone di Friedrichshafen, per ora tutto e' tenuto nel piu' gran riserbo, tanto che si hanno pochissime informazioni ed una unica foto.
 

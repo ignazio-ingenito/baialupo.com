@@ -3,13 +3,13 @@ id: 111
 title: 39° Raduno Club Aviazione Popolare
 category: news
 featured: 0
-cover: /new/img/covers/cap.png
+cover: /web/img/covers/cap.png
 created: 2011-09-01T12:00:00
 updated: 2011-09-01T12:00:00
 created_by: Ignazio
 ---
 
-<img class="float-start mr-3 mb-8 w-[300px]" src="/new/img/stories/2011.cap-locandina-39mo-raduno-s.jpg"/>
+<img class="float-start mr-3 mb-8 w-[300px]" src="/web/img/stories/2011.cap-locandina-39mo-raduno-s.jpg"/>
 
 Puntuale come ogni anno la prima settimana di Settembre ritorna il Raduno del Club Aviazione Popolare, che quest'anno giunge alla sua trentanovesina edizione.
 

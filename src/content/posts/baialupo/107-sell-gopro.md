@@ -3,13 +3,13 @@ id: 107
 title: Nuovo rivenditore GoPro HD
 category: baialupo
 featured: 0
-cover: /new/img/covers/go-pro.png
+cover: /web/img/covers/go-pro.png
 created: 2011-08-08 20:21:29
 updated: 2011-08-08 20:21:29
 created_by: Ignazio
 ---
 
-<img class="float-start mr-3 w-[200px]" src="/new/img/covers/go-pro.png"/>
+<img class="float-start mr-3 w-[200px]" src="/web/img/covers/go-pro.png"/>
 Cari amici,
 
 Angelo, neo "attestato" a Baialupo è diventato rivenditore autorizzato delle micro telecamere GoPro HD.

@@ -3,13 +3,13 @@ id: 84
 title: Convegno su DPR 133 presso Aeroporto Militare Piacenza
 category: sicurezza
 featured: 0
-cover: /new/img/covers/aeci.png
+cover: /web/img/covers/aeci.png
 created: 2010-09-09T08:22:47
 updated: 2010-09-09T08:22:47
 created_by: Ignazio
 ---
 
-<img src="/new/img/stories/aeci-logo.jpg" class="float-start pr-4" width="250"/>
+<img src="/web/img/stories/aeci-logo.jpg" class="float-start pr-4" width="250"/>
 
 L'AeCI ha organizzato una serie di convegni per illustrare la nuova normativa che entrera' in vigore dal 17 novembre destinati a tutti gli utenti del settore.
 

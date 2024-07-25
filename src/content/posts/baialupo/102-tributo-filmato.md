@@ -3,7 +3,7 @@ id: 102
 title: Tributo filmato
 category: baialupo
 featured: 0
-cover: /new/img/covers/baia.png
+cover: /web/img/covers/baia.png
 created: 2011-05-21 18:12:49
 updated: 2011-05-21 18:12:49
 created_by: Mariko

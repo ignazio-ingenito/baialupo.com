@@ -4,13 +4,13 @@ title: Transponder modo S - Come richiedere il codice a 24 bit per i mezzi VDS
 alias: xpdr-s-mode-vds
 category: guide
 featured: 0
-cover: /new/img/stories/2009-11-garmin-stack.jpg
+cover: /web/img/stories/2009-11-garmin-stack.jpg
 created: 2009-11-17T10:16:57
 updated: 2009-11-17T10:16:57
 created_by: Luca Bertagnolio
 ---
 
-<img class="float-left" src="/new/img/stories/2009-11-garmin-stack.jpg" style="width: 310px" />
+<img class="float-left" src="/web/img/stories/2009-11-garmin-stack.jpg" style="width: 310px" />
 
 [ENAC - Ente Nazionale per l'Aviazione Civile](https://www.enac-italia.it),<br>
 è l'ente che in Italia si occupa di assegnare i codici ICAO a 24 bit necessari per la codifica dei transponder modo S e per i beacon di emergenza a 406 MHz.

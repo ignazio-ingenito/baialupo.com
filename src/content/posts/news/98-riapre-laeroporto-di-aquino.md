@@ -3,13 +3,13 @@ id: 98
 title: Riapre l'aeroporto di Aquino
 category: news
 featured: 0
-cover: /new/img/stories/2011-03-aquino.jpg
+cover: /web/img/stories/2011-03-aquino.jpg
 created: 2011-03-07T11:01:56
 updated: 2011-03-07T11:01:56
 created_by: Ignazio
 ---
 
-<img class="float-start mr-3 w-[300px]" src="/new/img/stories/2011-03-aquino.jpg"/>
+<img class="float-start mr-3 w-[300px]" src="/web/img/stories/2011-03-aquino.jpg"/>
 
 E’ stato riaperto l’aeroporto di Aquino LIAQ con coordinate geografiche:
 

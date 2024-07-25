@@ -3,7 +3,7 @@ id: 74
 title: Incontro in ENAC
 category: sicurezza
 featured: 0
-cover: /new/img/covers/aeci.png
+cover: /web/img/covers/aeci.png
 created: 2010-03-15T19:31:59
 updated: 2010-03-15T19:31:59
 created_by: Mariko

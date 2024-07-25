@@ -3,7 +3,7 @@ id: 128
 title: Nuovo notam per i VDS AVANZATI
 category: sicurezza
 featured: 0
-cover: /new/img/covers/enac.png
+cover: /web/img/covers/enac.png
 created: 2012-05-03T23:00:00
 updated: 2012-05-03T23:00:00
 created_by: Ignazio

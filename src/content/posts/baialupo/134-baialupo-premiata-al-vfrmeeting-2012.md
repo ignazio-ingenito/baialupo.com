@@ -3,7 +3,7 @@ id: 134
 title: Baia premiata al VFRMeeting 2012
 category: baialupo
 featured: 0
-cover: /new/img/stories/2012.VFRAeroammucchiata.jpg
+cover: /web/img/stories/2012.VFRAeroammucchiata.jpg
 created: 2012-07-10T09:30:00
 updated: 2012-07-10T09:30:00
 created_by: Ignazio
@@ -11,7 +11,7 @@ created_by: Ignazio
 
 <p>
  <a href="/gallery/2012-07-sassuolo">
-  <img  src="/new/img/stories/2012.VFRAeroammucchiata.jpg" class="w-full mb-4"/>
+  <img  src="/web/img/stories/2012.VFRAeroammucchiata.jpg" class="w-full mb-4"/>
  </a>
 
 Ebbene si quest'anno ce l'abbiamo fatta!

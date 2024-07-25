@@ -1,41 +1,67 @@
-# Astro Starter Kit: Blog
+# www.baialupo.com: Blog
 
 ```sh
 npm create astro@latest -- --template blog
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/blog)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/blog)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/blog/devcontainer.json)
+[<img alt="Deployed with FTP Deploy Action" src="https://img.shields.io/badge/Deployed With-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=0077b6">](https://github.com/SamKirkland/FTP-Deploy-Action)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+> 🧑‍🚀 Have fun!
 
-![blog](https://github.com/withastro/astro/assets/2244813/ff10799f-a816-4703-b967-c78997e8323d)
+![www.baialupo.com](https://github.com/user-attachments/assets/1519be39-2587-4c02-9702-3d9f695c47d6)
 
 Features:
 
-- ✅ Minimal styling (make it your own!)
+- ✅ Markdown & MDX support
 - ✅ 100/100 Lighthouse performance
 - ✅ SEO-friendly with canonical URLs and OpenGraph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
 
 ## 🚀 Project Structure
 
-Inside of your Astro project, you'll see the following folders and files:
+Inside of this project, you'll see the following folders and files:
 
 ```text
-├── public/
-├── src/
-│   ├── components/
-│   ├── content/
-│   ├── layouts/
-│   └── pages/
-├── astro.config.mjs
-├── README.md
-├── package.json
-└── tsconfig.json
+├───.github
+│   └───workflows
+├───etl
+│   ├───db
+│   └───docker
+├───public
+│   └───img
+│       ├───avio
+│       ├───covers
+│       ├───market
+│       └───stories
+└───src
+    ├───assets
+    │   └───images
+    │       ├───banner
+    │       │   ├───cloud
+    │       │   └───header
+    │       ├───categories
+    │       ├───meteo
+    │       └───posts
+    ├───components
+    ├───content
+    │   ├───avio
+    │   ├───gallery
+    │   ├───market
+    │   ├───meteo
+    │   ├───posts
+    │   │   ├───baialupo
+    │   │   ├───guide
+    │   │   ├───news
+    │   │   └───sicurezza
+    │   └───privacy
+    ├───icons
+    ├───layouts
+    ├───pages
+    │   ├───aviosuperficie
+    │   ├───gallery
+    │   ├───market
+    │   ├───meteo
+    │   └───privacy
+    └───styles
 ```
 
 Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
@@ -59,25 +85,23 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
-
-Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-
-## Credit
-
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
-
 ## Resources
 
 - Icons from https://icon-sets.iconify.design
+- Image from [pexel.com](https://www.pexels.com/) and [unsplash.com](https://unsplash.com/)
 
-## Ideas
+## Backlog
 
+- Create a meteo radar page using windy
 - Get TAF from https://tgftp.nws.noaa.gov/data/forecasts/taf/stations/LIML.TXT
 - Get Short TAF from https://tgftp.nws.noaa.gov/data/forecasts/shorttaf/stations/LIML.TXT
 - Get Metar from https://tgftp.nws.noaa.gov/data/observations/metar/stations/LIML.TXT
 - Get Decoded Metar from https://tgftp.nws.noaa.gov/data/observations/metar/decoded/LIML.TXT
 
-### Memory Issue
+### Issue
 
+If any memory issue arise rebuild the project after issuiing the following command:
+
+```
 export NODE_OPTIONS=--max_old_space_size=4096
+```

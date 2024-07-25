@@ -31,5 +31,5 @@ jobs:
           server: ftp.baialupo.com
           local-dir: ./dist
           server-dir: /www.baialupo.com/dist
-          username: ${{ secrets.ftp_username }}
-          password: ${{ secrets.ftp_password }}
+          username: ${{ secrets.ARUBA_FTP_USER }}
+          password: ${{ secrets.ARUBA_FTP_PWD }}

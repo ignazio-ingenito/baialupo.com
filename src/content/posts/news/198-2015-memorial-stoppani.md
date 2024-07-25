@@ -48,4 +48,4 @@ created_by: Ignazio
     </div>
 </div>
 
-Per maggiorni informazioni <a href="http://www.mariostoppani.it/" style="line-height: 16px;" target="_blank">www.mariostoppani.it</a>
+Per maggiorni informazioni <a href="https://www.mariostoppani.it/" style="line-height: 16px;" target="_blank">www.mariostoppani.it</a>

@@ -9,7 +9,7 @@ updated: 2013-04-11T08:00:00
 created_by: Ignazio
 ---
 
- <a href="http://www.cadelconte.com">
+ <a href="https://www.cadelconte.com">
   <img class="float-start mr-3 mb-4 w-[300px]" src="/new/img/stories/2013-04-cadelconte.jpg"/>
  </a>
 
@@ -21,7 +21,7 @@ Destinazione,<br/>
 <strong>Aviosuperficie 'Ca del Conte'</strong>, un bellissimo posto a meno di mezz'ora da Baia, con pista in erba da 720 metri.
 
 Per chi volesse curiosare, questo e' il loro sito:<br />
-<a href="http://www.cadelconte.com">www.cadelconte.com</a>
+<a href="https://www.cadelconte.com">www.cadelconte.com</a>
 
 Per chi non lo sapesse, 'Ca dal Conte' e' gestito da Angelo, uno dei nostri piloti,<br/>
 che da un mese ha preso in gestione pista e ristorante.<br/>

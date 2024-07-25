@@ -17,6 +17,6 @@ In occasione dell'inizio delle manifestazioni per celebrare i 500 anni delle mur
 
 Per maggiori informazioni visitare i siti:
 
-<a target="_blank" href="http://www.aeroportocapannori.it/">www.aeroportocapannori.it</a>
+<a target="_blank" href="https://www.aeroportocapannori.it/">www.aeroportocapannori.it</a>
 
-<a target="_blank" href="http://www.euromeeting-ultralight.com/">www.euromeeting-ultralight.com</a>
+<a target="_blank" href="https://www.euromeeting-ultralight.com/">www.euromeeting-ultralight.com</a>

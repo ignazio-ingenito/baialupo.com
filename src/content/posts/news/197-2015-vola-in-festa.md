@@ -27,6 +27,6 @@ L’ingresso E’ GRATUITO ed eventuali offerte raccolte nei due giorni di festa
 <br />
 Riferimenti:
 
-- <a href="http://www.webproxy.net/view?q=https%3A%2F%2Fwww.facebook.com%2Fevents%2F663469240453121%2F" target="_blank">www.facebook.com/events/663469240453121</a>
-- <a href="http://www.webproxy.net/view?q=http%3A%2F%2Fwww.volainfesta.info%2F" target="_blank">www.volainfesta.info</a>
-- <a href="http://www.webproxy.net/view?q=http%3A%2F%2Fgva.aeroportoaguscello.it%2Fwp%2F" target="_blank">gva.aeroportoaguscello.it/wp</a>
+- <a href="https://www.webproxy.net/view?q=https%3A%2F%2Fwww.facebook.com%2Fevents%2F663469240453121%2F" target="_blank">www.facebook.com/events/663469240453121</a>
+- <a href="https://www.webproxy.net/view?q=http%3A%2F%2Fwww.volainfesta.info%2F" target="_blank">www.volainfesta.info</a>
+- <a href="https://www.webproxy.net/view?q=http%3A%2F%2Fgva.aeroportoaguscello.it%2Fwp%2F" target="_blank">gva.aeroportoaguscello.it/wp</a>

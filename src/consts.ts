@@ -19,5 +19,5 @@ export const MENU_ITEMS: MenuItem[] = [
     { label: 'Galleria', path: '/gallery', icon: "gallery" },
     { label: 'Mercatino', path: '/market', icon: "market" },
     { label: 'Meteo', path: '/meteo', icon: "meteo" },
-    { label: 'ScuolaVolo', path: 'http://flying.baialupo.com', icon: "school" },
+    { label: 'ScuolaVolo', path: 'https://flying.baialupo.com', icon: "school" },
 ]

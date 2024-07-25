@@ -15,8 +15,8 @@ created_by: Ignazio
 Vi ricordiamo che sabato 7 e domenica 8 settembre si terra' il consueto raduno della Federazione Club Aviazione Popolare che quest'anno si terra' sull'aviosuperficie di Ozzano Emilia, di seguito alcuni link per chi volesse maggiori informazioni.<br />
 <br />
 
-<a href="http://www.federazionecap.it/new/news/128-2013-raduno-fcap-prog">Programma del 41° Raduno F-CAP</a>
+<a href="https://www.federazionecap.it/new/news/128-2013-raduno-fcap-prog">Programma del 41° Raduno F-CAP</a>
 
-<a href="http://www.federazionecap.it/new/news/129-2013-raduno-fcap-instr">Come arrivare in volo</a>
+<a href="https://www.federazionecap.it/new/news/129-2013-raduno-fcap-instr">Come arrivare in volo</a>
 
-<a href="http://www.federazionecap.it/new/news/130-2013-raduno-fcap-alberghi">Elenco alberghi</a>
+<a href="https://www.federazionecap.it/new/news/130-2013-raduno-fcap-alberghi">Elenco alberghi</a>

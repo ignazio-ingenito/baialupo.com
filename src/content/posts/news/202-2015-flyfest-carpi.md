@@ -13,4 +13,4 @@ created_by: Ignazio
 Cari amici,<br/>
 domenica 20 settembre si terra' presso l'aeroporto di Carpi (LIDU) il Fly Fest 2015, la festa e' aperta a tutti i mezzi volanti con radio e ci saranno buona musica e risotto alla pilota gratis per tutti coloro che arriveranno in volo.<br />
 <br />
-Per informazioni 059.660080 o <a href="http://www.aeroclubcarpi.it">www.aeroclubcarpi.it</a>
+Per informazioni 059.660080 o <a href="https://www.aeroclubcarpi.it">www.aeroclubcarpi.it</a>

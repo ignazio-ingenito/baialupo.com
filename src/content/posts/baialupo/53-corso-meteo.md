@@ -16,7 +16,7 @@ vi segnaliamo che <strong> sabato 17 e domenica 18 </strong> presso il campo si 
 
 Questo corso vuole porre particolare attenzione a ciò che può più interessare noi piloti, ad esempio verrà illustrato come prepare un briefing meteo, dove trovare le informazioni, come interpretare le informazioni normalmente reperibili gratuitamente (es. internet), ecc...
 
-Il corso organizzato e tenuto da <a href="http://www.ufficiometeo.it/" target="_blank" title="Ufficio Meteo">Marco Tadini</a>, metereologo professionista nonchè autore del libro "<strong>Meteorologia Aeronautica</strong>", si avvarà della presenza di altri metereologi professionisti.
+Il corso organizzato e tenuto da <a href="https://www.ufficiometeo.it/" target="_blank" title="Ufficio Meteo">Marco Tadini</a>, metereologo professionista nonchè autore del libro "<strong>Meteorologia Aeronautica</strong>", si avvarà della presenza di altri metereologi professionisti.
 
 Il prezzo del corso è di solo 10 euro.
 

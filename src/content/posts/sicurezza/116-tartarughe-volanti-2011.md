@@ -14,4 +14,4 @@ Considerato che in alcune fasi della manifestazione e' prevista la presenza in v
 <br>
 <br>
 Per maggiori dettagli vi rimadiamo al sito della festa:<br>
-<a href="http://festa.tartarughevolanti.com">http://festa.tartarughevolanti.com</a>
+<a href="https://festa.tartarughevolanti.com">https://festa.tartarughevolanti.com</a>

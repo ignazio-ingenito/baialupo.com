@@ -44,7 +44,7 @@ Ricordiamo in finale 27 di mantenere 80 ft di altezza in testata pista per non d
     <div class="mx-1">Pagina facebook:</div>
     <div class="mx-1"><a href="https://www.facebook.com/AeroClubDiSondrio?fref=ts" target="_blank">www.facebook.com/AeroClubDiSondrio?fref=ts</a></div>
     <div class="mx-1">Pagina web:</div>
-    <div class="mx-1"><a href="http://www.aeroclubdisondrio.org/" target="_blank">www.aeroclubdisondrio.org</a></div>
+    <div class="mx-1"><a href="https://www.aeroclubdisondrio.org/" target="_blank">www.aeroclubdisondrio.org</a></div>
 </div>
 
 <br/>

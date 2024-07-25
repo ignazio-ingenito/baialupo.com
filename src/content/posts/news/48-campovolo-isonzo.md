@@ -26,5 +26,5 @@ created_by: Ignazio
     <li>No hangaraggio</li>
     <li>Attenzione ostacoli in testata 16</li>
     <li>Benzina verde a richiesta</li>
-    <li><a href="http://www.cantinaturus.it/1/pista_aerei_ultraleggeri_3709967.html" target="_blank">AGRITURISMO</a> in campo con vino del Collio e salumi/formaggio locale</li>
+    <li><a href="https://www.cantinaturus.it/1/pista_aerei_ultraleggeri_3709967.html" target="_blank">AGRITURISMO</a> in campo con vino del Collio e salumi/formaggio locale</li>
 </ul>

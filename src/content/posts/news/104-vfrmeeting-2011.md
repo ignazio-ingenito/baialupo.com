@@ -17,4 +17,4 @@ Ristorazione, parcheggi con spazio dedicato a chi vuole dormire in tenda e conve
 
 Già qualche "Baialupense" ha annunciato la partecipazione, possiamo quindi organizzarci in modo che anche chi ha qualche dubbio per la navigazione possa unirsi al gruppo.
 
-Maggiori informazioni le trovate cliccando qui: <a href="http://www.vfrflight.net/index.php/board,77.0.html" target="_blank">http://www.vfrflight.net/index.php/board,77.0.html</a>
+Maggiori informazioni le trovate cliccando qui: <a href="https://www.vfrflight.net/index.php/board,77.0.html" target="_blank">https://www.vfrflight.net/index.php/board,77.0.html</a>

@@ -17,8 +17,8 @@ vi segnalo la seconda edizione del "Rally del Prosciutto" che si terra' domenica
 
 particolarmente interessante la possibilita' di visitare il museo Ferrari di Maranello.
 
-<a href="http://www.aeroclubsassuolo.it/aeroclub_sassuolo_high.pdf" target="_blank">Guarda la locandina</a>
+<a href="https://www.aeroclubsassuolo.it/aeroclub_sassuolo_high.pdf" target="_blank">Guarda la locandina</a>
 
-<a href="http://www.aeroclubsassuolo.it/Regolamento_secondo_Rally_del_Prosciutto.pdf" target="_blank">Regolamento rally</a>
+<a href="https://www.aeroclubsassuolo.it/Regolamento_secondo_Rally_del_Prosciutto.pdf" target="_blank">Regolamento rally</a>
 
-<a href="http://www.aeroclubsassuolo.it/Iscrizione_Secondo_Rally_Prosciutto.pdf" target="_blank">Modulo d'iscrizione</a>
+<a href="https://www.aeroclubsassuolo.it/Iscrizione_Secondo_Rally_Prosciutto.pdf" target="_blank">Modulo d'iscrizione</a>

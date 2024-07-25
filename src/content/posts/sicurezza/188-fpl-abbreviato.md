@@ -17,4 +17,4 @@ vi segnaliamo l'uscita del RAIT (Regole dell'Aria Italia) con l'introduzione del
 Le nuove regole entreranno in vigore dal 1 Maggio.<br/>
 <a href="https://www.enac.gov.it/repository/ContentManagement/information/P743038137/Reg_RAIT_Ed2.pdf" target="_blank">ENAC - Reg_RAIT_Ed2.pdf</a>
 
-Un grazie ad <a href="http://www.aopa.it/">AOPA Italia</a> per il lavoro fatto!
+Un grazie ad <a href="https://www.aopa.it/">AOPA Italia</a> per il lavoro fatto!

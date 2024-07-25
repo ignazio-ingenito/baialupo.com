@@ -29,7 +29,7 @@ L'aeroporto è aperto anche al VDS (con eccezione dei pendolari), ma per l’uti
     <div>eMail</div>
     <div>aeroportoaquino@aquiland.it</div>
     <div>web</div>
-    <div><a href="http://www.aquiland.it">www.aquiland.it</a></div>
+    <div><a href="https://www.aquiland.it">www.aquiland.it</a></div>
     <div>Orientamneto</div>
     <div>15/33</div>
     <div>Lunghezza</div>

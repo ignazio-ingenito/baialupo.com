@@ -18,13 +18,13 @@ Queste telecamere sono ottime per le riprese aeree, facilissime da utilizzare e 
 
 E' stata testata infatti (sulle ali) fino a 350 km/h di velocità.
 
-Qui potete vedere un bel video su un biplano: <a href="http://vimeo.com/26628219">http://vimeo.com/26628219</a>
+Qui potete vedere un bel video su un biplano: <a href="https://vimeo.com/26628219">https://vimeo.com/26628219</a>
 
-E qui invece un video dimostrativo con vari sport: <a href="http://vimeo.com/8879661">http://vimeo.com/8879661</a>
+E qui invece un video dimostrativo con vari sport: <a href="https://vimeo.com/8879661">https://vimeo.com/8879661</a>
 
 Per informazioni tecniche e per vedere tutti gli accessori il sito di riferimento è:
 
-<a href="http://www.gocamera.it/full-hd-camera-1080p/gopro-hd-motorsports-hero/hd-motorsport-hero">http://www.gocamera.it/full-hd-camera-1080p/gopro-hd-motorsports-hero/hd-motorsport-hero</a>
+<a href="https://www.gocamera.it/full-hd-camera-1080p/gopro-hd-motorsports-hero/hd-motorsport-hero">https://www.gocamera.it/full-hd-camera-1080p/gopro-hd-motorsports-hero/hd-motorsport-hero</a>
 
 Angelo ha riservato un prezzo devvero interessante a tutti i piloti di Baialupo,tutti gli interessati possono contattarlo direttamente via email
 <a href="mailto:angelo@angelomagni.it">angelo@angelomagni.it</a>

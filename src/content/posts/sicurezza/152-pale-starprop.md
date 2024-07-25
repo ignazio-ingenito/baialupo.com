@@ -10,6 +10,6 @@ created_by: Mariko
 
 Durante un rullaggio in erba alta, su una pala marchiata starprop, si è verificato lo scollamento delle due parti.
 
-<img src="http://i.imgur.com/lDE6xKyl.jpg" class="w-[640px]"/>
+<img src="https://i.imgur.com/lDE6xKyl.jpg" class="w-[640px]"/>
  
-maggiori informazioni qui: <a href="http://www.vfrflight.net/index.php/topic,14102.0.html">http://www.vfrflight.net/index.php/topic,14102.0.html</a>
+maggiori informazioni qui: <a href="https://www.vfrflight.net/index.php/topic,14102.0.html">https://www.vfrflight.net/index.php/topic,14102.0.html</a>

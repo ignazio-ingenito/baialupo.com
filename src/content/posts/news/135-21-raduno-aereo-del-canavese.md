@@ -17,7 +17,7 @@ Domenica 23 Settembre 2012,<br />
 presso l'aviosuperficie del Fly Club Barone Rosso si terrà il 21 Raduno Aereo del Canavese.
 
 L'appuntamento è all'aviosuperficie di Vische nei pressi del lago di Candia.
-Per raggiungerci, consultate il sito <a href="http://www.flyclubbaronerosso.it" target="_blank">www.flyclubbaronerosso.it</a>.
+Per raggiungerci, consultate il sito <a href="https://www.flyclubbaronerosso.it" target="_blank">www.flyclubbaronerosso.it</a>.
 
 Saranno presenti velivoli di tutti i tipi e durante la giornata sarà possibile effettuare "battesimi dell'aria" sulle macchine della scuola.
 

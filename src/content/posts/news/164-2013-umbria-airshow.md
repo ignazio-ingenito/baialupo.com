@@ -47,7 +47,7 @@ Frati è morto il 14 maggio 2010, all'età di 91 anni
 
 L'unica pattuglia al mondo su velivoli ultraleggeri composta da piloti disabili, rappresentanti dei "BARONI ROTTI" (Federazione Italiana Piloti Disabili) e Team Ufficiale di FLY SYNTHESYS, azienda produttrice dei TEXAN TOP CLASS.
 
-Sito ufficiale <a href="http://www.weflyteam.com/" target="_blank">www.weflyteam.com</a>
+Sito ufficiale <a href="https://www.weflyteam.com/" target="_blank">www.weflyteam.com</a>
 
 <h1>RV6 - pilota Enzo Pacenti</h1>
 <img class="float-start mr-3 w-[300px]" src="/new/img/stories/2013-umbria-airshow-RV6.jpg"/>
@@ -94,7 +94,7 @@ L'Agusta A109 è un elicottero bimotore multiruolo leggero equipaggiato con due 
 <h1>Pioneer Team</h1>
 <img class="float-start mr-3 w-[300px]" src="/new/img/stories/2013-umbria-airshow-pioneerteam.jpg"/>
 Il
-<a href="http://www.pioneerteam.it/" target="_blank">
+<a href="https://www.pioneerteam.it/" target="_blank">
 Pioneer Team
 </a>
 usa velivoli biposto ad ala bassa, prodotti dall’azienda italiana Alpi Aviation con sede a Pordenone, i modelli impiegati sono Pioneer 300 e Pioneer 330 con carrello retrattile ed elica a passo variabile che conferiscono elevate prestazioni ed un inconfondibile stile italiano. Il programma di volo in formazione è una dimostrazione di precisione ed eleganza, una serie di figure ben armonizzate tra loro che offrono allo spettatore la sensazione di assistere ad una speciale danza nel cielo. Grazie alla maneggevolezza dei velivoli Pioneer la pattuglia rimane sempre in vista del pubblico per tutta la durata dell’esibizione, circa 12 minuti senza pause.
@@ -107,7 +107,7 @@ Gli ultimi 15 HH-3F, standard "Bravo", dispongono di equipaggiamenti Combat SAR 
 
 <h1>Frecce Tricolori</h1>
 <img class="float-start mr-3 w-[300px]" src="/new/img/stories/2013-umbria-airshow-freccetricolori.jpg"/>
-<a href="http://www.aeronautica.difesa.it/PAN/PAN_ITA/Pagine/default.aspx" target="_blank">
+<a href="https://www.aeronautica.difesa.it/PAN/PAN_ITA/Pagine/default.aspx" target="_blank">
 Le Frecce Tricolori
 </a>
 , il cui nome per esteso è Pattuglia Acrobatica Nazionale, costituente il 313º Gruppo Addestramento Acrobatico, sono la pattuglia acrobatica nazionale (PAN) dell'Aeronautica Militare Italiana, nate nel 1961 in seguito alla decisione dell'Aeronautica Militare di creare un gruppo permanente per l'addestramento all'acrobazia aerea collettiva dei suoi piloti.

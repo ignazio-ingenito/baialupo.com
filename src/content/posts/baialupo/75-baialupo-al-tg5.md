@@ -15,7 +15,7 @@ Durante l'edizione serale del TG5 è andato in onda un servizio sugli ultralegge
 <br />
 Chi se lo fosse perso può vederlo al link seguente, dal minuto 25.30 al minuto 28.00
 
-<a href="http://www.video.mediaset.it/video/tg5/full/162197/edizione-ore-2000-del-6-aprile.html" target="_blank">
+<a href="https://www.video.mediaset.it/video/tg5/full/162197/edizione-ore-2000-del-6-aprile.html" target="_blank">
 Guarda il video...
 <br/>
 </a>

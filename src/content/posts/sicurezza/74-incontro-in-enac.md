@@ -14,4 +14,4 @@ L'iniziativa volta ad ottenere una razionalizzazione degli spazi aerei con lo
 Venerdì 12 Marzo presso la sede ENAC di Roma, in occasione della consegna delle firme, si è svolto un incontro tra una rappresentanza dei piloti VFR firmatari ed i vertici di ENAC rappresentati dal Gen Pomponi, dall'Ing. Calcaterra e dal Dott.  Silanos. Assente per indisposizione il Direttore Generale Dott. Quaranta.
 
 Al link seguente potete leggere un sunto della discussione:
-<a href="http://www.galbiaflex.com/mariko/Incontro%20con%20ENAC.pdf" target="_blank">Incontro con ENAC.pdf</a>
+<a href="https://www.galbiaflex.com/mariko/Incontro%20con%20ENAC.pdf" target="_blank">Incontro con ENAC.pdf</a>

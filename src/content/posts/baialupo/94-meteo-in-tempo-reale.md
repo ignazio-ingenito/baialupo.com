@@ -12,6 +12,6 @@ created_by: Mariko
 <img src="/new/img/stories/2010-11-centro-meteo-lombardo.png" class="float-start mr-3 w-[300px] -translate-y-[40px]">
 Grazie alla collaborazione del Centro Meteo Lombardo è ora possibile consultare in tempo reale i dati rilevati dalla stazione meteo installata a Trezzano Rosa.
 
-<a href="http://www.centrometeolombardo.com/content.asp?contentid=3469&ContentType=Stazioni" target="_blank">
+<a href="https://www.centrometeolombardo.com/content.asp?contentid=3469&ContentType=Stazioni" target="_blank">
 www.centrometeolombardo.com
 </a>

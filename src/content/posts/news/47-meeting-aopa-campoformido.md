@@ -9,7 +9,7 @@ updated: 2009-10-20T12:00:00
 created_by: Ignazio
 ---
 
-<a href="http://www.aopa.it" target="_blank">
+<a href="https://www.aopa.it" target="_blank">
     <img alt="Aopa Logo" class="float-start mr-3 w-[300px] -mt-16" src="/new/img/covers/aopa.png" title="AOPA"/>
 </a>
 

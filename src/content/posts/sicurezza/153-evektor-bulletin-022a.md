@@ -17,6 +17,6 @@ Segnaliamo a tutti i possessori dei velivoli:<br>
 EV-97 Eurostar SLW, Harmony SLA, SportStar, SportStar MAX, SportStar MAX PTF e SportStar SL con serbatoi alari che e' stato emesso dalla casa madre un bollettino di sicurezza inerente il controllo del selettore di carburante.
 
 Nel caso in cui il vostro velivoli si dotato di selettore simile a quello mostrato in foto vi preghiamo di contattare l'Evektor Service Center
-<a href="http://www.aliveneta.it/index.php?route=information/contact" target="_blank">Aliveneta Srl</a>.
+<a href="https://www.aliveneta.it/index.php?route=information/contact" target="_blank">Aliveneta Srl</a>.
 
 Qui pubblichiamo il <a href="/new/img/stories/2013-05-evektor-bulletin-022a.jpg" target="_blank">bollettino originale Evektor</a>.

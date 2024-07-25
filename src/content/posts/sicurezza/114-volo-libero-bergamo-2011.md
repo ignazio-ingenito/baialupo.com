@@ -29,12 +29,12 @@ Con preghiera di massima diffusione del presente avviso, invito i piloti di qua
 
 Altre informazioni alle pagine:
 
-- <a href="http://www.vololiberobergamo.it/pagine/eventi/gara-sociale-2011.html" target="_blank">http://www.vololiberobergamo.it/pagine/eventi/gara-sociale-2011.html</a>
-- <a href="http://www.vololiberobergamo.it/pagine/voli/atterraggio.html" target="_blank">http://www.vololiberobergamo.it/pagine/voli/atterraggio.html</a>
+- <a href="https://www.vololiberobergamo.it/pagine/eventi/gara-sociale-2011.html" target="_blank">https://www.vololiberobergamo.it/pagine/eventi/gara-sociale-2011.html</a>
+- <a href="https://www.vololiberobergamo.it/pagine/voli/atterraggio.html" target="_blank">https://www.vololiberobergamo.it/pagine/voli/atterraggio.html</a>
 
 Ringraziando per l'attenzione, auguro buoni voli.<br>
 Gustavo Vitali<br>
 <small>
-<a href="http://www.vololiberobergamo.it" class="underline text-sm">www.vololiberobergamo.it</a><br>
+<a href="https://www.vololiberobergamo.it" class="underline text-sm">www.vololiberobergamo.it</a><br>
 skype: gustavo.vitali<br>
 </small>

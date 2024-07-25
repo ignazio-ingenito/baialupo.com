@@ -12,7 +12,7 @@ created_by: Luca Bertagnolio
 
 <img class="float-left" src="/new/img/stories/2009-11-garmin-stack.jpg" style="width: 310px" />
 
-[ENAC - Ente Nazionale per l'Aviazione Civile](http://www.enac-italia.it),<br>
+[ENAC - Ente Nazionale per l'Aviazione Civile](https://www.enac-italia.it),<br>
 è l'ente che in Italia si occupa di assegnare i codici ICAO a 24 bit necessari per la codifica dei transponder modo S e per i beacon di emergenza a 406 MHz.
 
 Per i mezzi certificati e quelli amatoriali che hanno marche di immatricolazione letterali I-ABCD la procedura da seguire è indicata alla pagina [Assegnazione codice SSR - Modo S](https://www.enac.gov.it/sicurezza-aerea/aeronavigabilita-iniziale/registro-aeromobili/assegnazione-allaeromobile-del-codice-ssr-modo-s) del sito di ENAC.

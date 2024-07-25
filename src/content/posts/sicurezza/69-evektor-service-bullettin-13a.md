@@ -23,6 +23,6 @@ In attessa della prevista ispezione la Evektor impone la riduzione di 30Km/h di:
 <br>
 Documenti:
 
-<a href="http://www.evektor.cz/pdf/support/bulletins/EuroStar/EV97_013a_Spar_caps_inspection.pdf" target="_blank">Mandatory Bulletin - EV 97 - 013a</a>
+<a href="https://www.evektor.cz/pdf/support/bulletins/EuroStar/EV97_013a_Spar_caps_inspection.pdf" target="_blank">Mandatory Bulletin - EV 97 - 013a</a>
 
-<a href="http://www.bfu.admin.ch/common/pdf/u2053_e.pdf" target="_blank">BFU - Investigation Report N. u2053</a>
+<a href="https://www.bfu.admin.ch/common/pdf/u2053_e.pdf" target="_blank">BFU - Investigation Report N. u2053</a>

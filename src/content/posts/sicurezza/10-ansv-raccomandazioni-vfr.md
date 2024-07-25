@@ -70,4 +70,4 @@ In considerazione di quanto sopra esposto si raccomanda quanto segue.
 
 - Di sensibilizzare le strutture addestrative autorizzate all’organizzazione di corsi per il conseguimento delle licenze di pilota privato e di pilota di aliante in ordine alla necessità che gli allievi acquisiscano la piena familiarità con le regole del volo a vista (VFR) in relazione alle diverse classi di spazi aerei esistenti. Di sensibilizzare altresì, attraverso gli strumenti ritenuti più idonei, i piloti operanti secondo le regole del volo a vista sulla necessità di rispettare puntualmente tali regole, anche al fine di consentire l’espletamento di un miglior servizio da parte dei competenti enti di controllo del traffico aereo. (Raccomandazione ANSV-11/SA/11/06)
 
-Fonte: www.ansv.it - <a href="http://www.ansv.it/it/Detail.asp?ID=658">http://www.ansv.it/it/Detail.asp?ID=658</a>
+Fonte: www.ansv.it - <a href="https://www.ansv.it/it/Detail.asp?ID=658">https://www.ansv.it/it/Detail.asp?ID=658</a>

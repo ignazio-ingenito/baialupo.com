@@ -17,7 +17,7 @@ Vi segnaliamo che dal mese di Dicembre il ristorante "La Piramide", presso l'aer
 
 Dopo 3 anni di lunga inattività, il ristorante torna ad essere aperto 7 giorni su 7 sia a pranzo (con menù del mezzogiorno con prezzi a partire da € 10,00) che a cena con menù alla Carta (disponibile anche a pranzo).
 
-Potete reperire tutte le informazioni sulla struttura e i servizi visitando il nuovissimo sito <a href="http://www.lapiramiderestaurant.com" target="_blank">www.lapiramiderestaurant.com</a>.
+Potete reperire tutte le informazioni sulla struttura e i servizi visitando il nuovissimo sito <a href="https://www.lapiramiderestaurant.com" target="_blank">www.lapiramiderestaurant.com</a>.
 
 Sono tornati operativi anche tutti i servizi dell’Aeroporto/Aero villaggio, tra i quali Dogana e Rifornimento carburante.
 

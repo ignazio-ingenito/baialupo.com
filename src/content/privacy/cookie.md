@@ -67,13 +67,13 @@ Vengono invece installati cookie di terze parti per le seguenti finalità: inter
 
 Per questi, fermo restando la possibilità di disabilitarli attraverso le impostazioni del browser come indicato in seguito, viene fornito il link all'informativa estesa ed ai moduli di consenso delle terze parti che installano i cookie:
 
-|                                                      | Google AJAX Search API                                 | Google +                                               | Google Analytics                                          | Google Adwords                                                           |
-| ---------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------ | --------------------------------------------------------- | ------------------------------------------------------------------------ |
-| Tipologia Cookie                                     | Persistente                                            | Persistente                                            | Persistente                                               | Persistente                                                              |
-| Finalità                                             | Funzionalità di ricerca, tracciamento anonimo          | Condivisione contenuti                                 | Analisi statistiche e reporting                           | Tracciamento contenuti del sito e interazione utente, scopi pubblicitari |
-| Terza parte che conserva le informazioni dell'utente | Google                                                 | Google                                                 | Google                                                    | Google                                                                   |
-| Link all'informativa della privacy della terza parte | [Link](http://www.google.com/intl/en/policies/privacy) | [Link](http://www.google.com/intl/en/policies/privacy) | [Link](https://www.google.it/policies/privacy/partners/") | [Link](https://www.google.it/policies/privacy/partners")                 |
-| Link al modulo di consenso della terza parte         | [Link](http://www.google.com/policies/privacy)         | [Link](http://tools.google.com/dlpage/gaoptout")       | [Link](http://tools.google.com/dlpage/gaoptout")          | [Link](http://www.google.com/settings/ads")                              |
+|                                                      | Google AJAX Search API                                  | Google +                                                | Google Analytics                                          | Google Adwords                                                           |
+| ---------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------------ |
+| Tipologia Cookie                                     | Persistente                                             | Persistente                                             | Persistente                                               | Persistente                                                              |
+| Finalità                                             | Funzionalità di ricerca, tracciamento anonimo           | Condivisione contenuti                                  | Analisi statistiche e reporting                           | Tracciamento contenuti del sito e interazione utente, scopi pubblicitari |
+| Terza parte che conserva le informazioni dell'utente | Google                                                  | Google                                                  | Google                                                    | Google                                                                   |
+| Link all'informativa della privacy della terza parte | [Link](https://www.google.com/intl/en/policies/privacy) | [Link](https://www.google.com/intl/en/policies/privacy) | [Link](https://www.google.it/policies/privacy/partners/") | [Link](https://www.google.it/policies/privacy/partners")                 |
+| Link al modulo di consenso della terza parte         | [Link](https://www.google.com/policies/privacy)         | [Link](https://tools.google.com/dlpage/gaoptout")       | [Link](https://tools.google.com/dlpage/gaoptout")         | [Link](https://www.google.com/settings/ads")                             |
 
 <sup>
 I link sopra indicati possono essere soggetti a variazioni del tempo non dovuti a baialupo.com. Le stesse informazioni sono, comunque, facilmente reperibili utilizzando un motore di ricerca
@@ -86,10 +86,10 @@ L'utente può decidere se accettare o meno i cookie. A questo scopo può utilizz
 A titolo di esempio, in Firefox, attraverso il menu Strumenti &gt; Opzioni &gt; Privacy, è possibile accedere ad un pannello di controllo dove è possibile definire se accettare o meno i diversi tipi di cookie e procedere alla loro rimozione.
 I seguenti siti web contengono informazioni su come regolare le impostazioni dei cookie in alcuni browser più diffusi:
 
-- [Apple Safari](href="http://support.apple.com/kb/PH5042")
+- [Apple Safari](href="https://support.apple.com/kb/PH5042")
 - [Google Chrome](href="https://support.google.com/chrome/bin/answer.py?hl=en&answer=95647&p=cpn_cookies")
-- [Microsoft Internet Explorer](href="http://www.microsoft.com/info/cookies.mspx")
-- [Mozilla Firefox](href="http://support.mozilla.org/en-US/kb/Cookies")
+- [Microsoft Internet Explorer](href="https://www.microsoft.com/info/cookies.mspx")
+- [Mozilla Firefox](href="https://support.mozilla.org/en-US/kb/Cookies")
 
 <sup>I link sopra indicati possono essere soggetti a variazioni del tempo non dovuti a baialupo.com. Le stesse informazioni sono, comunque, facilmente reperibili utilizzando un motore di ricerca.</sup>
 

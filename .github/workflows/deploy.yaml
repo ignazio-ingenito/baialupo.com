@@ -16,6 +16,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Get IP Addresses
+        id: ip
+        uses: candidob/get-runner-ip@v1.0.0
+      - name: See IP Addresses
+        run: |
+            echo ${{ steps.ip.outputs.ipv4 }}
       - name: Checkout your repository using git
         uses: actions/checkout@v4
       - name: Install, build, and upload your site output

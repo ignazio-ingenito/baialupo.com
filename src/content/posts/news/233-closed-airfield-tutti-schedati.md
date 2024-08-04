@@ -10,14 +10,16 @@ created_by: Ignazio
 ---
 
 <style>
-    img {
+    .content img {
         max-width: 200px;
     }
-    img:nth-of-type(odd) {
+
+    .content img:nth-of-type(odd) {
         float: left;
         margin-right: 0.25rem;
     }
-    .blurred {
+
+    .content .blurred {
         display: inline;
         color: transparent;
         text-shadow: 0 0 6px rgba(0,0,0,0.5);

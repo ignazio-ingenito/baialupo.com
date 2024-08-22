@@ -2,7 +2,7 @@
 id: 229
 title: Vendesi Tecnam P2002 Sierra avanzato.
 category: baialupo
-featured: 1
+featured: 0
 cover: /web/img/market/229-muttley-4-sale-01.jpeg
 created: 2024-07-14T00:00:00
 updated: 2024-07-14T00:00:00

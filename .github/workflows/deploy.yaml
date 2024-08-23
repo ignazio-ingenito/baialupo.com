@@ -16,15 +16,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Get IP Addresses
-        id: ip
-        uses: candidob/get-runner-ip@v1.0.0
-      - name: See IP Addresses
-        run: |
-            echo ${{ steps.ip.outputs.ipv4 }}
       - name: Checkout your repository using git
         uses: actions/checkout@v4
-      - name: Install, build, and upload your site output
+      - name: Install and build astro website
         uses: withastro/action@v2
         with:
             # The Node package manager that should be used to install dependencies and build your site. Automatically detected based on your lockfile. (optional)
@@ -34,10 +28,10 @@ jobs:
             # The specific version of Node that should be used to build your site. Defaults to 18. (optional)
             node-version: 20 
       - name: Upload files
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ftp.baialupo.com
           local-dir: ./dist/
-          server-dir: /www.baialupo.com/dist/
+          server-dir: /www.baialupo.com/web/
           username: ${{ secrets.ARUBA_FTP_USER }}
           password: ${{ secrets.ARUBA_FTP_PWD }}

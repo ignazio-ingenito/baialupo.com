@@ -2,7 +2,7 @@
 id: 232
 title: Aiutiamo Costa Volpino!
 category: news
-featured: 1
+featured: 0
 cover: /web/img/stories/2024-petizione-costa-volpino.png
 created: 2024-07-16T00:00:00
 updated: 2024-07-16T00:00:00

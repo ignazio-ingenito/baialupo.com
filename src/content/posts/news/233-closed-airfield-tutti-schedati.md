@@ -2,7 +2,7 @@
 id: 233
 title: "Aviosuperfici: Non aiutate chi non vuole aiutarci"
 category: news
-featured: 1
+featured: 0
 cover: /web/img/stories/2024-08-closed-airfield-tutti-schedati.jpg
 created: 2024-08-04T00:00:00
 updated: 2024-08-04T00:00:00

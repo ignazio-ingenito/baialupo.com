@@ -2,7 +2,7 @@
 id: 231
 title: Raid Iberico 2024
 category: news
-featured: 1
+featured: 0
 cover: /web/img/stories/2024-raid-iberico.png
 created: 2024-07-15T00:00:00
 updated: 2024-07-15T00:00:00

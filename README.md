@@ -81,6 +81,14 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
+## Utils
+
+To get the latest article id:
+
+```
+find . -name "*.md" -exec basename {} \; | awk '{print $0+0}' | sort --version-sort | tail -1
+```
+
 ## Resources
 
 - Icons from https://icon-sets.iconify.design

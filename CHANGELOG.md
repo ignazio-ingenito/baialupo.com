@@ -6,10 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ### ⚙️ Miscellaneous Tasks
 
-- Update changelog
-- *(cd)* New git-cliff config added
+- *(meteo)* Fix broken link
 
-## [2024.12.27] - 2024-12-27
+## [2024.12.25] - 2024-12-27
 
 ### 🚀 Features
 
@@ -30,6 +29,7 @@ All notable changes to this project will be documented in this file.
 - Add flight rules & magnetic declination
 - Add git-cliff to the pipeline
 - Update changelog
+- *(cd)* New git-cliff config added
 
 ## [2024.9.23] - 2024-09-07
 

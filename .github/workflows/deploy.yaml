@@ -39,6 +39,7 @@ jobs:
           set +e
           git add CHANGELOG.md
           git commit -m "chore: update changelog"
+          git pull --rebase
           git push https://x-access-token:${{ secrets.GIT_TOKEN }}@github.com/${{ github.repository }}.git main
 
       - name: Install and build astro website

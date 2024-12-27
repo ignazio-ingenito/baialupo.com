@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [unreleased]
+
+### ⚙️ Miscellaneous Tasks
+
+- Update changelog
+- *(cd)* New git-cliff config added
+
 ## [2024.12.27] - 2024-12-27
 
 ### 🚀 Features
@@ -23,11 +30,6 @@ All notable changes to this project will be documented in this file.
 - Add flight rules & magnetic declination
 - Add git-cliff to the pipeline
 - Update changelog
-- Update changelog
-- Update changelog
-- Update changelog
-- Update changelog
-- Update changelog
 
 ## [2024.9.23] - 2024-09-07
 
@@ -39,7 +41,6 @@ All notable changes to this project will be documented in this file.
 
 ### ⚙️ Miscellaneous Tasks
 
-- *(content)* New content added 233
 - *(content)* New content added 233
 - *(content)* Update 229 & 230
 
@@ -68,24 +69,10 @@ All notable changes to this project will be documented in this file.
 - *(gallery)* All gallery completed
 - *(docs)* Documents verified
 - *(git)* Git action to deploy
-- *(git)* Git action to deploy
-- *(git)* Git action to deploy
-- *(git)* Git action to deploy
-- *(git)* Git action to deploy
-- *(git)* Git action to deploy
-- *(git)* Git action to deploy
-- *(git)* Git action to deploy
-- *(git)* Git action to deploy
-- *(git)* Git action to deploy
-- *(git)* Git action to deploy
-- *(git)* Git action to deploy
-- *(content)* New article 228
 - *(content)* New article 228
 - *(content)* New articles
 - *(content)* Two new articles
 - *(gallery)* Gallery removed from content
-- *(cd)* New deployment pipeline
-- *(cd)* New deployment pipeline
 - *(cd)* New deployment pipeline
 - *(content)* Moving from new to web context
 
@@ -123,8 +110,6 @@ All notable changes to this project will be documented in this file.
 - *(gallery)* Album pics from 2015 added
 - *(gallery)* Album pics from 2023 added
 - *(avio)* Css improved
-- *(privacy)* Css improved
-- *(css)* Css improvements
 - *(css)* Css improvements
 - *(blog)* First category & post page
 - *(contents)* All contents reviewed and fixed
@@ -133,16 +118,13 @@ All notable changes to this project will be documented in this file.
 - *(packages)* Sharp added due to pnpm bug
 - *(astro)* Packages upgrade
 - *(index)* Showing 30 articles instead of 31
-- *(index)* Showing 30 articles instead of 31
 - *(docs)* Moved docs out of the astro project
 - *(head)* Added slot for head
-- *(docs)* Moved docs out of astro project
 - *(docs)* Moved docs out of astro project
 - *(images)* Images loading improvements
 - *(lint)* Minor lint warning fixed
 - *(weather)* Minor js improvements
 - *(ui)* UI card minor improvement
-- *(readme)* Reviewed
 - *(readme)* Reviewed
 - *(cd)* Get runner ip
 - *(readme)* Minor fixes

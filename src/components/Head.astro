@@ -1,5 +1,5 @@
 ---
-import { ViewTransitions } from "astro:transitions"
+import { ClientRouter } from "astro:transitions"
 
 // Import the global.css file here so that it is included on all pages through the use of the <BaseHead /> component.
 import "../styles/global.css"
@@ -69,7 +69,7 @@ const {
   <meta property="og:description" content={description} />
   <meta property="og:image" content={new URL(image, Astro.url)} />
 
-  <ViewTransitions />
+  <ClientRouter />
 
   <!-- Named slot for image preloading -->
   <slot name="head" />

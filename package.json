@@ -20,7 +20,7 @@
     "astro-icon": "^1.1.0",
     "react-dom": "^18.3.1",
     "sharp": "^0.33.4",
-    "swiper": "^11.1.4",
+    "swiper": "^11.1.15",
     "tailwindcss": "^3.4.4",
     "typescript": "^5.4.5"
   }

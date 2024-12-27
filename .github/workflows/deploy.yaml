@@ -26,7 +26,8 @@ jobs:
             # The root location of your Astro project inside the repository. (optional)
             # path: . 
             # The specific version of Node that should be used to build your site. Defaults to 18. (optional)
-            node-version: 20 
+            # Dec, 5th - Ubuntu-latest workflows will use Ubuntu-24.04 image - https://github.com/actions/runner-images/issues/10636
+            # node-version: 20 
       - name: Upload files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:

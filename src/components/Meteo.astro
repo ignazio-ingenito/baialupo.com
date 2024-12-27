@@ -17,12 +17,26 @@ import sunset from "/src/assets/images/meteo/sunset.png"
     shadow;
   }
 
+  section > div > div {
+    @apply font-thin text-base;
+  }
+
+  section > div > div:first-child {
+    @apply font-bold text-xl;
+  }
+
   section > div:not(:first-child) {
     @apply flex flex-col
      items-center
      justify-center
      select-none
      whitespace-nowrap;
+  }
+
+  @media screen and (max-width: 350px) {
+    section > div > div:first-child {
+      @apply font-bold text-xs;
+    }
   }
 
   @media screen and (max-width: 430px) {
@@ -35,12 +49,18 @@ import sunset from "/src/assets/images/meteo/sunset.png"
     }
 
     section > div:nth-child(5),
-    section > div:nth-child(9) {
+    section > div:nth-child(9),
+    section > div:nth-child(10),
+    section > div:nth-child(11) {
       @apply hidden;
     }
 
     section > div:first-child img {
       @apply min-h-[120px];
+    }
+
+    section > div > div:first-child {
+      @apply font-bold text-lg;
     }
   }
 
@@ -56,45 +76,79 @@ import sunset from "/src/assets/images/meteo/sunset.png"
     section > div:first-child img {
       @apply min-h-[120px];
     }
+
+    section > div:nth-child(10),
+    section > div:nth-child(11) {
+      @apply hidden;
+    }
   }
 
   @media screen and (min-width: 640px) {
     section {
       @apply grid-cols-2;
-      grid-template-rows: 250px auto auto auto;
+      grid-template-rows: 250px 100px 100px 100px 100px 100px;
     }
     section > div:first-child {
       @apply col-span-2;
     }
+
+    /* temperature */
     section > div:nth-of-type(2) {
       order: 1;
     }
+    /* visibility */
     section > div:nth-of-type(3) {
       order: 3;
     }
+    /* wind */
     section > div:nth-of-type(4) {
       order: 5;
     }
+    /* sunrise */
     section > div:nth-of-type(5) {
-      order: 7;
+      order: 9;
     }
+    /* dewpoint */
     section > div:nth-of-type(6) {
       order: 2;
     }
+    /* sky */
     section > div:nth-of-type(7) {
       order: 4;
     }
+    /* pressure */
     section > div:nth-of-type(8) {
       order: 6;
     }
+    /* sunset */
     section > div:nth-of-type(9) {
+      order: 10;
+    }
+    /* magenetic declination */
+    section > div:nth-of-type(10) {
+      order: 7;
+    }
+    section > div:nth-of-type(11) {
       order: 8;
     }
+  }
+
+  #flight-rules[data-value="VFR"] {
+    @apply text-green-600;
+  }
+  #flight-rules[data-value="MVFR"] {
+    @apply text-blue-600;
+  }
+  #flight-rules[data-value="LIFR"] {
+    @apply text-fuchsia-600;
+  }
+  #flight-rules[data-value="IFR"] {
+    @apply text-red-600;
   }
 </style>
 <section class="meteo">
   <div>
-    <a href="/meteo">
+    <a href="/web/meteo/">
       <Image
         src="https://www.ilmeteo.it/italy.png"
         alt="Il meteo di oggi by ilmeteo.it"
@@ -104,42 +158,50 @@ import sunset from "/src/assets/images/meteo/sunset.png"
     </a>
   </div>
   <div>
-    <div id="temp" class="font-bold text-xl"></div>
+    <div id="temp"></div>
     <div class="font-thin text-base">temperature</div>
   </div>
   <div>
-    <div id="visibility" class="font-bold text-xl"></div>
+    <div id="visibility"></div>
     <div class="font-thin text-base">visibility</div>
   </div>
   <div>
-    <div id="wind" class="font-bold text-xl"></div>
+    <div id="wind"></div>
     <div class="font-thin text-base">wind</div>
   </div>
   <div>
-    <div id="sunrise" class="font-bold text-xl"></div>
+    <div id="sunrise"></div>
     <div class="flex">
       <Image src={sunrise} alt="sunrise" class="w-5 h-5 mt-1" />
       <div class="font-thin text-base">sunrise</div>
     </div>
   </div>
   <div>
-    <div id="dewpoint" class="font-bold text-xl"></div>
+    <div id="dewpoint"></div>
     <div class="font-thin text-base">dewpoint</div>
   </div>
   <div>
-    <div id="ceiling" class="font-bold text-xl"></div>
+    <div id="ceiling"></div>
     <div id="ceiling-type" class="font-thin text-base">ceiling</div>
   </div>
   <div>
-    <div id="qnh" class="font-bold text-xl"></div>
+    <div id="qnh"></div>
     <div class="font-thin text-base">QNH</div>
   </div>
   <div>
-    <div id="sunset" class="font-bold text-xl"></div>
+    <div id="sunset"></div>
     <div class="flex">
       <Image src={sunset} alt="sunset" class="w-5 h-5 mt-1" />
       <div class="font-thin text-base">sunset</div>
     </div>
+  </div>
+  <div>
+    <div id="flight-rules"></div>
+    <div>flight rules</div>
+  </div>
+  <div>
+    <div id="magnetic-declination"></div>
+    <div>magnetic dec</div>
   </div>
 </section>
 

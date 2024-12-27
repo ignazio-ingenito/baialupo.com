@@ -33,9 +33,11 @@ async function hydrateMeteo(weather: Weather) {
             ceiling_agl,
             cloud_cover,
             dew_point_temperature_2m_agl,
+            flight_rules,
             surface_visibility,
             wind_10m_agl,
         },
+        magnetic_declination,
         next_sunrise,
         next_sunset
     } = weather
@@ -65,6 +67,13 @@ async function hydrateMeteo(weather: Weather) {
     const ceilType =
         percentageToMetar(clouds.value)?.description.toLowerCase() || ""
     document.getElementById("ceiling-type")!.textContent = ceilType
+    // flight rules
+    const flightRules = flight_rules.time_steps[0].quantity.meaning
+    document.getElementById("flight-rules")!.textContent = flightRules
+    document.getElementById("flight-rules")!.dataset["value"] = flightRules
+    // magnetic declination
+    const magneticDeclination = magnetic_declination.value
+    document.getElementById("magnetic-declination")!.textContent = magneticDeclination.toFixed(3) + "°"
     // wind
     const { from_direction, speed } = wind_10m_agl.time_steps[0]
     const windDir = from_direction.value
@@ -98,6 +107,6 @@ async function renderMeteo() {
     hydrateMeteo(res.weather)
 }
 
-document.addEventListener("DOMContentLoaded", async function() {
+document.addEventListener("DOMContentLoaded", async function () {
     await renderMeteo()
 })

@@ -14,22 +14,20 @@ import "../styles/post.css"
 
 // Content
 export async function getStaticPaths() {
-  const posts = (await getCollection("posts"))
-    .sort((a, b) => a.data.id - b.data.id)
+  const allPosts = (await getCollection("posts"))
+    .sort((a: any, b: any) => a.data.id - b.data.id)
     .reverse()
 
-  return posts.map((post) => ({
-    params: { slug: post.slug },
+  return (allPosts || []).map((p: any) => ({
+    params: { slug: p.slug },
   }))
 }
 
 const { slug } = Astro.params
 
 const post = await getEntry("posts", slug)
-const {
-  data: { id, title, created, updated, created_by },
-} = post
-const { Content } = await post!.render()
+const { Content } = post ? await post.render() : {}
+const { title, updated, created, created_by } = post?.data || {}
 ---
 
 <style>
@@ -43,12 +41,12 @@ const { Content } = await post!.render()
 </style>
 
 <Layout back={false}>
-  <section class="grid" id={`${id}`} data-slug={slug}>
+  <section class="grid" id={`${post?.id}`} data-slug={slug}>
     <h1>{title}</h1>
     <Back />
     <Postinfo updated={updated || created} created_by={created_by} />
   </section>
   <section class="content">
-    <Content />
+    {Content ? <Content /> : "Content not found"}
   </section>
 </Layout>

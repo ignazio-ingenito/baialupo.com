@@ -9,12 +9,9 @@ import Layout from "../../layouts/Layout.astro"
 import "../../styles/aviosuperficie.css"
 import Postinfo from "../../components/Postinfo.astro"
 
-// Content
 const post = await getEntry("avio", "aviosuperficie")
-const { Content } = await post.render()
-const {
-  data: { title, updated, created, created_by },
-} = post
+const { Content } = post ? await post.render() : {}
+const { title, updated, created, created_by } = post?.data || {}
 ---
 
 <Layout back={false}>
@@ -22,6 +19,7 @@ const {
     <h1 class="title">{title}</h1>
     <Back />
     <Postinfo updated={updated || created} created_by={created_by} />
-    <Content />
+    {Content ? <Content /> : "Content not found"}
   </div>
 </Layout>
+---

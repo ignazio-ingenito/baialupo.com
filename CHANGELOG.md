@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [unreleased]
+## [2024.12.27] - 2024-12-27
 
 ### 🚀 Features
 
@@ -12,6 +12,8 @@ All notable changes to this project will be documented in this file.
 
 - Http link fixed
 - Deprecated getEntryBySlug has been fixed
+- ViewTransitions renamed to ClientRouter in Astro5
+- *(TypeScript)* Fix issues from bumping TypeScript from 5.4.5 to 5.7.2
 
 ### ⚙️ Miscellaneous Tasks
 
@@ -20,6 +22,7 @@ All notable changes to this project will be documented in this file.
 - Ubuntu-latest workflows will use Ubuntu-24.04 image
 - Add flight rules & magnetic declination
 - Add git-cliff to the pipeline
+- Update changelog
 - Update changelog
 - Update changelog
 - Update changelog

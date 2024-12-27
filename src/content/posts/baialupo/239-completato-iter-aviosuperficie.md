@@ -10,7 +10,7 @@ created_by: Ignazio
 ---
 
 <div class="w-full max-w-[400px]">
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 400 1080 300" xml:space="preserve">
+    <svg xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" version="1.1" viewBox="0 400 1080 300" xml:space="preserve">
     <rect x="0" y="0" width="100%" height="100%" fill="transparent"></rect>
     <g transform="matrix(1 0 0 1 540 540)" id="3f237892-fa3d-446e-bb13-ec5bc4224dc7"  >
     <rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; visibility: hidden;" vector-effect="non-scaling-stroke"  x="-540" y="-540" rx="0" ry="0" width="1080" height="1080" />

@@ -21,6 +21,7 @@ All notable changes to this project will be documented in this file.
 - Add flight rules & magnetic declination
 - Add git-cliff to the pipeline
 - Update changelog
+- Update changelog
 
 ## [2024.9.23] - 2024-09-07
 

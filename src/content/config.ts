@@ -16,12 +16,12 @@ const avio = defineCollection({
 const gallery = defineCollection({
 	type: "data",
 	schema: z.object({
-			title: z.string(),
-			cover: z.string(),
-			created: z.coerce.date(),
-			updated: z.coerce.date(),
-			files: z.array(z.string()).default([])
-		}),
+		title: z.string(),
+		cover: z.string(),
+		created: z.coerce.date(),
+		updated: z.coerce.date(),
+		files: z.array(z.string()).default([])
+	}),
 })
 
 const market = defineCollection({
@@ -61,10 +61,26 @@ const posts = defineCollection({
 	}),
 })
 
+const privacy = defineCollection({
+	type: 'content',
+	schema: z.object({
+		id: z.number(),
+		title: z.string(),
+		description: z.string().optional(),
+		category: z.string(),
+		featured: z.number().optional().default(0),
+		cover: z.string().optional(),
+		created: z.coerce.date(),
+		updated: z.coerce.date(),
+		created_by: z.string().optional().default("Ignazio"),
+	}),
+})
+
 export const collections = {
 	avio,
 	gallery,
 	meteo,
 	market,
 	posts,
+	privacy,
 }

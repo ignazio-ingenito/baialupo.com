@@ -8,11 +8,11 @@ const { year = new Date().getFullYear() } = Astro.props;
   }
 </style>
 
-<footer class="flex w-full">
-  <div class="flex-1">
+<footer class="w-full flex items-center justify-between">
+  <div>
     Copyright © {year} Flying ASD
   </div>
-  <div class="flex-1 text-right">
+  <div class="text-right">
     <a href={`${import.meta.env.BASE_URL}/privacy`}>Privacy Policy</a>
   </div>
 </footer>

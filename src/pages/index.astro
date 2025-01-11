@@ -32,13 +32,18 @@ const posts = (await getCollection("posts"))
 </style>
 
 <Layout>
-  <div>
-    <img
-      class="w-full"
-      src="/web/img/stories/buone-feste.png"
-      alt="Buone Feste"
-    />
-  </div>
+  {
+    // Set to true during the holidays
+    false && (
+      <div>
+       <img
+         class="w-full"
+         src="/web/img/stories/buone-feste.png"
+         alt="Buone Feste"
+       />
+     </div>
+    )
+  }
   <section>
     {
       posts.map(

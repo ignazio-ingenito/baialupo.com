@@ -85,12 +85,28 @@ import sunset from "/src/assets/images/meteo/sunset.png"
 
   @media screen and (min-width: 640px) {
     section {
-      @apply grid-cols-2;
-      grid-template-rows: 250px 100px 100px 100px 100px 100px;
+      @apply grid-cols-2 pb-2 transition-all;
+       grid-template-rows: 200px 52px 52px 52px 52px 52px;
     }
+
     section > div:first-child {
-      @apply col-span-2;
+      @apply col-span-2
+        overflow-y-hidden;
+
     }
+
+    section > div > div:first-child {
+      @apply font-bold text-sm;
+    }
+
+    section > div > div:last-child {
+      @apply font-thin text-xs;
+    }
+
+    .meteo {
+      @apply max-w-[185px]
+        overflow-y-auto;
+     }
 
     /* temperature */
     section > div:nth-of-type(2) {
@@ -158,49 +174,49 @@ import sunset from "/src/assets/images/meteo/sunset.png"
     </a>
   </div>
   <div>
-    <div id="temp"></div>
+    <div id="temp" class="meteo-value"></div>
     <div class="font-thin text-base">temperature</div>
   </div>
   <div>
-    <div id="visibility"></div>
+    <div id="visibility" class="meteo-value">></div>
     <div class="font-thin text-base">visibility</div>
   </div>
   <div>
-    <div id="wind"></div>
+    <div id="wind" class="meteo-value">></div>
     <div class="font-thin text-base">wind</div>
   </div>
   <div>
-    <div id="sunrise"></div>
+    <div id="sunrise" class="meteo-value">></div>
     <div class="flex">
       <Image src={sunrise} alt="sunrise" class="w-5 h-5 mt-1" />
       <div class="font-thin text-base">sunrise</div>
     </div>
   </div>
   <div>
-    <div id="dewpoint"></div>
+    <div id="dewpoint" class="meteo-value">></div>
     <div class="font-thin text-base">dewpoint</div>
   </div>
   <div>
-    <div id="ceiling"></div>
+    <div id="ceiling" class="meteo-value">></div>
     <div id="ceiling-type" class="font-thin text-base">ceiling</div>
   </div>
   <div>
-    <div id="qnh"></div>
+    <div id="qnh" class="meteo-value">></div>
     <div class="font-thin text-base">QNH</div>
   </div>
   <div>
-    <div id="sunset"></div>
+    <div id="sunset" class="meteo-value">></div>
     <div class="flex">
       <Image src={sunset} alt="sunset" class="w-5 h-5 mt-1" />
       <div class="font-thin text-base">sunset</div>
     </div>
   </div>
   <div>
-    <div id="flight-rules"></div>
+    <div id="flight-rules" class="meteo-value">></div>
     <div>flight rules</div>
   </div>
   <div>
-    <div id="magnetic-declination"></div>
+    <div id="magnetic-declination" class="meteo-value">></div>
     <div>magnetic dec</div>
   </div>
 </section>

@@ -7,6 +7,7 @@ All notable changes to this project will be documented in this file.
 ### ⚙️ Miscellaneous Tasks
 
 - Update changelog
+- Holiday greetings removed
 
 ## [2024.12.25] - 2024-12-27
 

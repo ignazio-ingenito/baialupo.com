@@ -7,6 +7,8 @@ All notable changes to this project will be documented in this file.
 ### ⚙️ Miscellaneous Tasks
 
 - Layout improvement at width more then 640px
+- Update changelog
+- Astro version bump
 
 ## [2025.1.11] - 2025-01-11
 

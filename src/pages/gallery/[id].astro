@@ -28,7 +28,9 @@ const { title, files } = Astro.props
     columns-1 sm:columns-2 lg:columns-3;
   }
 
-  img {
+  img, 
+  video 
+  {
     @apply m-1
     bg-transparent
     rounded
@@ -57,7 +59,19 @@ const { title, files } = Astro.props
       <Back />
     </div>
     <article>
-      {files.map((img) => <img src={img} alt="img" />)}
+      {
+        files.map((img) => (
+          <div>
+            {
+              img.endsWith("mp4") 
+                ? <video controls>
+                    <source src={img} type="video/mp4" />
+                  </video>
+                : <img src={img} alt={img} />
+            }
+          </div>
+        ))
+      }
     </article>
   </section>
   <script>

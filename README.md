@@ -104,7 +104,7 @@ find . -name "*.md" -exec basename {} \; | awk '{print $0+0}' | sort --version-s
 
 ### Issue
 
-If any memory issue arise rebuild the project after issuiing the following command:
+If any memory issue arise rebuild the project after issuing the following command:
 
 ```
 export NODE_OPTIONS=--max_old_space_size=4096

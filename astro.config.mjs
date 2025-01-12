@@ -13,5 +13,9 @@ export default defineConfig({
   },
   site: 'https://www.baialupo.com',
   base: '/web',
-  trailingSlash: "ignore"
+  trailingSlash: "ignore",
+  prefetch: true,
+  experimental: {
+    clientPrerender: true,
+  }
 });

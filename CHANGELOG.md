@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 ## [unreleased]
 
+### 🚀 Features
+
+- Gallery now handles mp4 video
+
 ### ⚙️ Miscellaneous Tasks
 
 - Layout improvement at width more then 640px

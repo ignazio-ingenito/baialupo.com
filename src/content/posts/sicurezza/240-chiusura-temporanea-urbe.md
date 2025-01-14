@@ -9,7 +9,7 @@ updated: 2023-12-30T00:00:00
 created_by: Ignazio
 ---
 
-<img alt="Chiusura temporanea dell’Aeroporto di Roma-Urbe per lavori di riqualificazione" class="float-start mr-3 mb-1 w-[295px]" src="https://www.baialupo.com/web/img/stories/2024-240-chiusura-urbe.jpg" title="Chiusura temporanea dell’Aeroporto di Roma-Urbe per lavori di riqualificazione"/>
+<img alt="Chiusura temporanea dell’Aeroporto di Roma-Urbe per lavori di riqualificazione" class="float-start mr-3 mb-1 w-[295px]" src="/web/img/stories/2024-240-chiusura-urbe.jpg" title="Chiusura temporanea dell’Aeroporto di Roma-Urbe per lavori di riqualificazione"/>
 
 L’Aeroporto di Roma-Urbe resterà chiuso a tutto il traffico aereo dal <span class="whitespace-nowrap">**27-dic-2024** al **29-gen-2025**.</span><br />
 La chiusura, comunicata tramite il NOTAM C1253/24, &grave; necessaria per consentire i lavori di riqualificazione della pista di volo 16/34.

@@ -31,3 +31,16 @@ Sarà effettuato l’inspessimento del manufatto idraulico, migliorandone la reg
 ###### 4. Aggiornamento della segnaletica
 
 Verrà ripristinata e aggiornata sia la segnaletica orizzontale che quella verticale, conformemente agli standard previsti dalla normativa EASA.
+
+### Notam
+
+```
+C1253/24 NOTAMN
+Q) LIRR/QFALC/IV/NBO/A /000/999/4157N01230E005
+A) LIRU B) 2412270830 C) 2501291630
+E) TESTO ITALIANO:
+AEROPORTO CHIUSO A TUTTO IL TRAFFICO
+ENGLISH TEXT:
+AERODROME CLOSED TO ALL TFC
+REF AIP AD2 LIRU 1-1
+```

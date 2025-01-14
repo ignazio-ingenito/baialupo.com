@@ -4,15 +4,19 @@ All notable changes to this project will be documented in this file.
 
 ## [unreleased]
 
-### 🐛 Bug Fixes
+### ⚙️ Miscellaneous Tasks
 
-- *(js)* Fix weather data loading
+- *(content)* Content update (id: 240)
 
 ## [2025.1.14] - 2025-01-14
 
 ### 🚀 Features
 
 - Gallery now handles mp4 video
+
+### 🐛 Bug Fixes
+
+- *(js)* Fix weather data loading
 
 ### ⚙️ Miscellaneous Tasks
 

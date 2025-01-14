@@ -103,10 +103,19 @@ async function getMeteo(): Promise<WeatherApiResponse> {
 }
 
 async function renderMeteo() {
+    const cache = localStorage.getItem('weather')
+    if (cache) {
+        console.log("Hydrating weather from cache")
+        await hydrateMeteo(JSON.parse(cache))
+    }
+    console.log("Fetching weather data")
     const res: WeatherApiResponse = await getMeteo()
-    hydrateMeteo(res.weather)
+    console.log("Caching weather data")
+    localStorage.setItem('weather', JSON.stringify(res.weather))
+    console.log("Hydrating weather")
+    await hydrateMeteo(res.weather)
 }
 
-document.addEventListener("DOMContentLoaded", async function () {
+document.addEventListener("astro:page-load", async function () {
     await renderMeteo()
 })

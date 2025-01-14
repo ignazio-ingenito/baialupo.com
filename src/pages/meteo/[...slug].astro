@@ -91,7 +91,7 @@ const { Content } = await post!.render()
     </div>
   </div>
 
-  <script>
+  <script is:inline>
     function setupMenu() {
       const day = 60 * 60 * 24 * 1000
       const now = new Date()
@@ -109,6 +109,8 @@ const { Content } = await post!.render()
         })
     }
 
-    document.addEventListener("DOMContentLoaded", setupMenu)
+    // document.addEventListener("DOMContentLoaded", setupMenu)
+    setupMenu()
+    console.log("test")
   </script>
 </Layout>

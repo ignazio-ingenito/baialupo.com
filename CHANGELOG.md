@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 ## [unreleased]
 
+### ⚙️ Miscellaneous Tasks
+
+- Update changelog
+- *(content)* New content published
+
+## [2025.1.12] - 2025-01-12
+
 ### 🚀 Features
 
 - Gallery now handles mp4 video

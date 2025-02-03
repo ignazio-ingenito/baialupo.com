@@ -18,11 +18,11 @@ importers:
         specifier: ^5.1.4
         version: 5.1.4(astro@5.1.5(@types/node@22.10.5)(jiti@2.4.2)(rollup@4.30.1)(typescript@5.7.3)(yaml@2.7.0))(tailwindcss@3.4.17)
       '@types/react':
-        specifier: ^19.0.6
-        version: 19.0.6
+        specifier: ^19.0.8
+        version: 19.0.8
       '@types/react-dom':
         specifier: ^19.0.3
-        version: 19.0.3(@types/react@19.0.6)
+        version: 19.0.3(@types/react@19.0.8)
       astro:
         specifier: ^5.1.5
         version: 5.1.5(@types/node@22.10.5)(jiti@2.4.2)(rollup@4.30.1)(typescript@5.7.3)(yaml@2.7.0)
@@ -749,8 +749,8 @@ packages:
     peerDependencies:
       '@types/react': ^19.0.0
 
-  '@types/react@19.0.6':
-    resolution: {integrity: sha512-gIlMztcTeDgXCUj0vCBOqEuSEhX//63fW9SZtCJ+agxoQTOklwDfiEMlTWn4mR/C/UK5VHlpwsCsOyf7/hc4lw==}
+  '@types/react@19.0.8':
+    resolution: {integrity: sha512-9P/o1IGdfmQxrujGbIMDyYaaCykhLKc0NGCtYcECNUr9UAaDe4gwvV9bR6tvd5Br1SG0j+PBpbKr2UYY8CwqSw==}
 
   '@types/tar@6.1.13':
     resolution: {integrity: sha512-IznnlmU5f4WcGTh2ltRu/Ijpmk8wiWXfF0VA4s+HPjHZgvFggk1YaIkbo5krX/zUCzWF8N/l4+W/LNxnvAJ8nw==}
@@ -3134,11 +3134,11 @@ snapshots:
       undici-types: 6.20.0
     optional: true
 
-  '@types/react-dom@19.0.3(@types/react@19.0.6)':
+  '@types/react-dom@19.0.3(@types/react@19.0.8)':
     dependencies:
-      '@types/react': 19.0.6
+      '@types/react': 19.0.8
 
-  '@types/react@19.0.6':
+  '@types/react@19.0.8':
     dependencies:
       csstype: 3.1.3
 

@@ -7,6 +7,7 @@ All notable changes to this project will be documented in this file.
 ### ⚙️ Miscellaneous Tasks
 
 - *(content)* Content update (id: 240)
+- Update changelog
 
 ## [2025.1.14] - 2025-01-14
 

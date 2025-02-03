@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 ## [unreleased]
 
+### 🚀 Features
+
+- *(ci/cd)* New on tag pipeline
+
+## [2025.2.3] - 2025-02-03
+
 ### ⚙️ Miscellaneous Tasks
 
 - *(content)* Content update (id: 240)
